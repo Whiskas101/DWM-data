@@ -1,0 +1,101 @@
+EmployeeID,FirstName,LastName,Position,Department,HireDate,Salary,StoreID
+0,Casey,Fitzpatrick,Customer Support,Human Resources,2023-03-28,35748.13,10
+1,Valerie,Martinez,Manager,Human Resources,2022-09-21,68091.27,3
+2,Nathaniel,Kelly,Sales Associate,Customer Service,2021-03-06,107803.31,11
+3,Charles,Torres,Sales Associate,Sales,2022-03-26,112751.09,6
+4,Christina,Odom,Sales Associate,IT,2020-11-17,96324.49,20
+5,William,Reid,Marketing Specialist,IT,2020-06-01,74379.37,4
+6,Crystal,Ritter,Warehouse Staff,Logistics,2021-10-12,96295.68,3
+7,Mary,Banks,Manager,Customer Service,2024-09-24,59359.35,4
+8,Keith,Boyd,Manager,Sales,2020-12-09,112533.88,1
+9,Rodney,Brown,Marketing Specialist,Human Resources,2022-03-29,32119.55,5
+10,Richard,Payne,Manager,Customer Service,2023-02-04,67601.73,15
+11,Kevin,Armstrong,IT Technician,IT,2021-02-07,80352.87,16
+12,Brooke,Clark,Marketing Specialist,IT,2024-09-05,58324.44,18
+13,Andrew,Andrews,IT Technician,Marketing,2021-05-04,50764.78,8
+14,Ashley,Weaver,IT Technician,Logistics,2020-04-30,58297.87,6
+15,Caitlin,Holmes,Manager,IT,2020-06-08,71210.88,10
+16,Kristina,Scott,IT Technician,Logistics,2022-05-29,91689.96,7
+17,Andrew,Wu,Sales Associate,Logistics,2023-03-21,105302.63,8
+18,Joan,Benitez,Sales Associate,Marketing,2023-02-17,46032.75,18
+19,Dylan,Rios,Marketing Specialist,Sales,2024-06-13,75995.34,14
+20,Eric,Williams,Manager,Human Resources,2022-09-30,30820.44,13
+21,Nancy,Walker,Marketing Specialist,IT,2020-12-02,78983.33,17
+22,Timothy,Lang,Marketing Specialist,Marketing,2020-04-30,61160.54,1
+23,Tammie,Sims,Sales Associate,Sales,2022-01-09,99566.24,6
+24,Christopher,Horne,Customer Support,Logistics,2024-04-17,59520.37,15
+25,Jennifer,Butler,Warehouse Staff,Customer Service,2022-04-19,94503.17,10
+26,Carol,Peck,Sales Associate,IT,2023-01-16,81719.01,4
+27,Thomas,King,Sales Associate,Customer Service,2020-05-30,33311.61,18
+28,Lori,Brewer,Sales Associate,Human Resources,2024-03-05,107626.41,14
+29,Malik,Wilson,Customer Support,Sales,2023-03-10,51966.54,17
+30,William,Hill,Marketing Specialist,Marketing,2022-10-15,116337.82,18
+31,Madison,Roberson,Customer Support,Marketing,2021-11-19,72836.09,12
+32,Annette,Rivers,Customer Support,IT,2021-04-18,105878.58,11
+33,Caitlin,Wood,Customer Support,Customer Service,2020-01-08,90755.6,20
+34,Andrew,Smith,Warehouse Staff,IT,2023-05-19,109710.86,9
+35,Christina,Yang,Customer Support,Human Resources,2021-02-10,51518.29,1
+36,Emily,Mendez,Warehouse Staff,Sales,2024-08-21,114334.96,5
+37,Richard,Bowen,Manager,Customer Service,2021-05-29,43021.05,14
+38,Alan,Wiley,Manager,Customer Service,2022-04-01,40967.04,5
+39,Natasha,Shaw,IT Technician,Marketing,2021-04-11,84594.06,16
+40,Robert,Morales,Sales Associate,IT,2021-12-15,71039.33,18
+41,Alexandra,Evans,Manager,Sales,2022-10-09,96511.9,20
+42,Anna,Davis,Warehouse Staff,Customer Service,2023-03-28,49084.82,6
+43,Jonathan,Woodard,Sales Associate,IT,2024-05-13,47919.01,5
+44,Jeremy,Miller,Warehouse Staff,Human Resources,2020-05-27,80424.4,12
+45,Michael,Smith,Warehouse Staff,Sales,2023-06-20,44289.28,13
+46,Janet,Mueller,Marketing Specialist,Logistics,2022-05-14,94732.36,10
+47,Beth,Barrett,Marketing Specialist,Customer Service,2021-07-27,34022.63,18
+48,Gary,Curtis,Manager,IT,2023-12-04,56666.87,19
+49,Eric,Winters,Manager,IT,2024-10-17,118402.26,9
+50,Dale,Willis,Sales Associate,Marketing,2021-10-23,67100.69,8
+51,Matthew,Armstrong,Warehouse Staff,Sales,2021-03-12,82579.08,17
+52,Pamela,Hunt,Marketing Specialist,IT,2024-05-10,106930.86,1
+53,Amanda,Santiago,Marketing Specialist,Human Resources,2024-05-02,70660.65,9
+54,Eric,Wagner,Customer Support,Human Resources,2020-08-02,66917.62,5
+55,Brenda,Lee,IT Technician,Customer Service,2023-06-19,115055.67,1
+56,Theresa,Reese,Warehouse Staff,Logistics,2022-01-14,49663.21,5
+57,Bruce,Taylor,IT Technician,Human Resources,2023-03-27,44404.02,16
+58,Paula,James,Sales Associate,IT,2020-09-20,95260.45,2
+59,Daniel,Marshall,IT Technician,Human Resources,2021-07-08,56833.64,1
+60,Joshua,Gomez,Sales Associate,Customer Service,2024-06-17,79217.87,17
+61,Samuel,Curtis,Warehouse Staff,Human Resources,2022-06-25,71766.45,13
+62,Dennis,Snow,Manager,Human Resources,2020-10-18,66861.44,15
+63,Melissa,Santos,Warehouse Staff,IT,2021-12-22,96239.84,3
+64,Travis,Murphy,Customer Support,IT,2023-02-21,38820.62,6
+65,Gina,Harris,IT Technician,Logistics,2022-06-07,68170.65,2
+66,Vanessa,Smith,Sales Associate,Customer Service,2022-01-26,103205.83,17
+67,Michael,Wolfe,Manager,Human Resources,2024-08-22,88641.71,16
+68,Colleen,Solis,Sales Associate,IT,2023-01-06,32445.17,6
+69,Timothy,Mitchell,Marketing Specialist,Customer Service,2020-09-16,59061.94,18
+70,Jaime,Rogers,Sales Associate,Sales,2021-09-12,56987.1,15
+71,Frank,Anderson,Sales Associate,IT,2023-03-16,90734.66,8
+72,Nathaniel,Torres,Warehouse Staff,Customer Service,2020-08-27,85108.98,14
+73,Mark,Dominguez,Manager,Human Resources,2024-09-03,50061.96,4
+74,William,Hale,IT Technician,IT,2020-02-25,49918.42,9
+75,Cynthia,Cohen,Customer Support,Logistics,2022-12-22,65538.67,9
+76,Denise,Decker,Marketing Specialist,Customer Service,2021-04-29,69512.49,13
+77,Kevin,Pratt,Manager,Sales,2023-12-07,103497.9,15
+78,Christine,Martinez,IT Technician,IT,2021-05-15,49745.83,7
+79,Melanie,Madden,Warehouse Staff,Logistics,2021-11-12,104829.66,12
+80,Timothy,Wood,Sales Associate,Customer Service,2020-11-02,35474.44,18
+81,Rhonda,Davis,Manager,Customer Service,2023-04-05,56853.36,10
+82,Anthony,Smith,Customer Support,IT,2020-02-28,109004.37,7
+83,Ashley,Ferguson,Manager,Customer Service,2021-06-02,92952.7,10
+84,Alexis,Guerrero,Marketing Specialist,Sales,2020-10-07,31168.8,4
+85,Jennifer,Vaughn,Customer Support,Customer Service,2020-04-27,69019.75,17
+86,Christopher,Blair,Warehouse Staff,Marketing,2021-08-19,117913.54,11
+87,Mark,Berry,Warehouse Staff,Sales,2024-02-24,67573.82,3
+88,Teresa,Martinez,Marketing Specialist,Logistics,2022-02-09,41634.07,10
+89,Ryan,Reynolds,Customer Support,Marketing,2023-07-18,73668.89,5
+90,Jerry,Kim,Sales Associate,Logistics,2022-04-26,116197.13,9
+91,Raymond,Mccarty,IT Technician,Marketing,2024-08-25,61523.74,19
+92,Kristina,Bell,Manager,Sales,2023-07-30,75306.88,5
+93,Linda,Smith,Customer Support,Marketing,2020-12-28,65802.17,7
+94,Heather,Stewart,Sales Associate,Logistics,2020-09-19,41166.8,12
+95,Jason,Barker,Manager,Sales,2021-10-01,54969.7,18
+96,Robert,White,Warehouse Staff,IT,2020-02-06,118301.21,4
+97,Emily,Mitchell,IT Technician,Customer Service,2020-04-07,36470.29,12
+98,Tammy,Mcguire,Warehouse Staff,Customer Service,2023-07-16,67876.16,7
+99,Casey,Taylor,Marketing Specialist,Sales,2021-03-03,30491.06,19

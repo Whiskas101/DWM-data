@@ -1,0 +1,51 @@
+,CustomerID,first_name,last_name,email,phone,city,state,country,dob,income
+0,0,William,Cohen,hduarte@example.org,973-764-6411x54164,New Joshua,Arizona,Saint Helena,30-07-1992,50-100k
+1,1,Alyssa,Simpson,richardstimothy@example.org,731-769-5890x7446,Adamsberg,New York,Ireland,16-12-1950,100-150k
+2,2,Peggy,Hall,jason22@example.net,861.697.0510,Lake Jon,Delaware,Antarctica (the territory South of 60 deg S),30-06-1925,50-100k
+3,3,Linda,Thompson,meghan83@example.org,203.935.3077x63747,East Williamville,Illinois,Cuba,05-07-1935,<10k
+4,4,Benjamin,Phillips,emily23@example.org,001-433-407-7316x3963,North Amymouth,Pennsylvania,Albania,22-03-2003,<10k
+5,5,Brittany,Frey,jasonreed@example.net,(462)515-5450,Munozmouth,Rhode Island,Ghana,30-06-1965,100-150k
+6,6,Laura,White,sanderssamantha@example.net,707.740.3772,Dyerville,Michigan,Swaziland,24-04-1981,<10k
+7,7,James,Davis,emily98@example.org,618-321-2505x5924,Aarontown,Indiana,Chile,01-11-1976,20-50k
+8,8,Brandy,Ruiz,vcardenas@example.net,001-247-809-1675,Port Tiffany,Hawaii,Paraguay,14-09-1992,50-100k
+9,9,Justin,Gonzalez,xjordan@example.com,001-812-337-6551,North Deanna,California,Zambia,28-03-1952,50-100k
+10,10,Kathryn,Santiago,phobbs@example.net,+1-862-446-2468x39223,North Cheryl,Indiana,Germany,30-12-1914,>200k
+11,11,Ian,Smith,wilsondonna@example.com,+1-306-502-2688x975,Port Adam,Alaska,Japan,02-09-1957,>200k
+12,12,Cynthia,Martinez,lsullivan@example.net,502.819.9385x172,Smithbury,Missouri,Grenada,20-04-1970,50-100k
+13,13,Sara,Allen,sawyerjoseph@example.net,821-510-4033x4600,Perezton,Minnesota,Cape Verde,09-02-1943,100-150k
+14,14,Kathryn,Jones,greenkimberly@example.org,(342)363-4844,Scottstad,West Virginia,Sri Lanka,12-06-1999,<10k
+15,15,Joseph,Rosario,alvaradodaniel@example.net,+1-933-855-0573x55150,Lake Kathrynchester,Vermont,Norfolk Island,23-10-1999,20-50k
+16,16,Cristina,Johnson,daniel38@example.com,866.493.5991,West Kimberlyhaven,Colorado,Serbia,02-12-1988,20-50k
+17,17,Alexis,Barker,brianhobbs@example.org,+1-230-736-8915x289,West Sydneyland,New York,Niue,03-03-1971,>200k
+18,18,Mary,Powell,thomas26@example.net,(813)937-1317x6877,New Roberta,Iowa,Ukraine,07-08-1973,100-150k
+19,19,Elizabeth,Henderson,wendy41@example.com,001-861-802-8856x865,Brianhaven,Vermont,Dominican Republic,27-05-1934,100-150k
+20,20,Sandra,Allen,alicia51@example.org,+1-959-606-5296x3263,Port Maryville,California,Ethiopia,05-08-1964,>200k
+21,21,Kimberly,Matthews,gmurphy@example.org,001-521-639-4970x2224,West Michaelville,New Mexico,United States of America,19-11-2005,20-50k
+22,22,Katie,Serrano,lcole@example.net,376-208-7772x99163,Teresaburgh,Minnesota,Saint Kitts and Nevis,23-09-2006,20-50k
+23,23,Ronald,Gordon,murphytimothy@example.org,+1-572-304-9188x33664,Pollardfurt,Nevada,Serbia,11-08-1912,50-100k
+24,24,Tammy,Carr,kzamora@example.com,962-858-0681x33635,North Robert,Alaska,New Zealand,03-07-1939,<10k
+25,25,Dana,Estrada,gutierrezchristopher@example.com,440.847.1771x15591,North Tim,Delaware,Gambia,19-12-1945,20-50k
+26,26,Jorge,Shaw,bonnieholt@example.org,7494019470,Lawrenceland,North Carolina,Samoa,13-06-2005,20-50k
+27,27,Daniel,Peterson,pamelafisher@example.org,(714)628-1647x86537,Port Gregory,Kentucky,Japan,08-05-1942,20-50k
+28,28,Mary,Clark,jackson72@example.org,729.709.1958x6341,Williamsfurt,Wisconsin,Zambia,11-03-1915,50-100k
+29,29,Patrick,Garner,cyoung@example.net,001-577-384-3993x59545,Sanchezchester,Michigan,Bahrain,24-04-1922,20-50k
+30,30,John,Thomas,nancy18@example.net,001-298-867-7108x4936,New Christinaborough,Massachusetts,Morocco,20-07-1921,>200k
+31,31,Tiffany,Berg,jennifer06@example.org,+1-316-920-9066x211,New Samuel,Rhode Island,Canada,06-03-1913,>200k
+32,32,David,Porter,levans@example.net,001-349-270-6332x85079,Lake Jesse,Vermont,Jersey,17-01-1969,<10k
+33,33,Cristina,Thomas,codyhorn@example.org,001-918-256-0548x701,Carlmouth,Utah,Tuvalu,11-04-1983,50-100k
+34,34,Richard,King,williamgreen@example.com,001-869-427-9389,West Joannaport,Montana,India,04-04-1949,>200k
+35,35,Angela,Andrews,vward@example.net,+1-363-916-6029x9270,Port Taraside,Missouri,Albania,18-11-1961,>200k
+36,36,Susan,Barrett,jedwards@example.com,+1-317-413-1992x28576,Scottstad,Ohio,Croatia,19-09-1967,20-50k
+37,37,Andrew,Hayes,cparks@example.org,-9636,Edwardland,Indiana,Nigeria,04-06-1955,<10k
+38,38,Jason,Smith,william91@example.net,+1-671-512-7310x1091,Port Nicole,Iowa,Puerto Rico,22-01-1909,100-150k
+39,39,James,Walker,desiree23@example.net,001-978-214-0093x874,South Angela,Nebraska,Bahrain,12-05-1950,50-100k
+40,40,Tiffany,Carter,mjuarez@example.com,5149764331,Lake Ralphfort,Connecticut,Kuwait,24-04-1958,>200k
+41,41,Miranda,Jones,roberta96@example.org,847-750-0869,South Jenniferland,Colorado,Equatorial Guinea,20-10-1937,50-100k
+42,42,Susan,Snyder,terrilopez@example.com,392.362.5031x83818,Gutierrezmouth,Florida,Tajikistan,01-11-1946,50-100k
+43,43,Jason,Drake,epage@example.net,879.825.5839,Carolynburgh,Florida,Western Sahara,11-12-1962,20-50k
+44,44,David,Allen,jessica74@example.net,+1-443-647-1925x45324,East Charlesberg,Washington,Chad,18-01-1930,<10k
+45,45,Michelle,Thompson,juan60@example.com,+1-920-869-3013x95045,South Christopherburgh,Maryland,Saint Vincent and the Grenadines,20-09-1922,100-150k
+46,46,Brittany,Ford,rittermichelle@example.com,001-589-600-1827x031,East Jacqueline,South Dakota,Haiti,11-12-1982,<10k
+47,47,Daniel,Tanner,owensjeremiah@example.net,766-808-6974,Lisatown,Delaware,Dominican Republic,01-01-1928,20-50k
+48,48,Jennifer,Shepherd,christopherfrench@example.org,001-200-361-5965,West Debra,Virginia,Christmas Island,18-12-1924,<10k
+49,49,Joshua,Smith,kelliewright@example.org,401-278-7590x2508,Port Joanna,New Hampshire,United States Minor Outlying Islands,09-11-1927,>200k
