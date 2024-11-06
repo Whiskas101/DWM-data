@@ -13,13 +13,13 @@ import random
 fake = Faker()
 
 def generate_cust_data(filename, save = False,  path="./data"):
-    cust_records = 50
-    cust_id = [x for x in range(cust_records)] 
+    cust_records = 100 
+    cust_id = [x for x in range(1, cust_records + 1)] 
     cust_income_bracket = ["<10k", "20-50k","50-100k","100-150k",">200k"]
     
     print(cust_id)
     cust_columns = {
-        "cust_id": cust_id,
+        "CustomerID": cust_id,
         "first_name":[fake.first_name() for cust in range(cust_records)],
         "last_name": [fake.last_name() for cust in range(cust_records)],
         "email": [ fake.email() for cust in range(cust_records)],
@@ -40,7 +40,7 @@ def generate_cust_data(filename, save = False,  path="./data"):
         data.to_csv(f"{path}/{filename}")
 
 
-#generate_cust_data(filename="cust_data.csv",save=True)
+generate_cust_data(filename="cust_data.csv",save=True)
 
 def generate_products_data(filename, save=False, path="./data"):
         
