@@ -40,7 +40,7 @@ def generate_cust_data(filename, save = False,  path="./data"):
         data.to_csv(f"{path}/{filename}")
 
 
-generate_cust_data(filename="cust_data.csv",save=True)
+#generate_cust_data(filename="cust_data.csv",save=True)
 
 def generate_products_data(filename, save=False, path="./data"):
         
