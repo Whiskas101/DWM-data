@@ -1,1488 +1,1428 @@
-OrderID,CustomerID,OrderDate,StoreID,ShippingFee,Tax,PaymentMethod,DeliveryOption,ProductID,Quantity,Discount
-1,1,2024-05-12,9,19.78,1.5,Credit Card,Home Delivery,71,6,0.01
-1,1,2024-05-12,9,19.78,1.5,Credit Card,Home Delivery,63,2,0.21
-1,1,2024-05-12,9,19.78,1.5,Credit Card,Home Delivery,46,10,0.25
-1,1,2024-05-12,9,19.78,1.5,Credit Card,Home Delivery,12,3,0.13
-1,1,2024-05-12,9,19.78,1.5,Credit Card,Home Delivery,48,4,0.24
-2,10,2024-01-27,3,11.91,14.33,PayPal,Home Delivery,56,10,0.05
-2,10,2024-01-27,3,11.91,14.33,PayPal,Home Delivery,37,8,0.0
-2,10,2024-01-27,3,11.91,14.33,PayPal,Home Delivery,56,10,0.29
-2,10,2024-01-27,3,11.91,14.33,PayPal,Home Delivery,67,4,0.16
-3,87,2024-09-03,7,18.58,9.75,Debit Card,In-store Pickup,37,1,0.2
-3,87,2024-09-03,7,18.58,9.75,Debit Card,In-store Pickup,39,1,0.09
-4,57,2024-05-13,11,16.13,5.98,Cash,In-store Pickup,29,9,0.29
-4,57,2024-05-13,11,16.13,5.98,Cash,In-store Pickup,64,10,0.24
-5,75,2024-01-31,5,15.01,13.99,PayPal,In-store Pickup,10,1,0.15
-5,75,2024-01-31,5,15.01,13.99,PayPal,In-store Pickup,11,6,0.17
-5,75,2024-01-31,5,15.01,13.99,PayPal,In-store Pickup,90,5,0.16
-5,75,2024-01-31,5,15.01,13.99,PayPal,In-store Pickup,61,3,0.17
-5,75,2024-01-31,5,15.01,13.99,PayPal,In-store Pickup,11,2,0.05
-6,73,2024-10-13,10,9.17,7.74,Credit Card,In-store Pickup,40,7,0.16
-6,73,2024-10-13,10,9.17,7.74,Credit Card,In-store Pickup,42,7,0.09
-6,73,2024-10-13,10,9.17,7.74,Credit Card,In-store Pickup,39,5,0.13
-6,73,2024-10-13,10,9.17,7.74,Credit Card,In-store Pickup,37,6,0.09
-7,13,2024-05-03,5,10.91,1.3,PayPal,In-store Pickup,16,1,0.03
-7,13,2024-05-03,5,10.91,1.3,PayPal,In-store Pickup,54,8,0.04
-7,13,2024-05-03,5,10.91,1.3,PayPal,In-store Pickup,60,10,0.03
-7,13,2024-05-03,5,10.91,1.3,PayPal,In-store Pickup,15,8,0.01
-7,13,2024-05-03,5,10.91,1.3,PayPal,In-store Pickup,89,5,0.13
-8,70,2024-06-28,16,12.98,4.17,Credit Card,Home Delivery,7,8,0.02
-8,70,2024-06-28,16,12.98,4.17,Credit Card,Home Delivery,39,5,0.06
-9,62,2024-11-04,1,16.77,13.91,Cash,In-store Pickup,32,9,0.19
-9,62,2024-11-04,1,16.77,13.91,Cash,In-store Pickup,66,2,0.27
-9,62,2024-11-04,1,16.77,13.91,Cash,In-store Pickup,22,8,0.2
-9,62,2024-11-04,1,16.77,13.91,Cash,In-store Pickup,73,7,0.24
-9,62,2024-11-04,1,16.77,13.91,Cash,In-store Pickup,83,10,0.07
-10,19,2024-01-03,18,7.68,11.22,PayPal,Home Delivery,59,3,0.28
-10,19,2024-01-03,18,7.68,11.22,PayPal,Home Delivery,14,6,0.25
-11,88,2024-04-08,13,6.64,9.85,PayPal,Home Delivery,5,3,0.21
-11,88,2024-04-08,13,6.64,9.85,PayPal,Home Delivery,15,7,0.14
-11,88,2024-04-08,13,6.64,9.85,PayPal,Home Delivery,44,2,0.22
-11,88,2024-04-08,13,6.64,9.85,PayPal,Home Delivery,9,10,0.17
-11,88,2024-04-08,13,6.64,9.85,PayPal,Home Delivery,61,9,0.23
-12,61,2024-03-11,19,18.56,3.77,Debit Card,In-store Pickup,86,1,0.23
-12,61,2024-03-11,19,18.56,3.77,Debit Card,In-store Pickup,71,9,0.27
-12,61,2024-03-11,19,18.56,3.77,Debit Card,In-store Pickup,44,5,0.13
-13,93,2024-01-07,3,12.06,4.72,Credit Card,In-store Pickup,10,5,0.03
-14,80,2024-09-03,3,13.87,5.85,Debit Card,In-store Pickup,88,7,0.18
-15,79,2024-01-12,16,10.02,3.96,Debit Card,In-store Pickup,14,6,0.11
-16,27,2024-09-02,17,16.69,2.33,Credit Card,In-store Pickup,25,3,0.15
-16,27,2024-09-02,17,16.69,2.33,Credit Card,In-store Pickup,90,6,0.2
-17,27,2024-06-07,4,12.77,6.39,Credit Card,In-store Pickup,13,7,0.03
-17,27,2024-06-07,4,12.77,6.39,Credit Card,In-store Pickup,5,1,0.22
-17,27,2024-06-07,4,12.77,6.39,Credit Card,In-store Pickup,55,7,0.21
-17,27,2024-06-07,4,12.77,6.39,Credit Card,In-store Pickup,32,10,0.06
-17,27,2024-06-07,4,12.77,6.39,Credit Card,In-store Pickup,3,9,0.05
-18,49,2024-02-27,2,14.42,1.3,PayPal,In-store Pickup,5,9,0.03
-18,49,2024-02-27,2,14.42,1.3,PayPal,In-store Pickup,97,8,0.26
-18,49,2024-02-27,2,14.42,1.3,PayPal,In-store Pickup,59,3,0.01
-18,49,2024-02-27,2,14.42,1.3,PayPal,In-store Pickup,11,10,0.29
-19,41,2024-10-15,5,14.05,8.19,Credit Card,In-store Pickup,66,9,0.14
-20,47,2024-07-30,7,10.43,13.64,Cash,In-store Pickup,41,10,0.29
-20,47,2024-07-30,7,10.43,13.64,Cash,In-store Pickup,67,5,0.06
-21,74,2024-03-05,11,11.21,10.28,Credit Card,In-store Pickup,26,5,0.17
-21,74,2024-03-05,11,11.21,10.28,Credit Card,In-store Pickup,69,3,0.04
-22,17,2024-05-05,5,9.89,11.78,Cash,In-store Pickup,45,7,0.2
-22,17,2024-05-05,5,9.89,11.78,Cash,In-store Pickup,90,9,0.08
-22,17,2024-05-05,5,9.89,11.78,Cash,In-store Pickup,14,10,0.05
-22,17,2024-05-05,5,9.89,11.78,Cash,In-store Pickup,39,9,0.01
-22,17,2024-05-05,5,9.89,11.78,Cash,In-store Pickup,87,8,0.17
-23,96,2024-06-04,3,10.24,3.09,Cash,In-store Pickup,93,5,0.1
-24,30,2024-01-20,14,13.39,13.61,Credit Card,In-store Pickup,14,3,0.05
-24,30,2024-01-20,14,13.39,13.61,Credit Card,In-store Pickup,23,8,0.18
-25,3,2024-07-18,8,14.61,2.05,Credit Card,In-store Pickup,77,3,0.08
-25,3,2024-07-18,8,14.61,2.05,Credit Card,In-store Pickup,45,2,0.15
-25,3,2024-07-18,8,14.61,2.05,Credit Card,In-store Pickup,99,5,0.22
-25,3,2024-07-18,8,14.61,2.05,Credit Card,In-store Pickup,24,6,0.0
-26,32,2024-09-12,15,10.65,11.54,Cash,Home Delivery,39,10,0.03
-27,31,2024-02-17,16,5.75,8.29,PayPal,Home Delivery,66,1,0.29
-28,24,2024-02-10,18,13.5,10.34,PayPal,Home Delivery,91,4,0.2
-28,24,2024-02-10,18,13.5,10.34,PayPal,Home Delivery,91,6,0.09
-28,24,2024-02-10,18,13.5,10.34,PayPal,Home Delivery,28,3,0.16
-28,24,2024-02-10,18,13.5,10.34,PayPal,Home Delivery,18,6,0.01
-28,24,2024-02-10,18,13.5,10.34,PayPal,Home Delivery,51,8,0.18
-29,32,2024-01-05,8,8.57,11.82,PayPal,In-store Pickup,25,2,0.01
-29,32,2024-01-05,8,8.57,11.82,PayPal,In-store Pickup,41,3,0.03
-29,32,2024-01-05,8,8.57,11.82,PayPal,In-store Pickup,16,3,0.19
-29,32,2024-01-05,8,8.57,11.82,PayPal,In-store Pickup,46,6,0.14
-30,81,2024-01-01,19,15.9,9.88,Cash,In-store Pickup,70,1,0.08
-30,81,2024-01-01,19,15.9,9.88,Cash,In-store Pickup,41,1,0.14
-30,81,2024-01-01,19,15.9,9.88,Cash,In-store Pickup,29,6,0.24
-30,81,2024-01-01,19,15.9,9.88,Cash,In-store Pickup,9,4,0.18
-30,81,2024-01-01,19,15.9,9.88,Cash,In-store Pickup,8,4,0.29
-31,4,2024-06-11,9,13.43,14.69,Cash,In-store Pickup,13,2,0.11
-31,4,2024-06-11,9,13.43,14.69,Cash,In-store Pickup,1,10,0.26
-31,4,2024-06-11,9,13.43,14.69,Cash,In-store Pickup,89,6,0.3
-31,4,2024-06-11,9,13.43,14.69,Cash,In-store Pickup,8,6,0.27
-31,4,2024-06-11,9,13.43,14.69,Cash,In-store Pickup,54,2,0.02
-32,85,2024-08-24,8,9.03,10.17,Cash,Home Delivery,16,10,0.25
-32,85,2024-08-24,8,9.03,10.17,Cash,Home Delivery,18,5,0.14
-33,47,2024-04-12,20,15.61,5.0,PayPal,Home Delivery,92,8,0.2
-34,95,2024-05-31,19,6.75,6.38,Credit Card,Home Delivery,69,8,0.05
-34,95,2024-05-31,19,6.75,6.38,Credit Card,Home Delivery,31,2,0.05
-34,95,2024-05-31,19,6.75,6.38,Credit Card,Home Delivery,81,2,0.11
-34,95,2024-05-31,19,6.75,6.38,Credit Card,Home Delivery,100,3,0.3
-34,95,2024-05-31,19,6.75,6.38,Credit Card,Home Delivery,61,10,0.1
-35,42,2024-07-25,18,8.21,1.8,PayPal,In-store Pickup,38,10,0.15
-35,42,2024-07-25,18,8.21,1.8,PayPal,In-store Pickup,64,7,0.18
-35,42,2024-07-25,18,8.21,1.8,PayPal,In-store Pickup,73,10,0.24
-35,42,2024-07-25,18,8.21,1.8,PayPal,In-store Pickup,23,4,0.27
-36,79,2024-09-12,10,7.75,12.1,Credit Card,In-store Pickup,45,7,0.27
-36,79,2024-09-12,10,7.75,12.1,Credit Card,In-store Pickup,56,8,0.22
-37,79,2024-07-26,13,19.77,1.16,PayPal,In-store Pickup,88,9,0.17
-37,79,2024-07-26,13,19.77,1.16,PayPal,In-store Pickup,15,9,0.27
-37,79,2024-07-26,13,19.77,1.16,PayPal,In-store Pickup,81,4,0.2
-38,1,2024-09-19,8,15.47,7.52,Cash,In-store Pickup,68,5,0.06
-38,1,2024-09-19,8,15.47,7.52,Cash,In-store Pickup,58,5,0.13
-39,72,2024-04-10,7,16.02,1.25,Cash,In-store Pickup,65,6,0.16
-39,72,2024-04-10,7,16.02,1.25,Cash,In-store Pickup,83,4,0.18
-40,1,2024-08-29,3,13.18,7.13,Credit Card,Home Delivery,12,6,0.12
-40,1,2024-08-29,3,13.18,7.13,Credit Card,Home Delivery,55,10,0.2
-41,69,2024-10-06,9,11.07,11.28,Debit Card,Home Delivery,77,1,0.1
-41,69,2024-10-06,9,11.07,11.28,Debit Card,Home Delivery,93,8,0.23
-42,63,2024-02-08,12,11.38,1.95,Debit Card,In-store Pickup,49,2,0.06
-42,63,2024-02-08,12,11.38,1.95,Debit Card,In-store Pickup,55,8,0.16
-42,63,2024-02-08,12,11.38,1.95,Debit Card,In-store Pickup,82,8,0.12
-42,63,2024-02-08,12,11.38,1.95,Debit Card,In-store Pickup,48,7,0.27
-42,63,2024-02-08,12,11.38,1.95,Debit Card,In-store Pickup,25,4,0.17
-43,100,2024-05-23,11,19.99,1.85,Cash,In-store Pickup,1,6,0.01
-43,100,2024-05-23,11,19.99,1.85,Cash,In-store Pickup,43,2,0.23
-43,100,2024-05-23,11,19.99,1.85,Cash,In-store Pickup,92,3,0.03
-44,54,2024-08-20,13,11.26,4.96,PayPal,In-store Pickup,45,6,0.04
-45,44,2024-09-16,6,7.79,11.85,PayPal,In-store Pickup,30,3,0.01
-45,44,2024-09-16,6,7.79,11.85,PayPal,In-store Pickup,46,2,0.05
-45,44,2024-09-16,6,7.79,11.85,PayPal,In-store Pickup,71,2,0.01
-45,44,2024-09-16,6,7.79,11.85,PayPal,In-store Pickup,14,8,0.09
-45,44,2024-09-16,6,7.79,11.85,PayPal,In-store Pickup,85,9,0.15
-46,5,2024-03-08,6,11.43,7.29,Debit Card,In-store Pickup,54,7,0.22
-46,5,2024-03-08,6,11.43,7.29,Debit Card,In-store Pickup,40,7,0.03
-46,5,2024-03-08,6,11.43,7.29,Debit Card,In-store Pickup,43,9,0.2
-47,88,2024-06-28,11,9.06,5.28,Credit Card,Home Delivery,47,5,0.21
-48,62,2024-07-12,8,10.31,11.95,PayPal,In-store Pickup,62,4,0.23
-48,62,2024-07-12,8,10.31,11.95,PayPal,In-store Pickup,95,2,0.29
-49,44,2024-02-01,4,19.98,14.78,Debit Card,Home Delivery,12,2,0.2
-50,99,2024-03-03,6,16.94,4.86,Cash,In-store Pickup,85,8,0.21
-50,99,2024-03-03,6,16.94,4.86,Cash,In-store Pickup,68,5,0.04
-50,99,2024-03-03,6,16.94,4.86,Cash,In-store Pickup,25,5,0.05
-50,99,2024-03-03,6,16.94,4.86,Cash,In-store Pickup,75,6,0.11
-50,99,2024-03-03,6,16.94,4.86,Cash,In-store Pickup,83,7,0.17
-51,91,2024-07-25,15,18.14,14.8,Cash,Home Delivery,69,5,0.1
-51,91,2024-07-25,15,18.14,14.8,Cash,Home Delivery,50,5,0.09
-51,91,2024-07-25,15,18.14,14.8,Cash,Home Delivery,34,7,0.08
-51,91,2024-07-25,15,18.14,14.8,Cash,Home Delivery,74,1,0.03
-52,99,2024-04-20,6,10.9,13.69,PayPal,Home Delivery,19,4,0.03
-52,99,2024-04-20,6,10.9,13.69,PayPal,Home Delivery,21,6,0.01
-52,99,2024-04-20,6,10.9,13.69,PayPal,Home Delivery,51,5,0.01
-52,99,2024-04-20,6,10.9,13.69,PayPal,Home Delivery,41,10,0.09
-52,99,2024-04-20,6,10.9,13.69,PayPal,Home Delivery,25,1,0.01
-53,75,2024-04-21,14,11.59,6.22,PayPal,Home Delivery,99,7,0.21
-53,75,2024-04-21,14,11.59,6.22,PayPal,Home Delivery,81,7,0.14
-54,86,2024-10-27,9,11.54,5.16,Credit Card,In-store Pickup,4,5,0.05
-54,86,2024-10-27,9,11.54,5.16,Credit Card,In-store Pickup,15,7,0.13
-54,86,2024-10-27,9,11.54,5.16,Credit Card,In-store Pickup,83,2,0.3
-55,28,2024-08-03,10,18.44,7.91,PayPal,Home Delivery,75,6,0.15
-56,6,2024-05-27,7,12.48,11.62,Cash,Home Delivery,81,9,0.15
-56,6,2024-05-27,7,12.48,11.62,Cash,Home Delivery,26,2,0.24
-56,6,2024-05-27,7,12.48,11.62,Cash,Home Delivery,100,4,0.15
-57,10,2024-05-25,8,12.58,6.5,Debit Card,Home Delivery,43,8,0.13
-57,10,2024-05-25,8,12.58,6.5,Debit Card,Home Delivery,95,5,0.19
-58,34,2024-03-14,8,6.19,3.95,Cash,In-store Pickup,6,4,0.05
-58,34,2024-03-14,8,6.19,3.95,Cash,In-store Pickup,88,8,0.24
-58,34,2024-03-14,8,6.19,3.95,Cash,In-store Pickup,4,1,0.16
-58,34,2024-03-14,8,6.19,3.95,Cash,In-store Pickup,71,2,0.3
-58,34,2024-03-14,8,6.19,3.95,Cash,In-store Pickup,15,3,0.12
-59,18,2024-07-27,5,7.84,1.82,Credit Card,In-store Pickup,13,10,0.29
-60,50,2024-10-11,16,9.94,7.42,Credit Card,Home Delivery,63,1,0.02
-60,50,2024-10-11,16,9.94,7.42,Credit Card,Home Delivery,72,8,0.13
-60,50,2024-10-11,16,9.94,7.42,Credit Card,Home Delivery,4,6,0.16
-61,78,2024-02-22,5,13.89,7.39,Credit Card,Home Delivery,34,2,0.23
-61,78,2024-02-22,5,13.89,7.39,Credit Card,Home Delivery,75,10,0.03
-61,78,2024-02-22,5,13.89,7.39,Credit Card,Home Delivery,33,4,0.13
-61,78,2024-02-22,5,13.89,7.39,Credit Card,Home Delivery,91,6,0.05
-61,78,2024-02-22,5,13.89,7.39,Credit Card,Home Delivery,15,9,0.02
-62,63,2024-07-30,6,8.38,13.05,Credit Card,Home Delivery,15,5,0.03
-62,63,2024-07-30,6,8.38,13.05,Credit Card,Home Delivery,1,9,0.12
-62,63,2024-07-30,6,8.38,13.05,Credit Card,Home Delivery,99,2,0.24
-62,63,2024-07-30,6,8.38,13.05,Credit Card,Home Delivery,76,4,0.12
-62,63,2024-07-30,6,8.38,13.05,Credit Card,Home Delivery,57,8,0.12
-63,97,2024-06-15,17,11.86,6.27,Cash,In-store Pickup,51,4,0.2
-63,97,2024-06-15,17,11.86,6.27,Cash,In-store Pickup,36,4,0.21
-63,97,2024-06-15,17,11.86,6.27,Cash,In-store Pickup,44,7,0.25
-63,97,2024-06-15,17,11.86,6.27,Cash,In-store Pickup,70,7,0.08
-64,21,2024-03-16,19,8.38,1.29,Credit Card,Home Delivery,45,1,0.17
-65,87,2024-07-01,13,18.04,13.96,PayPal,In-store Pickup,29,8,0.08
-65,87,2024-07-01,13,18.04,13.96,PayPal,In-store Pickup,23,4,0.26
-65,87,2024-07-01,13,18.04,13.96,PayPal,In-store Pickup,13,4,0.19
-65,87,2024-07-01,13,18.04,13.96,PayPal,In-store Pickup,15,3,0.23
-66,36,2024-04-10,11,10.07,9.05,Debit Card,Home Delivery,86,1,0.23
-66,36,2024-04-10,11,10.07,9.05,Debit Card,Home Delivery,10,10,0.09
-67,19,2024-11-02,20,9.71,10.6,Debit Card,Home Delivery,44,4,0.0
-67,19,2024-11-02,20,9.71,10.6,Debit Card,Home Delivery,52,1,0.2
-67,19,2024-11-02,20,9.71,10.6,Debit Card,Home Delivery,32,8,0.24
-68,67,2024-06-29,3,17.09,10.59,Credit Card,Home Delivery,62,2,0.08
-68,67,2024-06-29,3,17.09,10.59,Credit Card,Home Delivery,45,7,0.26
-68,67,2024-06-29,3,17.09,10.59,Credit Card,Home Delivery,10,4,0.18
-68,67,2024-06-29,3,17.09,10.59,Credit Card,Home Delivery,65,9,0.01
-69,5,2024-09-22,8,14.33,1.96,Credit Card,Home Delivery,5,2,0.11
-69,5,2024-09-22,8,14.33,1.96,Credit Card,Home Delivery,75,5,0.29
-69,5,2024-09-22,8,14.33,1.96,Credit Card,Home Delivery,9,2,0.27
-69,5,2024-09-22,8,14.33,1.96,Credit Card,Home Delivery,14,6,0.27
-70,57,2024-06-01,2,11.71,14.37,Cash,Home Delivery,63,3,0.05
-70,57,2024-06-01,2,11.71,14.37,Cash,Home Delivery,80,10,0.23
-70,57,2024-06-01,2,11.71,14.37,Cash,Home Delivery,65,8,0.13
-70,57,2024-06-01,2,11.71,14.37,Cash,Home Delivery,43,7,0.0
-70,57,2024-06-01,2,11.71,14.37,Cash,Home Delivery,31,9,0.09
-71,82,2024-06-26,15,19.21,6.26,Cash,In-store Pickup,14,2,0.14
-71,82,2024-06-26,15,19.21,6.26,Cash,In-store Pickup,46,7,0.1
-71,82,2024-06-26,15,19.21,6.26,Cash,In-store Pickup,32,6,0.17
-71,82,2024-06-26,15,19.21,6.26,Cash,In-store Pickup,92,10,0.01
-72,45,2024-01-12,7,17.3,9.76,Debit Card,Home Delivery,26,5,0.3
-72,45,2024-01-12,7,17.3,9.76,Debit Card,Home Delivery,19,9,0.1
-72,45,2024-01-12,7,17.3,9.76,Debit Card,Home Delivery,2,3,0.14
-73,7,2024-01-17,11,10.21,6.94,Credit Card,In-store Pickup,36,2,0.12
-73,7,2024-01-17,11,10.21,6.94,Credit Card,In-store Pickup,42,8,0.06
-73,7,2024-01-17,11,10.21,6.94,Credit Card,In-store Pickup,40,7,0.07
-73,7,2024-01-17,11,10.21,6.94,Credit Card,In-store Pickup,12,2,0.22
-73,7,2024-01-17,11,10.21,6.94,Credit Card,In-store Pickup,32,8,0.21
-74,31,2024-09-02,14,17.53,10.82,Credit Card,In-store Pickup,36,6,0.02
-74,31,2024-09-02,14,17.53,10.82,Credit Card,In-store Pickup,62,4,0.18
-74,31,2024-09-02,14,17.53,10.82,Credit Card,In-store Pickup,47,9,0.18
-75,29,2024-04-05,11,12.72,10.08,PayPal,Home Delivery,83,10,0.1
-76,50,2024-05-14,2,7.05,7.39,PayPal,Home Delivery,26,8,0.11
-76,50,2024-05-14,2,7.05,7.39,PayPal,Home Delivery,93,2,0.06
-76,50,2024-05-14,2,7.05,7.39,PayPal,Home Delivery,83,9,0.15
-76,50,2024-05-14,2,7.05,7.39,PayPal,Home Delivery,23,5,0.02
-76,50,2024-05-14,2,7.05,7.39,PayPal,Home Delivery,72,2,0.12
-77,53,2024-08-01,10,7.72,7.06,Debit Card,Home Delivery,25,6,0.2
-77,53,2024-08-01,10,7.72,7.06,Debit Card,Home Delivery,72,3,0.21
-77,53,2024-08-01,10,7.72,7.06,Debit Card,Home Delivery,41,4,0.13
-77,53,2024-08-01,10,7.72,7.06,Debit Card,Home Delivery,31,5,0.01
-77,53,2024-08-01,10,7.72,7.06,Debit Card,Home Delivery,1,1,0.07
-78,42,2024-10-09,5,8.01,12.16,PayPal,In-store Pickup,13,7,0.13
-78,42,2024-10-09,5,8.01,12.16,PayPal,In-store Pickup,67,4,0.03
-79,86,2024-08-14,12,15.1,2.55,Debit Card,In-store Pickup,64,9,0.23
-79,86,2024-08-14,12,15.1,2.55,Debit Card,In-store Pickup,19,9,0.27
-79,86,2024-08-14,12,15.1,2.55,Debit Card,In-store Pickup,98,5,0.03
-79,86,2024-08-14,12,15.1,2.55,Debit Card,In-store Pickup,60,10,0.01
-79,86,2024-08-14,12,15.1,2.55,Debit Card,In-store Pickup,69,5,0.11
-80,93,2024-08-26,12,8.74,12.97,Cash,In-store Pickup,12,5,0.15
-81,70,2024-06-18,8,16.52,1.69,Cash,In-store Pickup,19,1,0.26
-81,70,2024-06-18,8,16.52,1.69,Cash,In-store Pickup,7,7,0.26
-81,70,2024-06-18,8,16.52,1.69,Cash,In-store Pickup,18,7,0.02
-81,70,2024-06-18,8,16.52,1.69,Cash,In-store Pickup,23,3,0.3
-81,70,2024-06-18,8,16.52,1.69,Cash,In-store Pickup,79,2,0.26
-82,10,2024-10-28,16,17.39,13.51,Debit Card,In-store Pickup,36,2,0.2
-83,66,2024-05-31,2,9.16,13.17,PayPal,Home Delivery,50,1,0.16
-83,66,2024-05-31,2,9.16,13.17,PayPal,Home Delivery,67,8,0.08
-83,66,2024-05-31,2,9.16,13.17,PayPal,Home Delivery,33,3,0.15
-83,66,2024-05-31,2,9.16,13.17,PayPal,Home Delivery,96,10,0.21
-83,66,2024-05-31,2,9.16,13.17,PayPal,Home Delivery,16,6,0.27
-84,44,2024-01-03,13,11.01,11.07,PayPal,In-store Pickup,20,6,0.19
-84,44,2024-01-03,13,11.01,11.07,PayPal,In-store Pickup,59,3,0.22
-84,44,2024-01-03,13,11.01,11.07,PayPal,In-store Pickup,88,3,0.23
-85,34,2024-05-21,16,19.61,8.77,PayPal,In-store Pickup,5,5,0.03
-85,34,2024-05-21,16,19.61,8.77,PayPal,In-store Pickup,54,1,0.08
-85,34,2024-05-21,16,19.61,8.77,PayPal,In-store Pickup,31,8,0.11
-85,34,2024-05-21,16,19.61,8.77,PayPal,In-store Pickup,63,4,0.05
-85,34,2024-05-21,16,19.61,8.77,PayPal,In-store Pickup,83,2,0.23
-86,27,2024-06-05,8,12.13,3.96,PayPal,In-store Pickup,77,5,0.06
-87,18,2024-07-17,17,12.16,11.93,Debit Card,Home Delivery,64,1,0.24
-87,18,2024-07-17,17,12.16,11.93,Debit Card,Home Delivery,79,8,0.08
-88,100,2024-07-12,10,9.48,2.68,Debit Card,Home Delivery,48,8,0.02
-89,48,2024-02-28,18,8.3,1.08,Credit Card,In-store Pickup,29,3,0.2
-89,48,2024-02-28,18,8.3,1.08,Credit Card,In-store Pickup,69,10,0.22
-89,48,2024-02-28,18,8.3,1.08,Credit Card,In-store Pickup,96,9,0.2
-89,48,2024-02-28,18,8.3,1.08,Credit Card,In-store Pickup,40,3,0.05
-89,48,2024-02-28,18,8.3,1.08,Credit Card,In-store Pickup,13,1,0.17
-90,71,2024-01-28,4,10.31,14.19,Cash,Home Delivery,1,7,0.13
-90,71,2024-01-28,4,10.31,14.19,Cash,Home Delivery,12,2,0.05
-91,15,2024-05-26,6,11.89,9.76,Debit Card,In-store Pickup,94,1,0.02
-91,15,2024-05-26,6,11.89,9.76,Debit Card,In-store Pickup,93,9,0.01
-91,15,2024-05-26,6,11.89,9.76,Debit Card,In-store Pickup,36,7,0.06
-91,15,2024-05-26,6,11.89,9.76,Debit Card,In-store Pickup,34,1,0.11
-92,25,2024-08-25,9,18.72,2.34,Credit Card,Home Delivery,17,4,0.16
-92,25,2024-08-25,9,18.72,2.34,Credit Card,Home Delivery,93,2,0.19
-92,25,2024-08-25,9,18.72,2.34,Credit Card,Home Delivery,73,10,0.15
-93,2,2024-07-29,15,6.88,9.6,PayPal,In-store Pickup,10,7,0.16
-93,2,2024-07-29,15,6.88,9.6,PayPal,In-store Pickup,91,3,0.28
-93,2,2024-07-29,15,6.88,9.6,PayPal,In-store Pickup,88,7,0.09
-93,2,2024-07-29,15,6.88,9.6,PayPal,In-store Pickup,72,3,0.17
-93,2,2024-07-29,15,6.88,9.6,PayPal,In-store Pickup,24,5,0.22
-94,39,2024-02-10,2,9.7,5.5,PayPal,In-store Pickup,97,2,0.19
-94,39,2024-02-10,2,9.7,5.5,PayPal,In-store Pickup,89,2,0.15
-95,63,2024-03-08,2,18.92,1.62,Cash,Home Delivery,81,10,0.21
-95,63,2024-03-08,2,18.92,1.62,Cash,Home Delivery,15,5,0.12
-95,63,2024-03-08,2,18.92,1.62,Cash,Home Delivery,65,5,0.22
-95,63,2024-03-08,2,18.92,1.62,Cash,Home Delivery,96,1,0.05
-96,65,2024-07-18,13,18.32,6.43,Debit Card,Home Delivery,10,2,0.3
-96,65,2024-07-18,13,18.32,6.43,Debit Card,Home Delivery,30,8,0.06
-96,65,2024-07-18,13,18.32,6.43,Debit Card,Home Delivery,72,6,0.06
-96,65,2024-07-18,13,18.32,6.43,Debit Card,Home Delivery,39,8,0.27
-97,51,2024-01-11,4,16.37,13.3,PayPal,In-store Pickup,52,6,0.08
-97,51,2024-01-11,4,16.37,13.3,PayPal,In-store Pickup,40,7,0.14
-97,51,2024-01-11,4,16.37,13.3,PayPal,In-store Pickup,1,5,0.09
-97,51,2024-01-11,4,16.37,13.3,PayPal,In-store Pickup,22,8,0.09
-97,51,2024-01-11,4,16.37,13.3,PayPal,In-store Pickup,57,1,0.03
-98,54,2024-03-08,19,13.44,3.98,Cash,Home Delivery,9,3,0.12
-98,54,2024-03-08,19,13.44,3.98,Cash,Home Delivery,70,6,0.11
-98,54,2024-03-08,19,13.44,3.98,Cash,Home Delivery,31,1,0.03
-99,57,2024-10-12,14,5.19,14.02,Cash,Home Delivery,37,3,0.04
-100,16,2024-08-31,19,19.96,10.58,Debit Card,Home Delivery,84,2,0.26
-100,16,2024-08-31,19,19.96,10.58,Debit Card,Home Delivery,82,6,0.08
-100,16,2024-08-31,19,19.96,10.58,Debit Card,Home Delivery,74,5,0.17
-100,16,2024-08-31,19,19.96,10.58,Debit Card,Home Delivery,69,8,0.07
-100,16,2024-08-31,19,19.96,10.58,Debit Card,Home Delivery,46,5,0.3
-101,67,2024-09-07,18,11.83,14.36,PayPal,In-store Pickup,87,8,0.23
-101,67,2024-09-07,18,11.83,14.36,PayPal,In-store Pickup,66,6,0.26
-102,71,2024-10-06,11,9.88,13.49,Debit Card,In-store Pickup,26,3,0.26
-102,71,2024-10-06,11,9.88,13.49,Debit Card,In-store Pickup,3,4,0.12
-103,48,2024-03-18,2,19.55,2.79,Cash,In-store Pickup,41,9,0.27
-103,48,2024-03-18,2,19.55,2.79,Cash,In-store Pickup,32,6,0.3
-104,36,2024-09-24,4,7.66,2.14,Credit Card,In-store Pickup,46,1,0.25
-105,68,2024-01-28,9,11.27,13.25,Debit Card,In-store Pickup,41,6,0.07
-106,24,2024-01-15,9,15.84,9.67,Credit Card,Home Delivery,95,1,0.19
-106,24,2024-01-15,9,15.84,9.67,Credit Card,Home Delivery,55,7,0.27
-106,24,2024-01-15,9,15.84,9.67,Credit Card,Home Delivery,28,5,0.19
-106,24,2024-01-15,9,15.84,9.67,Credit Card,Home Delivery,85,5,0.02
-107,58,2024-03-23,6,5.7,5.51,PayPal,Home Delivery,3,3,0.03
-107,58,2024-03-23,6,5.7,5.51,PayPal,Home Delivery,79,4,0.14
-107,58,2024-03-23,6,5.7,5.51,PayPal,Home Delivery,48,5,0.16
-108,76,2024-11-01,17,18.28,4.2,Cash,Home Delivery,32,5,0.24
-108,76,2024-11-01,17,18.28,4.2,Cash,Home Delivery,7,7,0.08
-109,16,2024-07-08,18,17.65,6.83,Debit Card,Home Delivery,13,3,0.27
-109,16,2024-07-08,18,17.65,6.83,Debit Card,Home Delivery,98,6,0.28
-109,16,2024-07-08,18,17.65,6.83,Debit Card,Home Delivery,10,7,0.25
-109,16,2024-07-08,18,17.65,6.83,Debit Card,Home Delivery,88,1,0.15
-110,33,2024-11-01,8,8.98,12.08,Debit Card,Home Delivery,67,7,0.05
-110,33,2024-11-01,8,8.98,12.08,Debit Card,Home Delivery,18,1,0.09
-111,57,2024-06-02,18,9.76,8.03,Credit Card,In-store Pickup,80,10,0.24
-111,57,2024-06-02,18,9.76,8.03,Credit Card,In-store Pickup,46,5,0.2
-111,57,2024-06-02,18,9.76,8.03,Credit Card,In-store Pickup,29,2,0.18
-111,57,2024-06-02,18,9.76,8.03,Credit Card,In-store Pickup,80,6,0.22
-112,19,2024-07-19,13,15.86,5.69,Credit Card,Home Delivery,26,4,0.12
-112,19,2024-07-19,13,15.86,5.69,Credit Card,Home Delivery,34,5,0.1
-112,19,2024-07-19,13,15.86,5.69,Credit Card,Home Delivery,35,7,0.28
-112,19,2024-07-19,13,15.86,5.69,Credit Card,Home Delivery,53,5,0.24
-112,19,2024-07-19,13,15.86,5.69,Credit Card,Home Delivery,45,1,0.12
-113,45,2024-02-11,15,8.87,1.74,PayPal,In-store Pickup,9,4,0.07
-114,44,2024-09-28,19,16.81,10.29,Debit Card,In-store Pickup,43,10,0.19
-114,44,2024-09-28,19,16.81,10.29,Debit Card,In-store Pickup,16,2,0.26
-114,44,2024-09-28,19,16.81,10.29,Debit Card,In-store Pickup,99,5,0.21
-114,44,2024-09-28,19,16.81,10.29,Debit Card,In-store Pickup,30,10,0.05
-115,31,2024-05-09,8,10.82,11.73,Debit Card,Home Delivery,33,3,0.01
-116,61,2024-03-12,11,18.98,3.48,Debit Card,In-store Pickup,53,10,0.11
-116,61,2024-03-12,11,18.98,3.48,Debit Card,In-store Pickup,63,5,0.02
-116,61,2024-03-12,11,18.98,3.48,Debit Card,In-store Pickup,2,9,0.08
-116,61,2024-03-12,11,18.98,3.48,Debit Card,In-store Pickup,19,7,0.21
-116,61,2024-03-12,11,18.98,3.48,Debit Card,In-store Pickup,74,5,0.24
-117,25,2024-06-12,3,7.0,3.53,Cash,In-store Pickup,49,9,0.23
-118,27,2024-03-14,19,11.06,8.72,PayPal,Home Delivery,98,1,0.27
-118,27,2024-03-14,19,11.06,8.72,PayPal,Home Delivery,96,5,0.24
-118,27,2024-03-14,19,11.06,8.72,PayPal,Home Delivery,96,2,0.21
-119,68,2024-08-06,10,5.87,8.96,Credit Card,Home Delivery,5,1,0.02
-119,68,2024-08-06,10,5.87,8.96,Credit Card,Home Delivery,17,9,0.28
-120,14,2024-07-22,16,7.3,3.82,PayPal,Home Delivery,29,8,0.07
-120,14,2024-07-22,16,7.3,3.82,PayPal,Home Delivery,8,3,0.07
-120,14,2024-07-22,16,7.3,3.82,PayPal,Home Delivery,47,8,0.12
-121,97,2024-02-18,15,7.3,13.87,Credit Card,In-store Pickup,21,9,0.07
-122,14,2024-09-11,1,17.69,13.83,Cash,In-store Pickup,78,6,0.25
-122,14,2024-09-11,1,17.69,13.83,Cash,In-store Pickup,20,5,0.12
-122,14,2024-09-11,1,17.69,13.83,Cash,In-store Pickup,9,2,0.25
-122,14,2024-09-11,1,17.69,13.83,Cash,In-store Pickup,87,6,0.03
-122,14,2024-09-11,1,17.69,13.83,Cash,In-store Pickup,34,1,0.23
-123,21,2024-01-24,8,19.67,9.26,Cash,Home Delivery,72,2,0.21
-123,21,2024-01-24,8,19.67,9.26,Cash,Home Delivery,66,3,0.09
-123,21,2024-01-24,8,19.67,9.26,Cash,Home Delivery,67,9,0.1
-123,21,2024-01-24,8,19.67,9.26,Cash,Home Delivery,71,6,0.22
-124,85,2024-10-03,20,7.15,2.29,PayPal,In-store Pickup,3,5,0.09
-124,85,2024-10-03,20,7.15,2.29,PayPal,In-store Pickup,61,1,0.16
-124,85,2024-10-03,20,7.15,2.29,PayPal,In-store Pickup,63,6,0.17
-125,88,2024-08-09,11,13.0,5.62,Debit Card,In-store Pickup,93,8,0.24
-125,88,2024-08-09,11,13.0,5.62,Debit Card,In-store Pickup,84,7,0.09
-125,88,2024-08-09,11,13.0,5.62,Debit Card,In-store Pickup,86,10,0.3
-125,88,2024-08-09,11,13.0,5.62,Debit Card,In-store Pickup,50,4,0.11
-125,88,2024-08-09,11,13.0,5.62,Debit Card,In-store Pickup,52,10,0.24
-126,95,2024-07-07,2,19.19,7.45,Cash,In-store Pickup,52,8,0.16
-127,26,2024-10-12,14,5.11,14.1,Debit Card,In-store Pickup,30,1,0.07
-127,26,2024-10-12,14,5.11,14.1,Debit Card,In-store Pickup,33,8,0.05
-127,26,2024-10-12,14,5.11,14.1,Debit Card,In-store Pickup,27,6,0.17
-127,26,2024-10-12,14,5.11,14.1,Debit Card,In-store Pickup,98,6,0.16
-128,9,2024-03-27,5,11.8,1.76,Cash,In-store Pickup,71,5,0.04
-128,9,2024-03-27,5,11.8,1.76,Cash,In-store Pickup,52,3,0.09
-128,9,2024-03-27,5,11.8,1.76,Cash,In-store Pickup,1,5,0.03
-128,9,2024-03-27,5,11.8,1.76,Cash,In-store Pickup,40,7,0.19
-129,14,2024-08-24,9,11.75,14.98,Credit Card,In-store Pickup,68,9,0.1
-129,14,2024-08-24,9,11.75,14.98,Credit Card,In-store Pickup,91,2,0.19
-129,14,2024-08-24,9,11.75,14.98,Credit Card,In-store Pickup,80,10,0.24
-130,38,2024-08-12,5,9.64,1.77,Debit Card,In-store Pickup,81,5,0.19
-130,38,2024-08-12,5,9.64,1.77,Debit Card,In-store Pickup,84,10,0.26
-131,58,2024-05-15,5,13.4,2.58,PayPal,In-store Pickup,21,9,0.2
-131,58,2024-05-15,5,13.4,2.58,PayPal,In-store Pickup,26,6,0.16
-131,58,2024-05-15,5,13.4,2.58,PayPal,In-store Pickup,69,1,0.01
-131,58,2024-05-15,5,13.4,2.58,PayPal,In-store Pickup,72,9,0.08
-132,33,2024-05-18,1,11.38,10.19,PayPal,Home Delivery,5,6,0.2
-132,33,2024-05-18,1,11.38,10.19,PayPal,Home Delivery,75,2,0.26
-132,33,2024-05-18,1,11.38,10.19,PayPal,Home Delivery,14,3,0.09
-133,25,2024-07-18,3,13.5,9.9,PayPal,In-store Pickup,3,1,0.13
-133,25,2024-07-18,3,13.5,9.9,PayPal,In-store Pickup,12,9,0.21
-133,25,2024-07-18,3,13.5,9.9,PayPal,In-store Pickup,11,8,0.18
-133,25,2024-07-18,3,13.5,9.9,PayPal,In-store Pickup,34,4,0.2
-133,25,2024-07-18,3,13.5,9.9,PayPal,In-store Pickup,67,8,0.26
-134,71,2024-03-08,2,5.69,12.34,Credit Card,In-store Pickup,61,4,0.1
-134,71,2024-03-08,2,5.69,12.34,Credit Card,In-store Pickup,74,7,0.04
-135,16,2024-09-11,2,17.99,6.23,PayPal,In-store Pickup,34,2,0.11
-135,16,2024-09-11,2,17.99,6.23,PayPal,In-store Pickup,53,10,0.01
-135,16,2024-09-11,2,17.99,6.23,PayPal,In-store Pickup,57,7,0.3
-135,16,2024-09-11,2,17.99,6.23,PayPal,In-store Pickup,73,7,0.29
-136,54,2024-09-21,1,12.54,5.14,Debit Card,In-store Pickup,39,2,0.0
-136,54,2024-09-21,1,12.54,5.14,Debit Card,In-store Pickup,74,1,0.02
-136,54,2024-09-21,1,12.54,5.14,Debit Card,In-store Pickup,90,10,0.08
-136,54,2024-09-21,1,12.54,5.14,Debit Card,In-store Pickup,70,6,0.22
-137,24,2024-02-25,6,16.59,5.61,Debit Card,Home Delivery,21,1,0.22
-137,24,2024-02-25,6,16.59,5.61,Debit Card,Home Delivery,76,7,0.1
-137,24,2024-02-25,6,16.59,5.61,Debit Card,Home Delivery,49,7,0.13
-138,56,2024-06-05,7,17.66,10.44,Debit Card,In-store Pickup,42,1,0.24
-139,91,2024-05-30,12,5.55,14.52,Debit Card,In-store Pickup,64,10,0.26
-139,91,2024-05-30,12,5.55,14.52,Debit Card,In-store Pickup,41,7,0.2
-139,91,2024-05-30,12,5.55,14.52,Debit Card,In-store Pickup,69,9,0.15
-139,91,2024-05-30,12,5.55,14.52,Debit Card,In-store Pickup,76,7,0.02
-139,91,2024-05-30,12,5.55,14.52,Debit Card,In-store Pickup,75,7,0.04
-140,41,2024-05-04,2,17.37,2.08,Credit Card,Home Delivery,11,10,0.27
-140,41,2024-05-04,2,17.37,2.08,Credit Card,Home Delivery,61,2,0.14
-140,41,2024-05-04,2,17.37,2.08,Credit Card,Home Delivery,100,3,0.24
-140,41,2024-05-04,2,17.37,2.08,Credit Card,Home Delivery,39,9,0.06
-141,40,2024-08-27,8,16.88,5.15,Credit Card,Home Delivery,20,2,0.24
-141,40,2024-08-27,8,16.88,5.15,Credit Card,Home Delivery,90,8,0.24
-141,40,2024-08-27,8,16.88,5.15,Credit Card,Home Delivery,64,4,0.17
-142,86,2024-08-11,3,11.25,5.82,Credit Card,Home Delivery,29,2,0.0
-142,86,2024-08-11,3,11.25,5.82,Credit Card,Home Delivery,55,2,0.17
-142,86,2024-08-11,3,11.25,5.82,Credit Card,Home Delivery,41,6,0.25
-142,86,2024-08-11,3,11.25,5.82,Credit Card,Home Delivery,85,2,0.19
-142,86,2024-08-11,3,11.25,5.82,Credit Card,Home Delivery,37,7,0.3
-143,97,2024-10-02,17,16.02,13.03,Credit Card,In-store Pickup,25,3,0.24
-143,97,2024-10-02,17,16.02,13.03,Credit Card,In-store Pickup,45,8,0.14
-143,97,2024-10-02,17,16.02,13.03,Credit Card,In-store Pickup,23,3,0.12
-144,92,2024-08-28,3,8.08,10.22,Cash,In-store Pickup,69,7,0.15
-144,92,2024-08-28,3,8.08,10.22,Cash,In-store Pickup,78,3,0.24
-145,4,2024-05-24,5,9.75,3.98,Credit Card,In-store Pickup,54,7,0.06
-145,4,2024-05-24,5,9.75,3.98,Credit Card,In-store Pickup,59,6,0.19
-146,97,2024-03-11,1,10.06,12.48,Debit Card,In-store Pickup,4,9,0.23
-147,11,2024-09-01,19,8.51,2.58,Credit Card,Home Delivery,75,3,0.25
-148,25,2024-07-03,4,7.18,13.94,Cash,In-store Pickup,34,3,0.29
-148,25,2024-07-03,4,7.18,13.94,Cash,In-store Pickup,95,8,0.29
-149,78,2024-01-10,12,10.38,3.88,Credit Card,Home Delivery,83,9,0.2
-149,78,2024-01-10,12,10.38,3.88,Credit Card,Home Delivery,92,7,0.05
-149,78,2024-01-10,12,10.38,3.88,Credit Card,Home Delivery,82,10,0.29
-150,43,2024-05-20,19,8.01,6.93,Credit Card,In-store Pickup,95,8,0.15
-150,43,2024-05-20,19,8.01,6.93,Credit Card,In-store Pickup,73,9,0.19
-150,43,2024-05-20,19,8.01,6.93,Credit Card,In-store Pickup,98,10,0.07
-151,91,2024-03-25,10,8.68,8.61,PayPal,In-store Pickup,96,10,0.13
-151,91,2024-03-25,10,8.68,8.61,PayPal,In-store Pickup,39,4,0.12
-151,91,2024-03-25,10,8.68,8.61,PayPal,In-store Pickup,99,5,0.27
-151,91,2024-03-25,10,8.68,8.61,PayPal,In-store Pickup,85,4,0.06
-151,91,2024-03-25,10,8.68,8.61,PayPal,In-store Pickup,31,2,0.24
-152,71,2024-06-28,19,5.47,12.89,Debit Card,In-store Pickup,29,4,0.15
-152,71,2024-06-28,19,5.47,12.89,Debit Card,In-store Pickup,59,9,0.11
-152,71,2024-06-28,19,5.47,12.89,Debit Card,In-store Pickup,75,8,0.22
-153,63,2024-01-03,5,11.52,2.79,Debit Card,In-store Pickup,88,9,0.03
-154,13,2024-09-16,10,17.2,14.06,Cash,Home Delivery,33,6,0.07
-154,13,2024-09-16,10,17.2,14.06,Cash,Home Delivery,24,9,0.18
-155,28,2024-05-05,16,13.41,13.9,Credit Card,Home Delivery,3,2,0.01
-156,69,2024-03-15,5,7.96,14.84,PayPal,Home Delivery,22,2,0.18
-157,64,2024-01-02,10,14.17,13.7,Cash,Home Delivery,17,5,0.04
-157,64,2024-01-02,10,14.17,13.7,Cash,Home Delivery,91,2,0.14
-157,64,2024-01-02,10,14.17,13.7,Cash,Home Delivery,96,3,0.06
-157,64,2024-01-02,10,14.17,13.7,Cash,Home Delivery,30,8,0.06
-157,64,2024-01-02,10,14.17,13.7,Cash,Home Delivery,68,1,0.15
-158,8,2024-04-29,18,18.31,6.91,Credit Card,In-store Pickup,93,2,0.24
-158,8,2024-04-29,18,18.31,6.91,Credit Card,In-store Pickup,52,1,0.15
-158,8,2024-04-29,18,18.31,6.91,Credit Card,In-store Pickup,90,7,0.08
-159,75,2024-07-23,4,16.69,6.8,Credit Card,Home Delivery,11,6,0.3
-159,75,2024-07-23,4,16.69,6.8,Credit Card,Home Delivery,31,9,0.27
-159,75,2024-07-23,4,16.69,6.8,Credit Card,Home Delivery,94,7,0.16
-159,75,2024-07-23,4,16.69,6.8,Credit Card,Home Delivery,21,2,0.16
-160,57,2024-04-03,19,10.6,11.21,Debit Card,In-store Pickup,55,5,0.22
-160,57,2024-04-03,19,10.6,11.21,Debit Card,In-store Pickup,24,2,0.16
-160,57,2024-04-03,19,10.6,11.21,Debit Card,In-store Pickup,14,3,0.13
-161,1,2024-11-04,2,17.28,3.43,PayPal,In-store Pickup,37,8,0.09
-161,1,2024-11-04,2,17.28,3.43,PayPal,In-store Pickup,90,1,0.18
-161,1,2024-11-04,2,17.28,3.43,PayPal,In-store Pickup,74,2,0.24
-162,46,2024-06-13,2,5.55,6.89,Cash,In-store Pickup,89,5,0.16
-162,46,2024-06-13,2,5.55,6.89,Cash,In-store Pickup,93,6,0.14
-162,46,2024-06-13,2,5.55,6.89,Cash,In-store Pickup,62,9,0.17
-162,46,2024-06-13,2,5.55,6.89,Cash,In-store Pickup,12,10,0.04
-162,46,2024-06-13,2,5.55,6.89,Cash,In-store Pickup,36,2,0.0
-163,35,2024-10-23,11,18.56,12.02,Debit Card,Home Delivery,6,6,0.29
-163,35,2024-10-23,11,18.56,12.02,Debit Card,Home Delivery,13,3,0.14
-163,35,2024-10-23,11,18.56,12.02,Debit Card,Home Delivery,4,8,0.02
-164,51,2024-02-15,9,19.95,12.25,PayPal,Home Delivery,27,7,0.19
-165,80,2024-06-03,3,15.38,9.82,Credit Card,In-store Pickup,9,10,0.25
-166,59,2024-02-22,20,6.27,3.6,Credit Card,In-store Pickup,39,10,0.24
-166,59,2024-02-22,20,6.27,3.6,Credit Card,In-store Pickup,43,8,0.28
-166,59,2024-02-22,20,6.27,3.6,Credit Card,In-store Pickup,50,1,0.05
-167,88,2024-07-09,1,17.17,14.71,PayPal,Home Delivery,68,10,0.2
-167,88,2024-07-09,1,17.17,14.71,PayPal,Home Delivery,14,4,0.06
-167,88,2024-07-09,1,17.17,14.71,PayPal,Home Delivery,46,2,0.01
-168,97,2024-01-31,12,11.9,4.49,PayPal,In-store Pickup,75,10,0.06
-168,97,2024-01-31,12,11.9,4.49,PayPal,In-store Pickup,88,10,0.09
-168,97,2024-01-31,12,11.9,4.49,PayPal,In-store Pickup,7,10,0.01
-168,97,2024-01-31,12,11.9,4.49,PayPal,In-store Pickup,12,1,0.25
-169,91,2024-09-04,16,17.96,2.61,PayPal,Home Delivery,5,2,0.28
-169,91,2024-09-04,16,17.96,2.61,PayPal,Home Delivery,83,4,0.09
-169,91,2024-09-04,16,17.96,2.61,PayPal,Home Delivery,57,4,0.2
-169,91,2024-09-04,16,17.96,2.61,PayPal,Home Delivery,43,5,0.26
-169,91,2024-09-04,16,17.96,2.61,PayPal,Home Delivery,88,4,0.06
-170,90,2024-07-10,16,8.17,8.43,Debit Card,Home Delivery,97,4,0.24
-170,90,2024-07-10,16,8.17,8.43,Debit Card,Home Delivery,42,2,0.07
-170,90,2024-07-10,16,8.17,8.43,Debit Card,Home Delivery,37,2,0.13
-170,90,2024-07-10,16,8.17,8.43,Debit Card,Home Delivery,16,9,0.26
-170,90,2024-07-10,16,8.17,8.43,Debit Card,Home Delivery,71,8,0.0
-171,30,2024-09-06,3,18.83,7.89,Debit Card,In-store Pickup,95,10,0.01
-171,30,2024-09-06,3,18.83,7.89,Debit Card,In-store Pickup,97,9,0.26
-171,30,2024-09-06,3,18.83,7.89,Debit Card,In-store Pickup,56,2,0.25
-171,30,2024-09-06,3,18.83,7.89,Debit Card,In-store Pickup,85,5,0.12
-172,28,2024-07-28,2,17.8,14.97,PayPal,Home Delivery,18,7,0.03
-172,28,2024-07-28,2,17.8,14.97,PayPal,Home Delivery,48,1,0.29
-173,43,2024-04-01,1,8.12,11.25,Credit Card,In-store Pickup,69,4,0.29
-173,43,2024-04-01,1,8.12,11.25,Credit Card,In-store Pickup,33,2,0.11
-173,43,2024-04-01,1,8.12,11.25,Credit Card,In-store Pickup,61,2,0.18
-173,43,2024-04-01,1,8.12,11.25,Credit Card,In-store Pickup,39,6,0.16
-174,6,2024-10-14,19,10.16,7.92,Debit Card,In-store Pickup,24,6,0.13
-175,3,2024-01-18,15,14.16,10.64,Debit Card,In-store Pickup,3,7,0.2
-176,33,2024-07-12,1,16.54,7.18,Cash,Home Delivery,43,8,0.08
-176,33,2024-07-12,1,16.54,7.18,Cash,Home Delivery,7,10,0.27
-176,33,2024-07-12,1,16.54,7.18,Cash,Home Delivery,81,7,0.26
-176,33,2024-07-12,1,16.54,7.18,Cash,Home Delivery,49,8,0.25
-176,33,2024-07-12,1,16.54,7.18,Cash,Home Delivery,62,10,0.1
-177,97,2024-03-12,1,16.7,7.49,Cash,Home Delivery,60,8,0.16
-177,97,2024-03-12,1,16.7,7.49,Cash,Home Delivery,43,3,0.15
-178,78,2024-03-05,12,9.01,8.77,Debit Card,Home Delivery,19,10,0.15
-179,89,2024-08-14,6,13.26,5.52,Credit Card,In-store Pickup,82,8,0.05
-179,89,2024-08-14,6,13.26,5.52,Credit Card,In-store Pickup,79,7,0.2
-180,73,2024-10-20,3,10.98,12.39,Debit Card,Home Delivery,37,2,0.17
-180,73,2024-10-20,3,10.98,12.39,Debit Card,Home Delivery,26,5,0.0
-181,14,2024-05-30,12,12.59,4.64,PayPal,In-store Pickup,61,5,0.12
-182,59,2024-08-12,2,8.86,12.07,Debit Card,In-store Pickup,55,5,0.03
-182,59,2024-08-12,2,8.86,12.07,Debit Card,In-store Pickup,33,10,0.24
-182,59,2024-08-12,2,8.86,12.07,Debit Card,In-store Pickup,59,5,0.26
-183,57,2024-09-16,6,7.01,2.01,Credit Card,Home Delivery,21,8,0.1
-183,57,2024-09-16,6,7.01,2.01,Credit Card,Home Delivery,63,5,0.09
-183,57,2024-09-16,6,7.01,2.01,Credit Card,Home Delivery,84,3,0.26
-183,57,2024-09-16,6,7.01,2.01,Credit Card,Home Delivery,49,3,0.12
-184,93,2024-02-21,19,12.76,7.22,Debit Card,In-store Pickup,14,10,0.23
-185,33,2024-06-08,10,9.01,4.59,Credit Card,Home Delivery,79,9,0.13
-185,33,2024-06-08,10,9.01,4.59,Credit Card,Home Delivery,2,1,0.08
-185,33,2024-06-08,10,9.01,4.59,Credit Card,Home Delivery,10,5,0.03
-185,33,2024-06-08,10,9.01,4.59,Credit Card,Home Delivery,73,8,0.03
-186,31,2024-02-24,19,10.11,10.42,Cash,In-store Pickup,21,9,0.14
-186,31,2024-02-24,19,10.11,10.42,Cash,In-store Pickup,59,10,0.26
-187,35,2024-04-16,13,13.05,1.08,PayPal,In-store Pickup,20,7,0.05
-187,35,2024-04-16,13,13.05,1.08,PayPal,In-store Pickup,97,1,0.11
-188,43,2024-02-02,11,19.41,10.55,Cash,Home Delivery,62,4,0.15
-188,43,2024-02-02,11,19.41,10.55,Cash,Home Delivery,13,5,0.28
-188,43,2024-02-02,11,19.41,10.55,Cash,Home Delivery,70,2,0.22
-189,74,2024-02-14,18,16.0,9.2,Credit Card,In-store Pickup,84,4,0.01
-189,74,2024-02-14,18,16.0,9.2,Credit Card,In-store Pickup,64,8,0.08
-189,74,2024-02-14,18,16.0,9.2,Credit Card,In-store Pickup,43,3,0.16
-190,100,2024-07-12,1,5.78,4.37,Credit Card,In-store Pickup,28,8,0.27
-190,100,2024-07-12,1,5.78,4.37,Credit Card,In-store Pickup,54,7,0.16
-190,100,2024-07-12,1,5.78,4.37,Credit Card,In-store Pickup,43,6,0.26
-190,100,2024-07-12,1,5.78,4.37,Credit Card,In-store Pickup,9,3,0.24
-191,47,2024-09-08,9,5.08,2.74,Cash,Home Delivery,24,6,0.27
-191,47,2024-09-08,9,5.08,2.74,Cash,Home Delivery,44,7,0.09
-191,47,2024-09-08,9,5.08,2.74,Cash,Home Delivery,62,6,0.05
-191,47,2024-09-08,9,5.08,2.74,Cash,Home Delivery,100,1,0.19
-192,64,2024-05-16,6,11.15,3.23,Cash,Home Delivery,90,5,0.26
-192,64,2024-05-16,6,11.15,3.23,Cash,Home Delivery,40,8,0.27
-192,64,2024-05-16,6,11.15,3.23,Cash,Home Delivery,14,9,0.05
-193,49,2024-03-17,19,7.06,11.77,Credit Card,In-store Pickup,41,4,0.13
-193,49,2024-03-17,19,7.06,11.77,Credit Card,In-store Pickup,85,6,0.08
-193,49,2024-03-17,19,7.06,11.77,Credit Card,In-store Pickup,41,7,0.17
-193,49,2024-03-17,19,7.06,11.77,Credit Card,In-store Pickup,45,2,0.09
-193,49,2024-03-17,19,7.06,11.77,Credit Card,In-store Pickup,36,9,0.09
-194,42,2024-04-18,8,13.35,1.77,Credit Card,In-store Pickup,28,9,0.29
-194,42,2024-04-18,8,13.35,1.77,Credit Card,In-store Pickup,35,5,0.22
-194,42,2024-04-18,8,13.35,1.77,Credit Card,In-store Pickup,70,6,0.26
-194,42,2024-04-18,8,13.35,1.77,Credit Card,In-store Pickup,48,5,0.21
-195,7,2024-09-27,15,8.86,10.17,Credit Card,Home Delivery,20,1,0.01
-195,7,2024-09-27,15,8.86,10.17,Credit Card,Home Delivery,85,9,0.11
-195,7,2024-09-27,15,8.86,10.17,Credit Card,Home Delivery,28,3,0.05
-195,7,2024-09-27,15,8.86,10.17,Credit Card,Home Delivery,85,6,0.05
-195,7,2024-09-27,15,8.86,10.17,Credit Card,Home Delivery,81,10,0.09
-196,70,2024-02-27,9,16.27,9.78,PayPal,Home Delivery,93,1,0.1
-196,70,2024-02-27,9,16.27,9.78,PayPal,Home Delivery,93,2,0.08
-196,70,2024-02-27,9,16.27,9.78,PayPal,Home Delivery,96,1,0.04
-196,70,2024-02-27,9,16.27,9.78,PayPal,Home Delivery,76,10,0.05
-197,98,2024-03-31,19,11.05,5.61,Cash,Home Delivery,27,10,0.0
-198,93,2024-02-18,12,15.59,13.46,PayPal,Home Delivery,17,5,0.07
-199,81,2024-06-23,19,9.33,14.71,Cash,Home Delivery,33,3,0.26
-199,81,2024-06-23,19,9.33,14.71,Cash,Home Delivery,55,10,0.1
-199,81,2024-06-23,19,9.33,14.71,Cash,Home Delivery,89,6,0.26
-199,81,2024-06-23,19,9.33,14.71,Cash,Home Delivery,11,3,0.18
-199,81,2024-06-23,19,9.33,14.71,Cash,Home Delivery,23,4,0.18
-200,12,2024-06-20,17,14.81,8.5,Debit Card,In-store Pickup,90,6,0.19
-200,12,2024-06-20,17,14.81,8.5,Debit Card,In-store Pickup,6,8,0.01
-200,12,2024-06-20,17,14.81,8.5,Debit Card,In-store Pickup,31,10,0.23
-200,12,2024-06-20,17,14.81,8.5,Debit Card,In-store Pickup,59,9,0.08
-201,94,2024-03-10,15,16.66,9.98,PayPal,Home Delivery,79,9,0.18
-201,94,2024-03-10,15,16.66,9.98,PayPal,Home Delivery,30,3,0.28
-202,44,2024-05-27,16,18.09,5.67,Debit Card,In-store Pickup,75,8,0.07
-202,44,2024-05-27,16,18.09,5.67,Debit Card,In-store Pickup,32,1,0.22
-202,44,2024-05-27,16,18.09,5.67,Debit Card,In-store Pickup,42,5,0.25
-202,44,2024-05-27,16,18.09,5.67,Debit Card,In-store Pickup,29,2,0.18
-203,60,2024-09-17,8,10.33,10.66,PayPal,In-store Pickup,96,10,0.02
-204,73,2024-06-16,2,13.37,8.66,Cash,In-store Pickup,14,1,0.16
-205,25,2024-01-27,19,18.56,10.1,PayPal,In-store Pickup,66,8,0.08
-205,25,2024-01-27,19,18.56,10.1,PayPal,In-store Pickup,79,6,0.2
-206,27,2024-07-06,15,16.1,11.04,Credit Card,In-store Pickup,92,6,0.07
-206,27,2024-07-06,15,16.1,11.04,Credit Card,In-store Pickup,96,9,0.17
-206,27,2024-07-06,15,16.1,11.04,Credit Card,In-store Pickup,86,4,0.12
-206,27,2024-07-06,15,16.1,11.04,Credit Card,In-store Pickup,55,7,0.1
-207,28,2024-10-28,18,9.88,5.66,Credit Card,Home Delivery,35,6,0.14
-208,54,2024-01-25,19,13.78,6.25,Cash,Home Delivery,61,8,0.12
-209,38,2024-07-09,3,7.85,6.23,Cash,Home Delivery,29,1,0.25
-209,38,2024-07-09,3,7.85,6.23,Cash,Home Delivery,79,5,0.02
-210,35,2024-06-24,15,18.11,5.55,Debit Card,In-store Pickup,15,10,0.16
-210,35,2024-06-24,15,18.11,5.55,Debit Card,In-store Pickup,75,1,0.2
-210,35,2024-06-24,15,18.11,5.55,Debit Card,In-store Pickup,74,6,0.02
-210,35,2024-06-24,15,18.11,5.55,Debit Card,In-store Pickup,7,10,0.26
-211,43,2024-06-26,9,11.76,13.91,Cash,Home Delivery,64,4,0.06
-211,43,2024-06-26,9,11.76,13.91,Cash,Home Delivery,17,4,0.16
-211,43,2024-06-26,9,11.76,13.91,Cash,Home Delivery,88,5,0.07
-211,43,2024-06-26,9,11.76,13.91,Cash,Home Delivery,30,4,0.06
-211,43,2024-06-26,9,11.76,13.91,Cash,Home Delivery,75,1,0.15
-212,42,2024-10-07,16,19.67,12.54,Cash,In-store Pickup,50,4,0.29
-212,42,2024-10-07,16,19.67,12.54,Cash,In-store Pickup,42,10,0.22
-212,42,2024-10-07,16,19.67,12.54,Cash,In-store Pickup,74,5,0.14
-212,42,2024-10-07,16,19.67,12.54,Cash,In-store Pickup,76,4,0.07
-212,42,2024-10-07,16,19.67,12.54,Cash,In-store Pickup,96,2,0.14
-213,78,2024-08-09,9,5.8,14.15,PayPal,In-store Pickup,65,7,0.09
-213,78,2024-08-09,9,5.8,14.15,PayPal,In-store Pickup,43,5,0.01
-213,78,2024-08-09,9,5.8,14.15,PayPal,In-store Pickup,94,1,0.21
-213,78,2024-08-09,9,5.8,14.15,PayPal,In-store Pickup,86,10,0.17
-214,18,2024-10-06,14,7.69,4.56,Debit Card,Home Delivery,9,9,0.21
-214,18,2024-10-06,14,7.69,4.56,Debit Card,Home Delivery,85,9,0.14
-215,1,2024-06-05,14,6.1,1.56,Debit Card,In-store Pickup,23,2,0.01
-215,1,2024-06-05,14,6.1,1.56,Debit Card,In-store Pickup,70,6,0.3
-216,65,2024-11-01,16,9.84,8.86,Credit Card,Home Delivery,70,9,0.14
-216,65,2024-11-01,16,9.84,8.86,Credit Card,Home Delivery,92,7,0.17
-217,45,2024-09-14,20,12.38,3.89,PayPal,In-store Pickup,73,1,0.23
-218,18,2024-05-24,19,17.65,3.43,Cash,In-store Pickup,5,7,0.14
-218,18,2024-05-24,19,17.65,3.43,Cash,In-store Pickup,34,2,0.05
-219,11,2024-09-15,14,18.44,13.64,Debit Card,In-store Pickup,86,10,0.26
-219,11,2024-09-15,14,18.44,13.64,Debit Card,In-store Pickup,13,1,0.01
-219,11,2024-09-15,14,18.44,13.64,Debit Card,In-store Pickup,72,8,0.12
-219,11,2024-09-15,14,18.44,13.64,Debit Card,In-store Pickup,78,3,0.17
-220,46,2024-11-02,3,16.75,11.91,PayPal,In-store Pickup,53,8,0.05
-221,99,2024-10-05,3,8.59,2.39,Debit Card,In-store Pickup,52,2,0.23
-221,99,2024-10-05,3,8.59,2.39,Debit Card,In-store Pickup,56,10,0.21
-222,79,2024-08-23,15,7.09,13.96,PayPal,Home Delivery,1,3,0.17
-223,29,2024-02-17,5,15.85,14.39,Cash,In-store Pickup,1,5,0.2
-223,29,2024-02-17,5,15.85,14.39,Cash,In-store Pickup,16,1,0.16
-223,29,2024-02-17,5,15.85,14.39,Cash,In-store Pickup,31,9,0.22
-223,29,2024-02-17,5,15.85,14.39,Cash,In-store Pickup,14,9,0.19
-224,82,2024-02-21,17,19.81,14.98,Credit Card,In-store Pickup,39,10,0.05
-224,82,2024-02-21,17,19.81,14.98,Credit Card,In-store Pickup,7,6,0.14
-224,82,2024-02-21,17,19.81,14.98,Credit Card,In-store Pickup,45,2,0.18
-224,82,2024-02-21,17,19.81,14.98,Credit Card,In-store Pickup,12,3,0.03
-225,56,2024-03-06,11,6.32,11.73,Debit Card,Home Delivery,64,5,0.16
-225,56,2024-03-06,11,6.32,11.73,Debit Card,Home Delivery,76,9,0.29
-225,56,2024-03-06,11,6.32,11.73,Debit Card,Home Delivery,20,6,0.27
-226,2,2024-01-16,19,10.97,13.14,Credit Card,In-store Pickup,78,3,0.12
-227,22,2024-05-13,19,7.73,8.44,Debit Card,Home Delivery,66,10,0.01
-228,43,2024-10-21,9,11.82,11.51,Cash,Home Delivery,55,8,0.2
-228,43,2024-10-21,9,11.82,11.51,Cash,Home Delivery,40,9,0.11
-228,43,2024-10-21,9,11.82,11.51,Cash,Home Delivery,12,6,0.08
-229,92,2024-03-09,15,8.7,11.88,Credit Card,Home Delivery,2,10,0.12
-229,92,2024-03-09,15,8.7,11.88,Credit Card,Home Delivery,22,4,0.18
-229,92,2024-03-09,15,8.7,11.88,Credit Card,Home Delivery,14,6,0.3
-230,8,2024-06-19,15,8.65,12.47,PayPal,In-store Pickup,4,4,0.26
-230,8,2024-06-19,15,8.65,12.47,PayPal,In-store Pickup,97,1,0.02
-230,8,2024-06-19,15,8.65,12.47,PayPal,In-store Pickup,30,7,0.28
-230,8,2024-06-19,15,8.65,12.47,PayPal,In-store Pickup,62,1,0.29
-230,8,2024-06-19,15,8.65,12.47,PayPal,In-store Pickup,33,5,0.09
-231,32,2024-07-05,15,14.21,14.79,Credit Card,In-store Pickup,26,6,0.17
-231,32,2024-07-05,15,14.21,14.79,Credit Card,In-store Pickup,75,8,0.25
-231,32,2024-07-05,15,14.21,14.79,Credit Card,In-store Pickup,87,9,0.22
-231,32,2024-07-05,15,14.21,14.79,Credit Card,In-store Pickup,41,3,0.08
-231,32,2024-07-05,15,14.21,14.79,Credit Card,In-store Pickup,55,5,0.29
-232,52,2024-04-06,10,9.27,12.95,Credit Card,Home Delivery,67,3,0.15
-232,52,2024-04-06,10,9.27,12.95,Credit Card,Home Delivery,32,2,0.14
-232,52,2024-04-06,10,9.27,12.95,Credit Card,Home Delivery,35,1,0.09
-232,52,2024-04-06,10,9.27,12.95,Credit Card,Home Delivery,18,3,0.27
-233,27,2024-03-27,8,13.27,7.4,Cash,In-store Pickup,31,1,0.12
-233,27,2024-03-27,8,13.27,7.4,Cash,In-store Pickup,7,1,0.05
-233,27,2024-03-27,8,13.27,7.4,Cash,In-store Pickup,8,3,0.28
-233,27,2024-03-27,8,13.27,7.4,Cash,In-store Pickup,39,9,0.19
-233,27,2024-03-27,8,13.27,7.4,Cash,In-store Pickup,41,1,0.03
-234,15,2024-05-08,6,10.98,12.8,Credit Card,In-store Pickup,63,3,0.25
-235,87,2024-04-13,18,19.6,5.69,PayPal,In-store Pickup,9,1,0.03
-235,87,2024-04-13,18,19.6,5.69,PayPal,In-store Pickup,1,5,0.08
-235,87,2024-04-13,18,19.6,5.69,PayPal,In-store Pickup,57,1,0.23
-235,87,2024-04-13,18,19.6,5.69,PayPal,In-store Pickup,92,6,0.28
-236,31,2024-06-07,19,14.77,2.46,Credit Card,In-store Pickup,76,7,0.09
-236,31,2024-06-07,19,14.77,2.46,Credit Card,In-store Pickup,7,1,0.24
-236,31,2024-06-07,19,14.77,2.46,Credit Card,In-store Pickup,91,7,0.27
-236,31,2024-06-07,19,14.77,2.46,Credit Card,In-store Pickup,81,6,0.25
-236,31,2024-06-07,19,14.77,2.46,Credit Card,In-store Pickup,60,10,0.19
-237,15,2024-03-25,14,9.49,8.78,PayPal,In-store Pickup,4,1,0.29
-237,15,2024-03-25,14,9.49,8.78,PayPal,In-store Pickup,51,4,0.2
-237,15,2024-03-25,14,9.49,8.78,PayPal,In-store Pickup,100,6,0.07
-237,15,2024-03-25,14,9.49,8.78,PayPal,In-store Pickup,76,10,0.09
-237,15,2024-03-25,14,9.49,8.78,PayPal,In-store Pickup,45,1,0.03
-238,23,2024-01-21,15,12.31,10.55,Cash,Home Delivery,75,6,0.19
-238,23,2024-01-21,15,12.31,10.55,Cash,Home Delivery,32,3,0.18
-239,48,2024-05-12,15,18.54,5.98,Credit Card,In-store Pickup,81,5,0.2
-239,48,2024-05-12,15,18.54,5.98,Credit Card,In-store Pickup,43,8,0.23
-240,14,2024-10-09,10,6.18,12.76,PayPal,In-store Pickup,84,7,0.05
-240,14,2024-10-09,10,6.18,12.76,PayPal,In-store Pickup,71,8,0.22
-240,14,2024-10-09,10,6.18,12.76,PayPal,In-store Pickup,77,4,0.16
-240,14,2024-10-09,10,6.18,12.76,PayPal,In-store Pickup,32,5,0.0
-241,41,2024-07-12,9,5.32,11.85,Credit Card,In-store Pickup,83,2,0.02
-241,41,2024-07-12,9,5.32,11.85,Credit Card,In-store Pickup,33,2,0.04
-241,41,2024-07-12,9,5.32,11.85,Credit Card,In-store Pickup,4,3,0.05
-241,41,2024-07-12,9,5.32,11.85,Credit Card,In-store Pickup,86,2,0.09
-241,41,2024-07-12,9,5.32,11.85,Credit Card,In-store Pickup,67,6,0.16
-242,91,2024-03-04,8,17.04,9.94,Credit Card,Home Delivery,38,9,0.14
-243,51,2024-05-19,5,16.43,9.57,Debit Card,Home Delivery,33,4,0.03
-243,51,2024-05-19,5,16.43,9.57,Debit Card,Home Delivery,59,5,0.11
-243,51,2024-05-19,5,16.43,9.57,Debit Card,Home Delivery,41,3,0.08
-243,51,2024-05-19,5,16.43,9.57,Debit Card,Home Delivery,16,9,0.2
-244,100,2024-05-05,16,12.5,9.02,Cash,Home Delivery,14,9,0.02
-244,100,2024-05-05,16,12.5,9.02,Cash,Home Delivery,85,8,0.25
-244,100,2024-05-05,16,12.5,9.02,Cash,Home Delivery,35,9,0.05
-245,8,2024-05-25,6,7.82,7.7,Cash,In-store Pickup,28,6,0.09
-245,8,2024-05-25,6,7.82,7.7,Cash,In-store Pickup,70,6,0.03
-245,8,2024-05-25,6,7.82,7.7,Cash,In-store Pickup,73,8,0.07
-246,55,2024-09-09,4,10.26,1.73,Credit Card,In-store Pickup,86,7,0.03
-246,55,2024-09-09,4,10.26,1.73,Credit Card,In-store Pickup,41,8,0.29
-246,55,2024-09-09,4,10.26,1.73,Credit Card,In-store Pickup,66,3,0.06
-246,55,2024-09-09,4,10.26,1.73,Credit Card,In-store Pickup,80,6,0.03
-246,55,2024-09-09,4,10.26,1.73,Credit Card,In-store Pickup,97,1,0.17
-247,17,2024-03-27,6,11.03,6.14,Credit Card,In-store Pickup,14,4,0.11
-248,58,2024-02-14,19,15.07,13.91,Cash,In-store Pickup,51,4,0.17
-249,71,2024-08-12,7,17.15,5.95,PayPal,Home Delivery,44,7,0.23
-249,71,2024-08-12,7,17.15,5.95,PayPal,Home Delivery,3,5,0.07
-250,79,2024-06-22,2,16.15,5.77,Cash,In-store Pickup,48,8,0.01
-250,79,2024-06-22,2,16.15,5.77,Cash,In-store Pickup,52,5,0.07
-251,38,2024-05-16,18,14.99,10.66,PayPal,Home Delivery,95,7,0.29
-252,79,2024-03-28,4,16.01,7.31,Credit Card,Home Delivery,15,8,0.02
-253,93,2024-09-29,12,13.02,1.51,PayPal,Home Delivery,28,1,0.22
-254,91,2024-04-23,9,16.29,1.96,Credit Card,Home Delivery,86,8,0.14
-254,91,2024-04-23,9,16.29,1.96,Credit Card,Home Delivery,11,8,0.3
-254,91,2024-04-23,9,16.29,1.96,Credit Card,Home Delivery,5,7,0.09
-255,61,2024-05-09,6,12.78,9.41,Credit Card,Home Delivery,26,4,0.02
-256,38,2024-04-07,6,11.49,1.08,Debit Card,In-store Pickup,74,7,0.11
-256,38,2024-04-07,6,11.49,1.08,Debit Card,In-store Pickup,85,1,0.28
-257,58,2024-04-27,18,5.38,12.64,PayPal,Home Delivery,50,3,0.29
-257,58,2024-04-27,18,5.38,12.64,PayPal,Home Delivery,48,10,0.13
-257,58,2024-04-27,18,5.38,12.64,PayPal,Home Delivery,23,6,0.04
-258,48,2024-06-15,11,13.74,6.66,PayPal,Home Delivery,83,9,0.21
-258,48,2024-06-15,11,13.74,6.66,PayPal,Home Delivery,26,4,0.09
-258,48,2024-06-15,11,13.74,6.66,PayPal,Home Delivery,99,9,0.21
-258,48,2024-06-15,11,13.74,6.66,PayPal,Home Delivery,47,4,0.26
-259,8,2024-02-07,14,11.79,13.12,Cash,Home Delivery,24,3,0.21
-259,8,2024-02-07,14,11.79,13.12,Cash,Home Delivery,51,7,0.06
-259,8,2024-02-07,14,11.79,13.12,Cash,Home Delivery,79,3,0.21
-260,50,2024-05-21,18,10.29,11.66,Cash,Home Delivery,62,2,0.18
-261,66,2024-04-10,10,17.34,6.77,Credit Card,In-store Pickup,54,2,0.2
-261,66,2024-04-10,10,17.34,6.77,Credit Card,In-store Pickup,34,3,0.26
-262,26,2024-06-07,3,14.04,1.66,PayPal,Home Delivery,18,6,0.18
-262,26,2024-06-07,3,14.04,1.66,PayPal,Home Delivery,49,4,0.21
-263,32,2024-08-26,14,14.08,1.9,PayPal,Home Delivery,3,6,0.12
-263,32,2024-08-26,14,14.08,1.9,PayPal,Home Delivery,29,4,0.29
-263,32,2024-08-26,14,14.08,1.9,PayPal,Home Delivery,4,2,0.13
-263,32,2024-08-26,14,14.08,1.9,PayPal,Home Delivery,84,6,0.03
-263,32,2024-08-26,14,14.08,1.9,PayPal,Home Delivery,89,4,0.2
-264,89,2024-07-22,18,5.37,14.98,Credit Card,In-store Pickup,35,4,0.0
-264,89,2024-07-22,18,5.37,14.98,Credit Card,In-store Pickup,42,9,0.14
-264,89,2024-07-22,18,5.37,14.98,Credit Card,In-store Pickup,12,4,0.09
-264,89,2024-07-22,18,5.37,14.98,Credit Card,In-store Pickup,75,7,0.2
-264,89,2024-07-22,18,5.37,14.98,Credit Card,In-store Pickup,99,3,0.2
-265,86,2024-03-31,17,11.26,6.66,Cash,Home Delivery,80,5,0.19
-265,86,2024-03-31,17,11.26,6.66,Cash,Home Delivery,49,5,0.29
-265,86,2024-03-31,17,11.26,6.66,Cash,Home Delivery,39,3,0.28
-265,86,2024-03-31,17,11.26,6.66,Cash,Home Delivery,3,1,0.17
-266,74,2024-04-21,1,13.84,13.07,Cash,In-store Pickup,91,2,0.19
-267,4,2024-04-07,16,5.81,1.36,PayPal,In-store Pickup,14,6,0.3
-267,4,2024-04-07,16,5.81,1.36,PayPal,In-store Pickup,32,9,0.3
-267,4,2024-04-07,16,5.81,1.36,PayPal,In-store Pickup,39,10,0.13
-267,4,2024-04-07,16,5.81,1.36,PayPal,In-store Pickup,83,3,0.16
-267,4,2024-04-07,16,5.81,1.36,PayPal,In-store Pickup,63,6,0.05
-268,21,2024-09-03,1,9.46,14.0,Cash,Home Delivery,70,7,0.21
-268,21,2024-09-03,1,9.46,14.0,Cash,Home Delivery,22,1,0.05
-269,99,2024-02-28,18,10.07,1.81,Debit Card,In-store Pickup,91,9,0.28
-270,80,2024-02-16,7,18.43,11.04,PayPal,In-store Pickup,58,6,0.2
-270,80,2024-02-16,7,18.43,11.04,PayPal,In-store Pickup,69,1,0.1
-270,80,2024-02-16,7,18.43,11.04,PayPal,In-store Pickup,45,4,0.27
-270,80,2024-02-16,7,18.43,11.04,PayPal,In-store Pickup,55,6,0.1
-271,12,2024-02-22,18,13.21,14.43,Debit Card,Home Delivery,8,4,0.15
-271,12,2024-02-22,18,13.21,14.43,Debit Card,Home Delivery,77,6,0.17
-272,24,2024-06-20,12,15.34,8.65,PayPal,Home Delivery,100,4,0.02
-272,24,2024-06-20,12,15.34,8.65,PayPal,Home Delivery,10,5,0.2
-272,24,2024-06-20,12,15.34,8.65,PayPal,Home Delivery,71,6,0.18
-272,24,2024-06-20,12,15.34,8.65,PayPal,Home Delivery,21,10,0.09
-272,24,2024-06-20,12,15.34,8.65,PayPal,Home Delivery,31,7,0.13
-273,42,2024-10-08,11,18.83,11.33,Credit Card,Home Delivery,92,3,0.08
-273,42,2024-10-08,11,18.83,11.33,Credit Card,Home Delivery,84,4,0.09
-273,42,2024-10-08,11,18.83,11.33,Credit Card,Home Delivery,6,9,0.23
-273,42,2024-10-08,11,18.83,11.33,Credit Card,Home Delivery,11,8,0.03
-273,42,2024-10-08,11,18.83,11.33,Credit Card,Home Delivery,58,7,0.22
-274,13,2024-06-28,4,18.07,11.57,Credit Card,In-store Pickup,70,1,0.02
-274,13,2024-06-28,4,18.07,11.57,Credit Card,In-store Pickup,67,5,0.24
-274,13,2024-06-28,4,18.07,11.57,Credit Card,In-store Pickup,64,3,0.02
-274,13,2024-06-28,4,18.07,11.57,Credit Card,In-store Pickup,49,8,0.2
-274,13,2024-06-28,4,18.07,11.57,Credit Card,In-store Pickup,74,7,0.1
-275,51,2024-09-21,3,13.74,9.53,Credit Card,Home Delivery,70,2,0.12
-275,51,2024-09-21,3,13.74,9.53,Credit Card,Home Delivery,40,8,0.28
-275,51,2024-09-21,3,13.74,9.53,Credit Card,Home Delivery,1,5,0.22
-276,92,2024-06-24,12,15.45,4.79,Debit Card,In-store Pickup,93,7,0.13
-276,92,2024-06-24,12,15.45,4.79,Debit Card,In-store Pickup,55,9,0.21
-276,92,2024-06-24,12,15.45,4.79,Debit Card,In-store Pickup,50,9,0.25
-276,92,2024-06-24,12,15.45,4.79,Debit Card,In-store Pickup,35,9,0.06
-276,92,2024-06-24,12,15.45,4.79,Debit Card,In-store Pickup,7,6,0.09
-277,33,2024-05-14,20,8.28,2.34,Credit Card,In-store Pickup,62,4,0.21
-278,41,2024-09-04,20,15.21,3.52,Cash,In-store Pickup,61,3,0.15
-278,41,2024-09-04,20,15.21,3.52,Cash,In-store Pickup,13,1,0.09
-278,41,2024-09-04,20,15.21,3.52,Cash,In-store Pickup,1,5,0.01
-278,41,2024-09-04,20,15.21,3.52,Cash,In-store Pickup,70,8,0.27
-279,56,2024-05-25,11,7.73,9.84,Cash,In-store Pickup,34,7,0.22
-279,56,2024-05-25,11,7.73,9.84,Cash,In-store Pickup,97,1,0.2
-279,56,2024-05-25,11,7.73,9.84,Cash,In-store Pickup,52,8,0.28
-279,56,2024-05-25,11,7.73,9.84,Cash,In-store Pickup,79,3,0.27
-279,56,2024-05-25,11,7.73,9.84,Cash,In-store Pickup,7,5,0.18
-280,40,2024-08-06,2,16.11,1.47,Cash,In-store Pickup,3,9,0.27
-280,40,2024-08-06,2,16.11,1.47,Cash,In-store Pickup,33,8,0.25
-280,40,2024-08-06,2,16.11,1.47,Cash,In-store Pickup,79,9,0.15
-280,40,2024-08-06,2,16.11,1.47,Cash,In-store Pickup,4,2,0.15
-280,40,2024-08-06,2,16.11,1.47,Cash,In-store Pickup,57,7,0.29
-281,65,2024-08-19,15,12.84,5.46,Debit Card,Home Delivery,85,10,0.18
-281,65,2024-08-19,15,12.84,5.46,Debit Card,Home Delivery,44,10,0.11
-282,56,2024-04-27,10,14.41,12.88,PayPal,In-store Pickup,25,10,0.15
-282,56,2024-04-27,10,14.41,12.88,PayPal,In-store Pickup,18,5,0.08
-282,56,2024-04-27,10,14.41,12.88,PayPal,In-store Pickup,11,1,0.2
-282,56,2024-04-27,10,14.41,12.88,PayPal,In-store Pickup,72,4,0.26
-282,56,2024-04-27,10,14.41,12.88,PayPal,In-store Pickup,76,4,0.27
-283,25,2024-10-06,17,14.35,1.2,Debit Card,Home Delivery,16,6,0.21
-283,25,2024-10-06,17,14.35,1.2,Debit Card,Home Delivery,80,6,0.11
-283,25,2024-10-06,17,14.35,1.2,Debit Card,Home Delivery,21,8,0.13
-284,18,2024-07-03,20,6.23,14.06,Debit Card,In-store Pickup,59,10,0.12
-284,18,2024-07-03,20,6.23,14.06,Debit Card,In-store Pickup,70,7,0.12
-285,76,2024-09-20,2,10.53,2.12,Debit Card,Home Delivery,76,2,0.17
-285,76,2024-09-20,2,10.53,2.12,Debit Card,Home Delivery,58,6,0.18
-285,76,2024-09-20,2,10.53,2.12,Debit Card,Home Delivery,34,9,0.26
-285,76,2024-09-20,2,10.53,2.12,Debit Card,Home Delivery,36,2,0.2
-286,21,2024-09-04,10,11.54,14.86,Debit Card,Home Delivery,29,3,0.06
-287,79,2024-01-04,4,17.47,13.55,Cash,Home Delivery,75,3,0.21
-287,79,2024-01-04,4,17.47,13.55,Cash,Home Delivery,59,4,0.15
-288,36,2024-10-10,1,7.86,4.24,Credit Card,In-store Pickup,99,1,0.2
-288,36,2024-10-10,1,7.86,4.24,Credit Card,In-store Pickup,20,4,0.22
-288,36,2024-10-10,1,7.86,4.24,Credit Card,In-store Pickup,34,10,0.06
-288,36,2024-10-10,1,7.86,4.24,Credit Card,In-store Pickup,79,9,0.2
-288,36,2024-10-10,1,7.86,4.24,Credit Card,In-store Pickup,28,7,0.21
-289,56,2024-01-20,13,16.97,7.04,PayPal,Home Delivery,85,5,0.29
-289,56,2024-01-20,13,16.97,7.04,PayPal,Home Delivery,82,2,0.19
-290,64,2024-03-20,1,7.11,12.85,Credit Card,Home Delivery,92,2,0.17
-290,64,2024-03-20,1,7.11,12.85,Credit Card,Home Delivery,68,6,0.27
-291,52,2024-03-07,8,10.38,9.85,Debit Card,In-store Pickup,59,8,0.01
-291,52,2024-03-07,8,10.38,9.85,Debit Card,In-store Pickup,96,2,0.29
-291,52,2024-03-07,8,10.38,9.85,Debit Card,In-store Pickup,9,8,0.18
-291,52,2024-03-07,8,10.38,9.85,Debit Card,In-store Pickup,38,5,0.27
-291,52,2024-03-07,8,10.38,9.85,Debit Card,In-store Pickup,64,3,0.01
-292,31,2024-09-15,18,8.32,14.59,Debit Card,In-store Pickup,19,8,0.24
-292,31,2024-09-15,18,8.32,14.59,Debit Card,In-store Pickup,84,4,0.1
-292,31,2024-09-15,18,8.32,14.59,Debit Card,In-store Pickup,52,10,0.29
-293,92,2024-06-30,5,9.28,11.8,Cash,Home Delivery,93,7,0.05
-293,92,2024-06-30,5,9.28,11.8,Cash,Home Delivery,51,5,0.22
-293,92,2024-06-30,5,9.28,11.8,Cash,Home Delivery,49,8,0.15
-293,92,2024-06-30,5,9.28,11.8,Cash,Home Delivery,24,2,0.07
-293,92,2024-06-30,5,9.28,11.8,Cash,Home Delivery,33,10,0.03
-294,82,2024-08-08,20,13.29,11.87,Credit Card,Home Delivery,68,4,0.03
-295,26,2024-06-19,11,5.99,1.42,Credit Card,Home Delivery,63,4,0.03
-295,26,2024-06-19,11,5.99,1.42,Credit Card,Home Delivery,10,4,0.18
-295,26,2024-06-19,11,5.99,1.42,Credit Card,Home Delivery,94,9,0.22
-296,10,2024-08-14,12,5.73,5.57,Debit Card,In-store Pickup,65,9,0.16
-296,10,2024-08-14,12,5.73,5.57,Debit Card,In-store Pickup,60,3,0.14
-296,10,2024-08-14,12,5.73,5.57,Debit Card,In-store Pickup,3,1,0.27
-297,94,2024-09-06,17,7.46,2.04,Debit Card,Home Delivery,44,2,0.29
-297,94,2024-09-06,17,7.46,2.04,Debit Card,Home Delivery,31,3,0.25
-298,95,2024-03-23,4,6.08,13.83,Cash,In-store Pickup,88,5,0.23
-298,95,2024-03-23,4,6.08,13.83,Cash,In-store Pickup,63,4,0.05
-298,95,2024-03-23,4,6.08,13.83,Cash,In-store Pickup,29,6,0.12
-299,4,2024-11-04,12,7.75,13.05,Debit Card,Home Delivery,95,3,0.03
-299,4,2024-11-04,12,7.75,13.05,Debit Card,Home Delivery,56,5,0.16
-299,4,2024-11-04,12,7.75,13.05,Debit Card,Home Delivery,86,6,0.19
-299,4,2024-11-04,12,7.75,13.05,Debit Card,Home Delivery,66,10,0.02
-299,4,2024-11-04,12,7.75,13.05,Debit Card,Home Delivery,94,4,0.26
-300,12,2024-03-12,17,11.49,9.63,PayPal,Home Delivery,58,3,0.3
-300,12,2024-03-12,17,11.49,9.63,PayPal,Home Delivery,51,8,0.13
-300,12,2024-03-12,17,11.49,9.63,PayPal,Home Delivery,99,8,0.11
-301,75,2024-08-28,9,16.43,8.64,PayPal,Home Delivery,31,1,0.08
-301,75,2024-08-28,9,16.43,8.64,PayPal,Home Delivery,94,2,0.13
-301,75,2024-08-28,9,16.43,8.64,PayPal,Home Delivery,83,4,0.15
-302,85,2024-02-25,11,12.94,5.51,Credit Card,In-store Pickup,52,4,0.08
-302,85,2024-02-25,11,12.94,5.51,Credit Card,In-store Pickup,74,4,0.11
-302,85,2024-02-25,11,12.94,5.51,Credit Card,In-store Pickup,100,10,0.12
-302,85,2024-02-25,11,12.94,5.51,Credit Card,In-store Pickup,22,10,0.06
-302,85,2024-02-25,11,12.94,5.51,Credit Card,In-store Pickup,59,3,0.18
-303,18,2024-06-25,16,7.48,14.13,Debit Card,Home Delivery,72,2,0.09
-303,18,2024-06-25,16,7.48,14.13,Debit Card,Home Delivery,84,5,0.27
-303,18,2024-06-25,16,7.48,14.13,Debit Card,Home Delivery,44,9,0.02
-304,75,2024-02-24,2,19.95,13.42,PayPal,Home Delivery,87,10,0.1
-304,75,2024-02-24,2,19.95,13.42,PayPal,Home Delivery,45,5,0.2
-304,75,2024-02-24,2,19.95,13.42,PayPal,Home Delivery,28,3,0.19
-304,75,2024-02-24,2,19.95,13.42,PayPal,Home Delivery,9,7,0.08
-304,75,2024-02-24,2,19.95,13.42,PayPal,Home Delivery,30,7,0.03
-305,62,2024-03-14,9,7.58,7.05,Debit Card,Home Delivery,85,8,0.12
-305,62,2024-03-14,9,7.58,7.05,Debit Card,Home Delivery,79,1,0.15
-305,62,2024-03-14,9,7.58,7.05,Debit Card,Home Delivery,2,8,0.17
-305,62,2024-03-14,9,7.58,7.05,Debit Card,Home Delivery,14,5,0.09
-305,62,2024-03-14,9,7.58,7.05,Debit Card,Home Delivery,39,1,0.03
-306,4,2024-04-17,13,13.53,4.48,PayPal,Home Delivery,48,6,0.08
-306,4,2024-04-17,13,13.53,4.48,PayPal,Home Delivery,35,1,0.17
-306,4,2024-04-17,13,13.53,4.48,PayPal,Home Delivery,39,5,0.11
-307,46,2024-08-26,8,18.11,5.51,Debit Card,Home Delivery,64,4,0.03
-307,46,2024-08-26,8,18.11,5.51,Debit Card,Home Delivery,5,6,0.18
-307,46,2024-08-26,8,18.11,5.51,Debit Card,Home Delivery,82,3,0.06
-307,46,2024-08-26,8,18.11,5.51,Debit Card,Home Delivery,68,7,0.22
-308,30,2024-03-19,7,5.65,6.22,Cash,In-store Pickup,36,3,0.18
-308,30,2024-03-19,7,5.65,6.22,Cash,In-store Pickup,50,4,0.01
-308,30,2024-03-19,7,5.65,6.22,Cash,In-store Pickup,27,2,0.0
-308,30,2024-03-19,7,5.65,6.22,Cash,In-store Pickup,16,1,0.24
-308,30,2024-03-19,7,5.65,6.22,Cash,In-store Pickup,3,4,0.09
-309,44,2024-07-11,17,17.04,9.4,Debit Card,Home Delivery,26,8,0.27
-309,44,2024-07-11,17,17.04,9.4,Debit Card,Home Delivery,14,4,0.05
-309,44,2024-07-11,17,17.04,9.4,Debit Card,Home Delivery,37,9,0.21
-309,44,2024-07-11,17,17.04,9.4,Debit Card,Home Delivery,42,8,0.25
-310,26,2024-05-02,6,8.57,14.52,Debit Card,Home Delivery,15,1,0.01
-310,26,2024-05-02,6,8.57,14.52,Debit Card,Home Delivery,50,8,0.28
-310,26,2024-05-02,6,8.57,14.52,Debit Card,Home Delivery,78,8,0.01
-311,60,2024-08-09,20,16.1,5.93,PayPal,Home Delivery,20,2,0.05
-311,60,2024-08-09,20,16.1,5.93,PayPal,Home Delivery,99,8,0.17
-311,60,2024-08-09,20,16.1,5.93,PayPal,Home Delivery,98,9,0.22
-311,60,2024-08-09,20,16.1,5.93,PayPal,Home Delivery,79,2,0.16
-312,39,2024-06-13,17,10.01,10.02,Cash,Home Delivery,9,6,0.27
-312,39,2024-06-13,17,10.01,10.02,Cash,Home Delivery,60,1,0.04
-312,39,2024-06-13,17,10.01,10.02,Cash,Home Delivery,8,1,0.24
-313,97,2024-03-16,2,6.37,1.08,Debit Card,Home Delivery,73,10,0.1
-314,71,2024-02-27,17,17.92,6.61,Cash,In-store Pickup,21,9,0.26
-314,71,2024-02-27,17,17.92,6.61,Cash,In-store Pickup,75,8,0.08
-314,71,2024-02-27,17,17.92,6.61,Cash,In-store Pickup,86,4,0.23
-314,71,2024-02-27,17,17.92,6.61,Cash,In-store Pickup,52,3,0.15
-315,20,2024-07-27,16,17.79,10.46,Cash,Home Delivery,87,6,0.13
-315,20,2024-07-27,16,17.79,10.46,Cash,Home Delivery,94,7,0.24
-315,20,2024-07-27,16,17.79,10.46,Cash,Home Delivery,79,3,0.11
-316,75,2024-01-10,13,10.18,6.91,Credit Card,In-store Pickup,80,7,0.02
-316,75,2024-01-10,13,10.18,6.91,Credit Card,In-store Pickup,27,10,0.16
-316,75,2024-01-10,13,10.18,6.91,Credit Card,In-store Pickup,29,6,0.14
-316,75,2024-01-10,13,10.18,6.91,Credit Card,In-store Pickup,32,3,0.24
-316,75,2024-01-10,13,10.18,6.91,Credit Card,In-store Pickup,44,6,0.17
-317,72,2024-06-06,14,12.1,10.84,Cash,In-store Pickup,19,7,0.27
-317,72,2024-06-06,14,12.1,10.84,Cash,In-store Pickup,16,5,0.1
-317,72,2024-06-06,14,12.1,10.84,Cash,In-store Pickup,95,9,0.22
-317,72,2024-06-06,14,12.1,10.84,Cash,In-store Pickup,41,6,0.27
-318,75,2024-05-02,16,19.9,10.37,Cash,In-store Pickup,50,7,0.22
-319,56,2024-07-26,4,13.78,2.98,Cash,In-store Pickup,44,5,0.14
-319,56,2024-07-26,4,13.78,2.98,Cash,In-store Pickup,72,10,0.0
-320,46,2024-04-07,8,13.83,2.1,PayPal,Home Delivery,70,2,0.23
-320,46,2024-04-07,8,13.83,2.1,PayPal,Home Delivery,75,1,0.25
-320,46,2024-04-07,8,13.83,2.1,PayPal,Home Delivery,32,10,0.09
-320,46,2024-04-07,8,13.83,2.1,PayPal,Home Delivery,54,3,0.15
-320,46,2024-04-07,8,13.83,2.1,PayPal,Home Delivery,89,3,0.11
-321,35,2024-03-05,2,12.18,13.43,Cash,In-store Pickup,3,5,0.19
-321,35,2024-03-05,2,12.18,13.43,Cash,In-store Pickup,84,6,0.29
-322,53,2024-01-03,18,17.74,9.57,Cash,Home Delivery,30,4,0.19
-323,36,2024-02-07,13,16.84,11.68,Cash,In-store Pickup,96,9,0.16
-324,91,2024-05-26,6,18.35,10.7,Cash,Home Delivery,38,9,0.06
-324,91,2024-05-26,6,18.35,10.7,Cash,Home Delivery,45,9,0.28
-325,74,2024-01-21,16,13.92,3.08,Cash,In-store Pickup,18,5,0.1
-325,74,2024-01-21,16,13.92,3.08,Cash,In-store Pickup,23,8,0.15
-325,74,2024-01-21,16,13.92,3.08,Cash,In-store Pickup,2,8,0.09
-326,32,2024-01-29,15,5.73,12.18,Cash,Home Delivery,35,1,0.22
-327,84,2024-09-26,5,15.12,3.66,Debit Card,Home Delivery,98,9,0.23
-327,84,2024-09-26,5,15.12,3.66,Debit Card,Home Delivery,5,4,0.15
-328,21,2024-05-30,7,13.52,9.49,Debit Card,Home Delivery,15,7,0.28
-328,21,2024-05-30,7,13.52,9.49,Debit Card,Home Delivery,92,6,0.12
-328,21,2024-05-30,7,13.52,9.49,Debit Card,Home Delivery,90,1,0.08
-328,21,2024-05-30,7,13.52,9.49,Debit Card,Home Delivery,52,3,0.04
-328,21,2024-05-30,7,13.52,9.49,Debit Card,Home Delivery,29,1,0.04
-329,37,2024-09-29,12,5.56,10.93,Cash,In-store Pickup,58,7,0.26
-329,37,2024-09-29,12,5.56,10.93,Cash,In-store Pickup,20,3,0.29
-329,37,2024-09-29,12,5.56,10.93,Cash,In-store Pickup,89,8,0.03
-330,51,2024-10-01,6,15.97,11.58,Cash,In-store Pickup,61,5,0.1
-331,29,2024-07-13,11,18.84,11.72,Credit Card,In-store Pickup,17,4,0.19
-331,29,2024-07-13,11,18.84,11.72,Credit Card,In-store Pickup,78,10,0.22
-331,29,2024-07-13,11,18.84,11.72,Credit Card,In-store Pickup,51,10,0.12
-332,32,2024-08-15,2,11.02,13.59,Cash,Home Delivery,83,6,0.12
-332,32,2024-08-15,2,11.02,13.59,Cash,Home Delivery,74,9,0.16
-333,12,2024-06-30,16,9.05,9.14,Cash,In-store Pickup,52,9,0.0
-333,12,2024-06-30,16,9.05,9.14,Cash,In-store Pickup,22,9,0.02
-333,12,2024-06-30,16,9.05,9.14,Cash,In-store Pickup,84,2,0.22
-333,12,2024-06-30,16,9.05,9.14,Cash,In-store Pickup,15,6,0.1
-334,68,2024-05-01,4,6.83,9.21,PayPal,Home Delivery,93,9,0.24
-334,68,2024-05-01,4,6.83,9.21,PayPal,Home Delivery,79,8,0.08
-334,68,2024-05-01,4,6.83,9.21,PayPal,Home Delivery,21,2,0.15
-334,68,2024-05-01,4,6.83,9.21,PayPal,Home Delivery,43,9,0.28
-334,68,2024-05-01,4,6.83,9.21,PayPal,Home Delivery,66,9,0.21
-335,34,2024-10-25,5,15.97,14.79,Debit Card,Home Delivery,97,4,0.21
-335,34,2024-10-25,5,15.97,14.79,Debit Card,Home Delivery,11,1,0.15
-336,21,2024-05-05,15,9.58,3.22,Debit Card,Home Delivery,67,7,0.28
-336,21,2024-05-05,15,9.58,3.22,Debit Card,Home Delivery,88,7,0.07
-336,21,2024-05-05,15,9.58,3.22,Debit Card,Home Delivery,92,2,0.09
-336,21,2024-05-05,15,9.58,3.22,Debit Card,Home Delivery,79,9,0.03
-336,21,2024-05-05,15,9.58,3.22,Debit Card,Home Delivery,68,1,0.11
-337,82,2024-02-21,6,15.85,4.63,PayPal,Home Delivery,63,8,0.06
-337,82,2024-02-21,6,15.85,4.63,PayPal,Home Delivery,18,9,0.2
-337,82,2024-02-21,6,15.85,4.63,PayPal,Home Delivery,14,9,0.07
-337,82,2024-02-21,6,15.85,4.63,PayPal,Home Delivery,56,1,0.04
-337,82,2024-02-21,6,15.85,4.63,PayPal,Home Delivery,78,1,0.3
-338,10,2024-03-07,10,7.04,14.29,PayPal,Home Delivery,16,10,0.27
-338,10,2024-03-07,10,7.04,14.29,PayPal,Home Delivery,24,5,0.04
-338,10,2024-03-07,10,7.04,14.29,PayPal,Home Delivery,38,6,0.12
-339,41,2024-05-13,2,5.11,10.69,Cash,In-store Pickup,88,1,0.08
-339,41,2024-05-13,2,5.11,10.69,Cash,In-store Pickup,44,8,0.28
-340,31,2024-02-12,3,11.12,3.16,Debit Card,In-store Pickup,37,7,0.05
-340,31,2024-02-12,3,11.12,3.16,Debit Card,In-store Pickup,55,5,0.14
-340,31,2024-02-12,3,11.12,3.16,Debit Card,In-store Pickup,87,10,0.03
-340,31,2024-02-12,3,11.12,3.16,Debit Card,In-store Pickup,31,4,0.28
-341,25,2024-05-30,19,12.27,7.25,PayPal,In-store Pickup,92,7,0.09
-341,25,2024-05-30,19,12.27,7.25,PayPal,In-store Pickup,44,7,0.11
-341,25,2024-05-30,19,12.27,7.25,PayPal,In-store Pickup,94,6,0.0
-341,25,2024-05-30,19,12.27,7.25,PayPal,In-store Pickup,77,1,0.27
-341,25,2024-05-30,19,12.27,7.25,PayPal,In-store Pickup,81,7,0.11
-342,80,2024-06-07,12,6.04,3.93,Cash,In-store Pickup,57,8,0.29
-342,80,2024-06-07,12,6.04,3.93,Cash,In-store Pickup,12,8,0.21
-343,98,2024-03-26,8,15.83,5.09,Debit Card,In-store Pickup,64,3,0.13
-344,25,2024-03-31,18,19.16,8.25,Credit Card,In-store Pickup,14,8,0.07
-344,25,2024-03-31,18,19.16,8.25,Credit Card,In-store Pickup,30,10,0.2
-344,25,2024-03-31,18,19.16,8.25,Credit Card,In-store Pickup,10,9,0.1
-345,16,2024-09-09,17,17.18,14.72,Credit Card,In-store Pickup,64,3,0.12
-345,16,2024-09-09,17,17.18,14.72,Credit Card,In-store Pickup,85,2,0.0
-345,16,2024-09-09,17,17.18,14.72,Credit Card,In-store Pickup,86,10,0.26
-345,16,2024-09-09,17,17.18,14.72,Credit Card,In-store Pickup,82,3,0.28
-345,16,2024-09-09,17,17.18,14.72,Credit Card,In-store Pickup,1,1,0.01
-346,45,2024-09-24,9,8.72,5.81,PayPal,Home Delivery,97,4,0.08
-346,45,2024-09-24,9,8.72,5.81,PayPal,Home Delivery,60,5,0.08
-346,45,2024-09-24,9,8.72,5.81,PayPal,Home Delivery,76,4,0.14
-346,45,2024-09-24,9,8.72,5.81,PayPal,Home Delivery,28,9,0.29
-346,45,2024-09-24,9,8.72,5.81,PayPal,Home Delivery,60,10,0.12
-347,79,2024-09-07,5,17.55,3.85,Debit Card,In-store Pickup,47,3,0.17
-347,79,2024-09-07,5,17.55,3.85,Debit Card,In-store Pickup,100,1,0.11
-348,99,2024-02-20,10,11.56,14.93,Debit Card,In-store Pickup,39,8,0.18
-348,99,2024-02-20,10,11.56,14.93,Debit Card,In-store Pickup,74,6,0.11
-349,90,2024-08-24,4,13.22,5.96,Cash,In-store Pickup,40,5,0.1
-349,90,2024-08-24,4,13.22,5.96,Cash,In-store Pickup,41,1,0.11
-350,59,2024-08-30,11,17.32,7.89,PayPal,Home Delivery,36,8,0.25
-350,59,2024-08-30,11,17.32,7.89,PayPal,Home Delivery,78,4,0.14
-350,59,2024-08-30,11,17.32,7.89,PayPal,Home Delivery,47,4,0.13
-351,26,2024-03-18,10,6.94,5.07,Cash,In-store Pickup,72,1,0.07
-352,98,2024-07-31,2,10.34,1.25,Cash,Home Delivery,82,9,0.15
-352,98,2024-07-31,2,10.34,1.25,Cash,Home Delivery,32,10,0.29
-353,4,2024-06-17,20,7.27,14.58,Credit Card,In-store Pickup,87,7,0.07
-354,39,2024-02-29,3,19.94,5.77,Cash,Home Delivery,8,4,0.1
-354,39,2024-02-29,3,19.94,5.77,Cash,Home Delivery,48,10,0.17
-354,39,2024-02-29,3,19.94,5.77,Cash,Home Delivery,91,8,0.0
-354,39,2024-02-29,3,19.94,5.77,Cash,Home Delivery,70,5,0.14
-354,39,2024-02-29,3,19.94,5.77,Cash,Home Delivery,14,10,0.13
-355,74,2024-03-19,2,7.66,5.35,Debit Card,Home Delivery,11,2,0.13
-355,74,2024-03-19,2,7.66,5.35,Debit Card,Home Delivery,66,6,0.08
-355,74,2024-03-19,2,7.66,5.35,Debit Card,Home Delivery,13,3,0.18
-356,94,2024-02-15,18,19.02,6.27,Debit Card,In-store Pickup,23,1,0.21
-357,40,2024-09-24,17,19.21,2.43,Cash,Home Delivery,70,4,0.27
-357,40,2024-09-24,17,19.21,2.43,Cash,Home Delivery,20,1,0.24
-358,77,2024-01-04,6,13.97,3.47,Credit Card,Home Delivery,47,4,0.01
-359,51,2024-09-04,20,16.7,1.14,PayPal,In-store Pickup,14,3,0.19
-359,51,2024-09-04,20,16.7,1.14,PayPal,In-store Pickup,9,10,0.29
-359,51,2024-09-04,20,16.7,1.14,PayPal,In-store Pickup,68,9,0.23
-360,60,2024-01-05,2,17.82,1.37,Credit Card,In-store Pickup,37,1,0.22
-360,60,2024-01-05,2,17.82,1.37,Credit Card,In-store Pickup,26,10,0.03
-360,60,2024-01-05,2,17.82,1.37,Credit Card,In-store Pickup,91,6,0.02
-360,60,2024-01-05,2,17.82,1.37,Credit Card,In-store Pickup,87,10,0.28
-360,60,2024-01-05,2,17.82,1.37,Credit Card,In-store Pickup,91,9,0.28
-361,40,2024-08-07,1,7.3,11.52,Credit Card,Home Delivery,3,5,0.13
-362,65,2024-05-14,10,19.03,12.6,Credit Card,In-store Pickup,65,2,0.12
-362,65,2024-05-14,10,19.03,12.6,Credit Card,In-store Pickup,40,3,0.18
-362,65,2024-05-14,10,19.03,12.6,Credit Card,In-store Pickup,99,1,0.02
-362,65,2024-05-14,10,19.03,12.6,Credit Card,In-store Pickup,27,10,0.27
-363,28,2024-03-12,14,7.88,11.0,Credit Card,Home Delivery,50,9,0.18
-363,28,2024-03-12,14,7.88,11.0,Credit Card,Home Delivery,10,3,0.28
-363,28,2024-03-12,14,7.88,11.0,Credit Card,Home Delivery,13,7,0.26
-364,83,2024-03-25,11,19.16,9.55,Cash,In-store Pickup,63,10,0.16
-364,83,2024-03-25,11,19.16,9.55,Cash,In-store Pickup,53,5,0.28
-364,83,2024-03-25,11,19.16,9.55,Cash,In-store Pickup,90,1,0.05
-364,83,2024-03-25,11,19.16,9.55,Cash,In-store Pickup,42,1,0.15
-365,33,2024-07-22,3,10.69,11.45,PayPal,In-store Pickup,17,10,0.2
-365,33,2024-07-22,3,10.69,11.45,PayPal,In-store Pickup,81,5,0.29
-365,33,2024-07-22,3,10.69,11.45,PayPal,In-store Pickup,93,4,0.27
-366,11,2024-08-12,9,12.8,5.21,Debit Card,Home Delivery,6,5,0.13
-366,11,2024-08-12,9,12.8,5.21,Debit Card,Home Delivery,6,10,0.26
-367,26,2024-04-01,10,14.01,4.17,Credit Card,In-store Pickup,68,7,0.22
-367,26,2024-04-01,10,14.01,4.17,Credit Card,In-store Pickup,43,3,0.25
-367,26,2024-04-01,10,14.01,4.17,Credit Card,In-store Pickup,15,3,0.07
-367,26,2024-04-01,10,14.01,4.17,Credit Card,In-store Pickup,92,2,0.29
-368,97,2024-05-24,10,7.32,11.65,Debit Card,In-store Pickup,70,1,0.18
-368,97,2024-05-24,10,7.32,11.65,Debit Card,In-store Pickup,77,7,0.1
-369,15,2024-09-29,13,14.76,14.06,Debit Card,In-store Pickup,89,3,0.25
-369,15,2024-09-29,13,14.76,14.06,Debit Card,In-store Pickup,4,4,0.02
-369,15,2024-09-29,13,14.76,14.06,Debit Card,In-store Pickup,14,1,0.27
-370,7,2024-01-17,17,6.73,7.68,Credit Card,In-store Pickup,93,5,0.13
-371,44,2024-10-13,14,13.85,11.46,PayPal,In-store Pickup,22,9,0.12
-371,44,2024-10-13,14,13.85,11.46,PayPal,In-store Pickup,3,7,0.02
-371,44,2024-10-13,14,13.85,11.46,PayPal,In-store Pickup,46,10,0.02
-371,44,2024-10-13,14,13.85,11.46,PayPal,In-store Pickup,31,4,0.29
-372,53,2024-01-18,19,12.47,4.84,Credit Card,In-store Pickup,60,7,0.26
-372,53,2024-01-18,19,12.47,4.84,Credit Card,In-store Pickup,18,7,0.02
-373,22,2024-10-02,18,16.99,9.29,Cash,In-store Pickup,35,4,0.25
-373,22,2024-10-02,18,16.99,9.29,Cash,In-store Pickup,7,9,0.08
-373,22,2024-10-02,18,16.99,9.29,Cash,In-store Pickup,70,3,0.22
-373,22,2024-10-02,18,16.99,9.29,Cash,In-store Pickup,26,4,0.12
-374,35,2024-04-07,3,15.26,4.45,Debit Card,In-store Pickup,32,8,0.02
-374,35,2024-04-07,3,15.26,4.45,Debit Card,In-store Pickup,40,1,0.26
-374,35,2024-04-07,3,15.26,4.45,Debit Card,In-store Pickup,64,1,0.26
-374,35,2024-04-07,3,15.26,4.45,Debit Card,In-store Pickup,74,4,0.01
-375,75,2024-05-17,15,18.5,14.39,Debit Card,Home Delivery,49,8,0.22
-375,75,2024-05-17,15,18.5,14.39,Debit Card,Home Delivery,57,6,0.05
-375,75,2024-05-17,15,18.5,14.39,Debit Card,Home Delivery,53,1,0.07
-376,78,2024-02-08,12,11.0,3.88,Credit Card,In-store Pickup,21,1,0.03
-376,78,2024-02-08,12,11.0,3.88,Credit Card,In-store Pickup,88,8,0.08
-376,78,2024-02-08,12,11.0,3.88,Credit Card,In-store Pickup,47,3,0.22
-376,78,2024-02-08,12,11.0,3.88,Credit Card,In-store Pickup,21,7,0.28
-376,78,2024-02-08,12,11.0,3.88,Credit Card,In-store Pickup,79,9,0.03
-377,53,2024-01-30,16,8.58,5.84,Cash,In-store Pickup,30,6,0.11
-377,53,2024-01-30,16,8.58,5.84,Cash,In-store Pickup,6,10,0.11
-377,53,2024-01-30,16,8.58,5.84,Cash,In-store Pickup,84,8,0.11
-377,53,2024-01-30,16,8.58,5.84,Cash,In-store Pickup,58,7,0.15
-378,97,2024-04-18,12,17.49,4.55,Cash,Home Delivery,12,6,0.16
-378,97,2024-04-18,12,17.49,4.55,Cash,Home Delivery,51,6,0.28
-378,97,2024-04-18,12,17.49,4.55,Cash,Home Delivery,71,7,0.19
-379,30,2024-03-02,20,8.05,2.25,PayPal,Home Delivery,45,5,0.05
-379,30,2024-03-02,20,8.05,2.25,PayPal,Home Delivery,15,6,0.3
-379,30,2024-03-02,20,8.05,2.25,PayPal,Home Delivery,80,9,0.26
-379,30,2024-03-02,20,8.05,2.25,PayPal,Home Delivery,68,2,0.16
-379,30,2024-03-02,20,8.05,2.25,PayPal,Home Delivery,74,5,0.19
-380,61,2024-08-30,1,9.52,5.95,PayPal,In-store Pickup,13,2,0.28
-380,61,2024-08-30,1,9.52,5.95,PayPal,In-store Pickup,41,2,0.15
-380,61,2024-08-30,1,9.52,5.95,PayPal,In-store Pickup,5,6,0.07
-380,61,2024-08-30,1,9.52,5.95,PayPal,In-store Pickup,100,2,0.16
-380,61,2024-08-30,1,9.52,5.95,PayPal,In-store Pickup,72,3,0.1
-381,39,2024-09-21,12,19.24,4.43,Cash,Home Delivery,42,2,0.23
-381,39,2024-09-21,12,19.24,4.43,Cash,Home Delivery,21,1,0.2
-381,39,2024-09-21,12,19.24,4.43,Cash,Home Delivery,65,7,0.21
-381,39,2024-09-21,12,19.24,4.43,Cash,Home Delivery,5,2,0.24
-382,53,2024-02-08,10,16.98,5.99,Cash,In-store Pickup,87,8,0.08
-382,53,2024-02-08,10,16.98,5.99,Cash,In-store Pickup,92,6,0.0
-382,53,2024-02-08,10,16.98,5.99,Cash,In-store Pickup,63,8,0.25
-383,73,2024-04-09,18,6.72,12.94,Credit Card,In-store Pickup,31,1,0.28
-384,27,2024-01-11,6,19.67,7.24,Cash,Home Delivery,40,6,0.05
-384,27,2024-01-11,6,19.67,7.24,Cash,Home Delivery,72,10,0.29
-384,27,2024-01-11,6,19.67,7.24,Cash,Home Delivery,68,5,0.3
-384,27,2024-01-11,6,19.67,7.24,Cash,Home Delivery,62,4,0.27
-384,27,2024-01-11,6,19.67,7.24,Cash,Home Delivery,95,10,0.24
-385,63,2024-11-04,8,7.31,10.19,Credit Card,Home Delivery,78,8,0.07
-385,63,2024-11-04,8,7.31,10.19,Credit Card,Home Delivery,66,2,0.12
-385,63,2024-11-04,8,7.31,10.19,Credit Card,Home Delivery,23,4,0.01
-386,76,2024-10-25,20,16.13,11.82,Cash,In-store Pickup,54,3,0.2
-386,76,2024-10-25,20,16.13,11.82,Cash,In-store Pickup,78,3,0.08
-386,76,2024-10-25,20,16.13,11.82,Cash,In-store Pickup,56,6,0.07
-386,76,2024-10-25,20,16.13,11.82,Cash,In-store Pickup,60,2,0.07
-387,45,2024-07-16,10,13.97,2.89,Credit Card,Home Delivery,47,1,0.06
-388,72,2024-05-11,18,10.85,14.2,Cash,Home Delivery,68,9,0.18
-388,72,2024-05-11,18,10.85,14.2,Cash,Home Delivery,19,7,0.26
-388,72,2024-05-11,18,10.85,14.2,Cash,Home Delivery,25,1,0.23
-388,72,2024-05-11,18,10.85,14.2,Cash,Home Delivery,81,7,0.15
-389,77,2024-02-21,11,5.18,4.41,Cash,Home Delivery,72,5,0.09
-389,77,2024-02-21,11,5.18,4.41,Cash,Home Delivery,33,4,0.25
-389,77,2024-02-21,11,5.18,4.41,Cash,Home Delivery,26,7,0.28
-389,77,2024-02-21,11,5.18,4.41,Cash,Home Delivery,95,3,0.09
-390,69,2024-07-15,15,6.78,6.36,Debit Card,Home Delivery,73,6,0.04
-390,69,2024-07-15,15,6.78,6.36,Debit Card,Home Delivery,86,7,0.23
-390,69,2024-07-15,15,6.78,6.36,Debit Card,Home Delivery,92,1,0.13
-390,69,2024-07-15,15,6.78,6.36,Debit Card,Home Delivery,33,1,0.08
-391,11,2024-10-23,9,5.6,12.41,Credit Card,In-store Pickup,49,7,0.01
-392,10,2024-09-12,7,5.27,12.09,PayPal,Home Delivery,26,1,0.18
-392,10,2024-09-12,7,5.27,12.09,PayPal,Home Delivery,36,2,0.02
-392,10,2024-09-12,7,5.27,12.09,PayPal,Home Delivery,26,8,0.06
-393,46,2024-05-17,6,14.06,8.08,Debit Card,Home Delivery,72,7,0.27
-393,46,2024-05-17,6,14.06,8.08,Debit Card,Home Delivery,18,7,0.15
-393,46,2024-05-17,6,14.06,8.08,Debit Card,Home Delivery,7,9,0.24
-393,46,2024-05-17,6,14.06,8.08,Debit Card,Home Delivery,34,5,0.05
-393,46,2024-05-17,6,14.06,8.08,Debit Card,Home Delivery,85,3,0.18
-394,100,2024-07-05,15,17.19,8.23,Credit Card,Home Delivery,71,8,0.1
-394,100,2024-07-05,15,17.19,8.23,Credit Card,Home Delivery,41,8,0.02
-394,100,2024-07-05,15,17.19,8.23,Credit Card,Home Delivery,32,2,0.3
-394,100,2024-07-05,15,17.19,8.23,Credit Card,Home Delivery,2,1,0.11
-394,100,2024-07-05,15,17.19,8.23,Credit Card,Home Delivery,43,4,0.27
-395,17,2024-09-23,10,15.63,7.54,Debit Card,In-store Pickup,55,9,0.2
-396,9,2024-05-27,11,15.54,3.89,Cash,Home Delivery,15,1,0.18
-397,72,2024-10-17,5,19.96,14.06,PayPal,In-store Pickup,11,4,0.07
-398,55,2024-05-14,11,12.77,14.44,Credit Card,In-store Pickup,46,8,0.18
-398,55,2024-05-14,11,12.77,14.44,Credit Card,In-store Pickup,52,10,0.11
-398,55,2024-05-14,11,12.77,14.44,Credit Card,In-store Pickup,11,2,0.0
-398,55,2024-05-14,11,12.77,14.44,Credit Card,In-store Pickup,34,10,0.2
-399,20,2024-06-06,3,10.83,14.19,Credit Card,Home Delivery,60,5,0.17
-399,20,2024-06-06,3,10.83,14.19,Credit Card,Home Delivery,48,1,0.18
-399,20,2024-06-06,3,10.83,14.19,Credit Card,Home Delivery,65,2,0.0
-399,20,2024-06-06,3,10.83,14.19,Credit Card,Home Delivery,24,2,0.14
-400,44,2024-08-12,2,14.53,1.11,Debit Card,Home Delivery,40,6,0.04
-400,44,2024-08-12,2,14.53,1.11,Debit Card,Home Delivery,58,7,0.06
-400,44,2024-08-12,2,14.53,1.11,Debit Card,Home Delivery,96,10,0.1
-401,32,2024-04-30,20,7.08,2.66,Credit Card,In-store Pickup,80,2,0.29
-402,46,2024-05-28,3,14.78,10.3,PayPal,In-store Pickup,70,5,0.18
-402,46,2024-05-28,3,14.78,10.3,PayPal,In-store Pickup,29,7,0.1
-402,46,2024-05-28,3,14.78,10.3,PayPal,In-store Pickup,1,8,0.17
-403,80,2024-10-27,5,18.25,13.54,Debit Card,In-store Pickup,85,3,0.21
-404,5,2024-02-09,6,9.22,1.59,Cash,Home Delivery,61,7,0.12
-405,8,2024-07-31,5,15.64,3.44,PayPal,Home Delivery,35,4,0.2
-406,18,2024-01-14,6,18.38,5.84,PayPal,Home Delivery,92,9,0.09
-406,18,2024-01-14,6,18.38,5.84,PayPal,Home Delivery,7,4,0.19
-406,18,2024-01-14,6,18.38,5.84,PayPal,Home Delivery,50,6,0.11
-406,18,2024-01-14,6,18.38,5.84,PayPal,Home Delivery,100,5,0.14
-406,18,2024-01-14,6,18.38,5.84,PayPal,Home Delivery,27,2,0.02
-407,12,2024-07-28,17,8.36,6.54,Credit Card,In-store Pickup,26,5,0.19
-407,12,2024-07-28,17,8.36,6.54,Credit Card,In-store Pickup,79,1,0.02
-407,12,2024-07-28,17,8.36,6.54,Credit Card,In-store Pickup,10,8,0.12
-407,12,2024-07-28,17,8.36,6.54,Credit Card,In-store Pickup,17,9,0.01
-408,10,2024-08-27,9,9.47,11.57,Cash,Home Delivery,100,1,0.18
-408,10,2024-08-27,9,9.47,11.57,Cash,Home Delivery,90,9,0.03
-408,10,2024-08-27,9,9.47,11.57,Cash,Home Delivery,73,7,0.09
-409,61,2024-03-26,2,15.75,1.58,PayPal,In-store Pickup,50,9,0.29
-409,61,2024-03-26,2,15.75,1.58,PayPal,In-store Pickup,8,8,0.1
-410,56,2024-02-22,15,17.13,3.22,Debit Card,Home Delivery,95,10,0.04
-410,56,2024-02-22,15,17.13,3.22,Debit Card,Home Delivery,14,1,0.07
-411,39,2024-03-29,20,18.49,1.41,Credit Card,In-store Pickup,24,3,0.18
-412,22,2024-07-16,17,18.88,7.95,PayPal,In-store Pickup,92,3,0.01
-412,22,2024-07-16,17,18.88,7.95,PayPal,In-store Pickup,71,5,0.16
-412,22,2024-07-16,17,18.88,7.95,PayPal,In-store Pickup,1,7,0.2
-412,22,2024-07-16,17,18.88,7.95,PayPal,In-store Pickup,44,5,0.29
-413,42,2024-07-15,6,11.08,14.04,Debit Card,In-store Pickup,27,9,0.12
-413,42,2024-07-15,6,11.08,14.04,Debit Card,In-store Pickup,6,3,0.19
-413,42,2024-07-15,6,11.08,14.04,Debit Card,In-store Pickup,98,7,0.09
-413,42,2024-07-15,6,11.08,14.04,Debit Card,In-store Pickup,73,3,0.2
-413,42,2024-07-15,6,11.08,14.04,Debit Card,In-store Pickup,39,5,0.13
-414,5,2024-01-19,13,9.5,5.93,Cash,In-store Pickup,26,2,0.26
-414,5,2024-01-19,13,9.5,5.93,Cash,In-store Pickup,60,5,0.13
-415,8,2024-10-12,15,15.86,1.95,Debit Card,Home Delivery,86,1,0.23
-415,8,2024-10-12,15,15.86,1.95,Debit Card,Home Delivery,2,1,0.06
-415,8,2024-10-12,15,15.86,1.95,Debit Card,Home Delivery,71,4,0.26
-415,8,2024-10-12,15,15.86,1.95,Debit Card,Home Delivery,27,3,0.11
-416,7,2024-03-05,10,11.26,6.96,Cash,In-store Pickup,7,7,0.12
-416,7,2024-03-05,10,11.26,6.96,Cash,In-store Pickup,95,1,0.04
-416,7,2024-03-05,10,11.26,6.96,Cash,In-store Pickup,92,2,0.06
-417,67,2024-02-21,7,16.61,6.54,Debit Card,In-store Pickup,60,9,0.3
-417,67,2024-02-21,7,16.61,6.54,Debit Card,In-store Pickup,66,3,0.27
-417,67,2024-02-21,7,16.61,6.54,Debit Card,In-store Pickup,34,6,0.3
-417,67,2024-02-21,7,16.61,6.54,Debit Card,In-store Pickup,28,2,0.27
-418,86,2024-01-01,2,8.97,4.58,Debit Card,In-store Pickup,22,9,0.19
-418,86,2024-01-01,2,8.97,4.58,Debit Card,In-store Pickup,38,6,0.18
-418,86,2024-01-01,2,8.97,4.58,Debit Card,In-store Pickup,56,10,0.23
-419,77,2024-10-12,7,9.28,7.96,Cash,In-store Pickup,78,3,0.19
-420,45,2024-02-08,1,9.55,5.66,Credit Card,Home Delivery,27,10,0.15
-420,45,2024-02-08,1,9.55,5.66,Credit Card,Home Delivery,3,1,0.01
-420,45,2024-02-08,1,9.55,5.66,Credit Card,Home Delivery,97,7,0.16
-421,16,2024-10-29,13,5.3,4.38,Debit Card,In-store Pickup,27,4,0.29
-422,65,2024-07-21,7,11.07,12.63,Credit Card,Home Delivery,31,6,0.21
-423,85,2024-01-24,9,8.61,12.61,Cash,Home Delivery,75,4,0.1
-424,78,2024-10-17,2,10.19,10.64,PayPal,In-store Pickup,13,1,0.27
-424,78,2024-10-17,2,10.19,10.64,PayPal,In-store Pickup,47,9,0.28
-424,78,2024-10-17,2,10.19,10.64,PayPal,In-store Pickup,93,2,0.05
-424,78,2024-10-17,2,10.19,10.64,PayPal,In-store Pickup,7,5,0.03
-425,56,2024-08-13,11,9.32,12.01,Cash,Home Delivery,17,3,0.05
-425,56,2024-08-13,11,9.32,12.01,Cash,Home Delivery,93,1,0.29
-425,56,2024-08-13,11,9.32,12.01,Cash,Home Delivery,80,1,0.15
-425,56,2024-08-13,11,9.32,12.01,Cash,Home Delivery,46,1,0.25
-426,68,2024-10-07,5,14.32,8.55,PayPal,Home Delivery,62,1,0.22
-426,68,2024-10-07,5,14.32,8.55,PayPal,Home Delivery,27,9,0.04
-426,68,2024-10-07,5,14.32,8.55,PayPal,Home Delivery,45,1,0.24
-426,68,2024-10-07,5,14.32,8.55,PayPal,Home Delivery,41,3,0.04
-427,18,2024-01-04,12,7.73,9.48,Credit Card,Home Delivery,93,7,0.01
-427,18,2024-01-04,12,7.73,9.48,Credit Card,Home Delivery,9,3,0.26
-427,18,2024-01-04,12,7.73,9.48,Credit Card,Home Delivery,10,6,0.22
-428,5,2024-09-29,16,17.82,12.85,PayPal,In-store Pickup,57,5,0.07
-428,5,2024-09-29,16,17.82,12.85,PayPal,In-store Pickup,12,7,0.25
-428,5,2024-09-29,16,17.82,12.85,PayPal,In-store Pickup,5,1,0.14
-429,94,2024-10-19,14,19.24,4.49,Debit Card,In-store Pickup,57,6,0.27
-429,94,2024-10-19,14,19.24,4.49,Debit Card,In-store Pickup,67,10,0.15
-430,54,2024-07-14,15,12.39,2.27,Debit Card,Home Delivery,66,7,0.06
-431,1,2024-08-08,12,8.95,8.0,Cash,In-store Pickup,28,1,0.09
-431,1,2024-08-08,12,8.95,8.0,Cash,In-store Pickup,93,5,0.23
-431,1,2024-08-08,12,8.95,8.0,Cash,In-store Pickup,80,7,0.03
-431,1,2024-08-08,12,8.95,8.0,Cash,In-store Pickup,47,3,0.19
-431,1,2024-08-08,12,8.95,8.0,Cash,In-store Pickup,43,8,0.06
-432,94,2024-06-28,8,8.03,11.83,Debit Card,In-store Pickup,92,3,0.12
-432,94,2024-06-28,8,8.03,11.83,Debit Card,In-store Pickup,94,8,0.23
-432,94,2024-06-28,8,8.03,11.83,Debit Card,In-store Pickup,10,4,0.04
-432,94,2024-06-28,8,8.03,11.83,Debit Card,In-store Pickup,68,5,0.08
-433,32,2024-08-21,17,14.5,8.57,Debit Card,In-store Pickup,19,10,0.04
-433,32,2024-08-21,17,14.5,8.57,Debit Card,In-store Pickup,37,2,0.23
-433,32,2024-08-21,17,14.5,8.57,Debit Card,In-store Pickup,92,3,0.04
-433,32,2024-08-21,17,14.5,8.57,Debit Card,In-store Pickup,27,5,0.15
-433,32,2024-08-21,17,14.5,8.57,Debit Card,In-store Pickup,50,10,0.21
-434,86,2024-05-05,11,13.87,2.8,PayPal,Home Delivery,72,5,0.03
-435,85,2024-03-27,4,15.95,1.22,Cash,In-store Pickup,27,9,0.17
-435,85,2024-03-27,4,15.95,1.22,Cash,In-store Pickup,74,9,0.11
-436,6,2024-02-12,1,12.54,5.8,Credit Card,Home Delivery,25,5,0.25
-436,6,2024-02-12,1,12.54,5.8,Credit Card,Home Delivery,8,3,0.16
-436,6,2024-02-12,1,12.54,5.8,Credit Card,Home Delivery,61,1,0.23
-436,6,2024-02-12,1,12.54,5.8,Credit Card,Home Delivery,19,1,0.18
-436,6,2024-02-12,1,12.54,5.8,Credit Card,Home Delivery,64,5,0.03
-437,50,2024-05-10,7,18.26,9.46,Debit Card,In-store Pickup,29,5,0.16
-437,50,2024-05-10,7,18.26,9.46,Debit Card,In-store Pickup,27,2,0.04
-437,50,2024-05-10,7,18.26,9.46,Debit Card,In-store Pickup,75,3,0.14
-438,5,2024-07-29,12,8.08,4.93,PayPal,Home Delivery,68,10,0.16
-438,5,2024-07-29,12,8.08,4.93,PayPal,Home Delivery,24,4,0.21
-438,5,2024-07-29,12,8.08,4.93,PayPal,Home Delivery,26,7,0.09
-438,5,2024-07-29,12,8.08,4.93,PayPal,Home Delivery,31,5,0.17
-439,88,2024-02-18,6,10.65,8.69,Cash,In-store Pickup,83,8,0.2
-440,1,2024-06-30,12,5.44,5.56,Cash,In-store Pickup,99,7,0.11
-440,1,2024-06-30,12,5.44,5.56,Cash,In-store Pickup,47,8,0.21
-440,1,2024-06-30,12,5.44,5.56,Cash,In-store Pickup,57,3,0.04
-440,1,2024-06-30,12,5.44,5.56,Cash,In-store Pickup,25,1,0.2
-441,57,2024-06-16,17,7.56,5.26,PayPal,Home Delivery,60,2,0.02
-441,57,2024-06-16,17,7.56,5.26,PayPal,Home Delivery,27,6,0.21
-442,29,2024-03-30,5,19.68,8.77,PayPal,Home Delivery,2,6,0.17
-443,6,2024-08-23,18,15.58,3.96,Credit Card,In-store Pickup,68,10,0.05
-443,6,2024-08-23,18,15.58,3.96,Credit Card,In-store Pickup,92,8,0.21
-443,6,2024-08-23,18,15.58,3.96,Credit Card,In-store Pickup,6,7,0.04
-443,6,2024-08-23,18,15.58,3.96,Credit Card,In-store Pickup,2,10,0.09
-443,6,2024-08-23,18,15.58,3.96,Credit Card,In-store Pickup,90,2,0.04
-444,28,2024-05-20,18,8.43,8.82,Cash,In-store Pickup,85,1,0.16
-444,28,2024-05-20,18,8.43,8.82,Cash,In-store Pickup,45,1,0.02
-444,28,2024-05-20,18,8.43,8.82,Cash,In-store Pickup,62,10,0.21
-444,28,2024-05-20,18,8.43,8.82,Cash,In-store Pickup,55,7,0.25
-445,8,2024-08-27,3,5.31,11.76,Cash,Home Delivery,14,7,0.25
-446,7,2024-07-03,16,8.74,1.19,Credit Card,Home Delivery,88,7,0.1
-447,82,2024-10-15,13,18.82,5.91,Cash,In-store Pickup,57,10,0.14
-447,82,2024-10-15,13,18.82,5.91,Cash,In-store Pickup,75,7,0.1
-448,97,2024-10-28,2,13.34,2.55,Debit Card,In-store Pickup,46,7,0.17
-448,97,2024-10-28,2,13.34,2.55,Debit Card,In-store Pickup,18,3,0.29
-448,97,2024-10-28,2,13.34,2.55,Debit Card,In-store Pickup,73,1,0.17
-448,97,2024-10-28,2,13.34,2.55,Debit Card,In-store Pickup,54,9,0.08
-448,97,2024-10-28,2,13.34,2.55,Debit Card,In-store Pickup,88,5,0.22
-449,38,2024-10-14,7,18.8,6.72,Credit Card,In-store Pickup,73,4,0.24
-449,38,2024-10-14,7,18.8,6.72,Credit Card,In-store Pickup,90,4,0.01
-449,38,2024-10-14,7,18.8,6.72,Credit Card,In-store Pickup,50,1,0.16
-449,38,2024-10-14,7,18.8,6.72,Credit Card,In-store Pickup,9,1,0.09
-449,38,2024-10-14,7,18.8,6.72,Credit Card,In-store Pickup,67,8,0.26
-450,1,2024-08-21,19,16.8,14.38,Cash,Home Delivery,84,8,0.27
-450,1,2024-08-21,19,16.8,14.38,Cash,Home Delivery,93,6,0.0
-450,1,2024-08-21,19,16.8,14.38,Cash,Home Delivery,55,10,0.23
-450,1,2024-08-21,19,16.8,14.38,Cash,Home Delivery,8,5,0.27
-450,1,2024-08-21,19,16.8,14.38,Cash,Home Delivery,33,2,0.15
-451,15,2024-07-31,8,11.64,13.03,PayPal,In-store Pickup,42,6,0.25
-451,15,2024-07-31,8,11.64,13.03,PayPal,In-store Pickup,6,8,0.09
-451,15,2024-07-31,8,11.64,13.03,PayPal,In-store Pickup,83,8,0.17
-452,62,2024-05-20,3,5.21,3.0,PayPal,In-store Pickup,55,8,0.14
-453,10,2024-05-14,2,7.94,4.26,PayPal,In-store Pickup,81,1,0.21
-453,10,2024-05-14,2,7.94,4.26,PayPal,In-store Pickup,29,9,0.3
-453,10,2024-05-14,2,7.94,4.26,PayPal,In-store Pickup,71,7,0.27
-453,10,2024-05-14,2,7.94,4.26,PayPal,In-store Pickup,64,4,0.1
-454,71,2024-07-12,17,17.39,9.1,PayPal,In-store Pickup,54,6,0.05
-454,71,2024-07-12,17,17.39,9.1,PayPal,In-store Pickup,28,4,0.23
-454,71,2024-07-12,17,17.39,9.1,PayPal,In-store Pickup,95,1,0.15
-454,71,2024-07-12,17,17.39,9.1,PayPal,In-store Pickup,43,9,0.12
-454,71,2024-07-12,17,17.39,9.1,PayPal,In-store Pickup,51,3,0.04
-455,65,2024-10-30,6,10.77,8.9,Credit Card,In-store Pickup,40,10,0.22
-455,65,2024-10-30,6,10.77,8.9,Credit Card,In-store Pickup,9,6,0.25
-455,65,2024-10-30,6,10.77,8.9,Credit Card,In-store Pickup,45,9,0.01
-455,65,2024-10-30,6,10.77,8.9,Credit Card,In-store Pickup,24,7,0.14
-456,8,2024-07-21,8,7.28,5.46,Cash,In-store Pickup,87,4,0.22
-456,8,2024-07-21,8,7.28,5.46,Cash,In-store Pickup,36,8,0.0
-457,67,2024-10-02,17,20.0,11.96,Credit Card,In-store Pickup,22,7,0.22
-457,67,2024-10-02,17,20.0,11.96,Credit Card,In-store Pickup,9,1,0.08
-457,67,2024-10-02,17,20.0,11.96,Credit Card,In-store Pickup,33,1,0.2
-457,67,2024-10-02,17,20.0,11.96,Credit Card,In-store Pickup,49,10,0.28
-457,67,2024-10-02,17,20.0,11.96,Credit Card,In-store Pickup,47,1,0.18
-458,37,2024-06-22,12,13.95,1.26,Credit Card,Home Delivery,61,2,0.17
-459,67,2024-09-17,7,19.71,9.31,Credit Card,In-store Pickup,90,5,0.07
-459,67,2024-09-17,7,19.71,9.31,Credit Card,In-store Pickup,30,1,0.26
-460,50,2024-05-20,15,19.1,5.6,Credit Card,In-store Pickup,99,9,0.1
-460,50,2024-05-20,15,19.1,5.6,Credit Card,In-store Pickup,36,2,0.15
-460,50,2024-05-20,15,19.1,5.6,Credit Card,In-store Pickup,8,1,0.16
-460,50,2024-05-20,15,19.1,5.6,Credit Card,In-store Pickup,5,8,0.02
-461,72,2024-06-08,18,10.85,7.45,PayPal,Home Delivery,34,3,0.2
-461,72,2024-06-08,18,10.85,7.45,PayPal,Home Delivery,42,8,0.02
-461,72,2024-06-08,18,10.85,7.45,PayPal,Home Delivery,61,6,0.28
-461,72,2024-06-08,18,10.85,7.45,PayPal,Home Delivery,80,6,0.05
-461,72,2024-06-08,18,10.85,7.45,PayPal,Home Delivery,11,7,0.22
-462,97,2024-04-16,12,7.87,11.97,Cash,In-store Pickup,5,8,0.03
-462,97,2024-04-16,12,7.87,11.97,Cash,In-store Pickup,79,2,0.1
-462,97,2024-04-16,12,7.87,11.97,Cash,In-store Pickup,90,7,0.26
-462,97,2024-04-16,12,7.87,11.97,Cash,In-store Pickup,32,9,0.12
-462,97,2024-04-16,12,7.87,11.97,Cash,In-store Pickup,55,10,0.27
-463,75,2024-11-03,10,11.36,12.95,Cash,In-store Pickup,49,10,0.25
-464,5,2024-02-15,15,8.53,13.63,PayPal,Home Delivery,85,6,0.09
-464,5,2024-02-15,15,8.53,13.63,PayPal,Home Delivery,93,10,0.1
-464,5,2024-02-15,15,8.53,13.63,PayPal,Home Delivery,20,10,0.22
-465,61,2024-02-09,9,7.02,14.66,Cash,Home Delivery,82,2,0.15
-465,61,2024-02-09,9,7.02,14.66,Cash,Home Delivery,91,1,0.29
-465,61,2024-02-09,9,7.02,14.66,Cash,Home Delivery,26,6,0.21
-465,61,2024-02-09,9,7.02,14.66,Cash,Home Delivery,60,10,0.21
-466,90,2024-04-02,16,9.18,12.5,Cash,Home Delivery,99,9,0.22
-466,90,2024-04-02,16,9.18,12.5,Cash,Home Delivery,6,8,0.23
-467,7,2024-03-12,17,15.59,13.75,PayPal,In-store Pickup,10,3,0.0
-467,7,2024-03-12,17,15.59,13.75,PayPal,In-store Pickup,9,8,0.07
-467,7,2024-03-12,17,15.59,13.75,PayPal,In-store Pickup,14,3,0.14
-468,12,2024-02-21,19,9.3,9.32,Credit Card,Home Delivery,65,2,0.0
-469,97,2024-08-24,11,6.34,4.77,PayPal,In-store Pickup,92,9,0.1
-469,97,2024-08-24,11,6.34,4.77,PayPal,In-store Pickup,58,2,0.07
-469,97,2024-08-24,11,6.34,4.77,PayPal,In-store Pickup,88,2,0.03
-470,94,2024-05-28,8,9.88,11.42,PayPal,In-store Pickup,99,8,0.15
-470,94,2024-05-28,8,9.88,11.42,PayPal,In-store Pickup,54,2,0.19
-470,94,2024-05-28,8,9.88,11.42,PayPal,In-store Pickup,90,9,0.21
-470,94,2024-05-28,8,9.88,11.42,PayPal,In-store Pickup,24,1,0.0
-471,53,2024-09-29,17,14.88,6.73,Debit Card,In-store Pickup,1,4,0.2
-471,53,2024-09-29,17,14.88,6.73,Debit Card,In-store Pickup,60,4,0.22
-471,53,2024-09-29,17,14.88,6.73,Debit Card,In-store Pickup,77,5,0.23
-471,53,2024-09-29,17,14.88,6.73,Debit Card,In-store Pickup,94,4,0.29
-471,53,2024-09-29,17,14.88,6.73,Debit Card,In-store Pickup,49,6,0.28
-472,50,2024-01-12,19,12.92,2.67,Credit Card,In-store Pickup,86,2,0.11
-473,61,2024-02-18,6,17.3,15.0,PayPal,Home Delivery,46,6,0.26
-473,61,2024-02-18,6,17.3,15.0,PayPal,Home Delivery,73,1,0.11
-473,61,2024-02-18,6,17.3,15.0,PayPal,Home Delivery,93,9,0.0
-474,69,2024-06-07,2,7.54,11.96,Debit Card,In-store Pickup,56,6,0.16
-474,69,2024-06-07,2,7.54,11.96,Debit Card,In-store Pickup,8,5,0.21
-474,69,2024-06-07,2,7.54,11.96,Debit Card,In-store Pickup,61,9,0.03
-475,30,2024-10-28,9,12.99,10.76,Debit Card,Home Delivery,97,1,0.08
-475,30,2024-10-28,9,12.99,10.76,Debit Card,Home Delivery,1,5,0.02
-476,81,2024-05-25,2,8.66,13.69,Debit Card,Home Delivery,47,1,0.06
-476,81,2024-05-25,2,8.66,13.69,Debit Card,Home Delivery,28,9,0.19
-477,29,2024-05-07,1,5.18,4.2,Cash,In-store Pickup,93,8,0.1
-477,29,2024-05-07,1,5.18,4.2,Cash,In-store Pickup,58,1,0.13
-478,63,2024-09-14,18,8.89,3.41,Cash,In-store Pickup,83,6,0.07
-478,63,2024-09-14,18,8.89,3.41,Cash,In-store Pickup,28,4,0.16
-478,63,2024-09-14,18,8.89,3.41,Cash,In-store Pickup,37,9,0.13
-478,63,2024-09-14,18,8.89,3.41,Cash,In-store Pickup,48,5,0.2
-479,99,2024-07-21,20,15.65,6.41,Credit Card,Home Delivery,84,10,0.25
-480,32,2024-04-26,11,13.33,5.92,Cash,In-store Pickup,60,5,0.03
-480,32,2024-04-26,11,13.33,5.92,Cash,In-store Pickup,8,3,0.04
-481,10,2024-03-31,11,19.1,6.57,Debit Card,In-store Pickup,90,6,0.27
-481,10,2024-03-31,11,19.1,6.57,Debit Card,In-store Pickup,75,6,0.1
-481,10,2024-03-31,11,19.1,6.57,Debit Card,In-store Pickup,27,6,0.29
-481,10,2024-03-31,11,19.1,6.57,Debit Card,In-store Pickup,99,5,0.24
-482,79,2024-02-12,2,15.29,1.9,PayPal,Home Delivery,27,7,0.14
-482,79,2024-02-12,2,15.29,1.9,PayPal,Home Delivery,6,2,0.25
-482,79,2024-02-12,2,15.29,1.9,PayPal,Home Delivery,8,6,0.13
-483,99,2024-06-08,19,9.76,9.41,Debit Card,Home Delivery,33,6,0.23
-483,99,2024-06-08,19,9.76,9.41,Debit Card,Home Delivery,1,2,0.15
-483,99,2024-06-08,19,9.76,9.41,Debit Card,Home Delivery,70,1,0.26
-483,99,2024-06-08,19,9.76,9.41,Debit Card,Home Delivery,73,4,0.07
-484,82,2024-06-27,10,12.53,6.94,Debit Card,In-store Pickup,92,2,0.04
-485,60,2024-06-10,20,17.26,10.9,Debit Card,Home Delivery,48,10,0.2
-485,60,2024-06-10,20,17.26,10.9,Debit Card,Home Delivery,15,7,0.26
-485,60,2024-06-10,20,17.26,10.9,Debit Card,Home Delivery,47,3,0.24
-485,60,2024-06-10,20,17.26,10.9,Debit Card,Home Delivery,25,3,0.28
-486,6,2024-07-12,4,10.66,11.03,Credit Card,In-store Pickup,65,8,0.17
-486,6,2024-07-12,4,10.66,11.03,Credit Card,In-store Pickup,80,7,0.05
-486,6,2024-07-12,4,10.66,11.03,Credit Card,In-store Pickup,79,7,0.13
-486,6,2024-07-12,4,10.66,11.03,Credit Card,In-store Pickup,19,2,0.14
-487,34,2024-08-27,2,9.3,10.04,Cash,In-store Pickup,52,5,0.23
-487,34,2024-08-27,2,9.3,10.04,Cash,In-store Pickup,37,1,0.2
-488,52,2024-02-05,3,17.67,1.69,Credit Card,Home Delivery,76,4,0.15
-488,52,2024-02-05,3,17.67,1.69,Credit Card,Home Delivery,83,8,0.02
-488,52,2024-02-05,3,17.67,1.69,Credit Card,Home Delivery,68,9,0.0
-489,21,2024-11-05,18,12.15,6.01,Cash,In-store Pickup,29,2,0.12
-490,3,2024-07-19,9,17.02,7.48,Debit Card,Home Delivery,16,9,0.23
-491,59,2024-05-11,15,9.4,6.83,Debit Card,In-store Pickup,58,10,0.2
-491,59,2024-05-11,15,9.4,6.83,Debit Card,In-store Pickup,23,5,0.12
-491,59,2024-05-11,15,9.4,6.83,Debit Card,In-store Pickup,32,7,0.11
-492,32,2024-04-25,19,12.36,11.04,Credit Card,In-store Pickup,35,7,0.09
-492,32,2024-04-25,19,12.36,11.04,Credit Card,In-store Pickup,90,1,0.25
-493,35,2024-05-23,17,14.0,8.91,Debit Card,In-store Pickup,25,6,0.06
-493,35,2024-05-23,17,14.0,8.91,Debit Card,In-store Pickup,47,3,0.21
-493,35,2024-05-23,17,14.0,8.91,Debit Card,In-store Pickup,18,8,0.06
-494,71,2024-07-09,9,15.95,10.73,Debit Card,In-store Pickup,23,3,0.22
-494,71,2024-07-09,9,15.95,10.73,Debit Card,In-store Pickup,96,7,0.18
-494,71,2024-07-09,9,15.95,10.73,Debit Card,In-store Pickup,31,2,0.03
-495,59,2024-05-01,17,19.01,10.33,Credit Card,In-store Pickup,64,3,0.16
-495,59,2024-05-01,17,19.01,10.33,Credit Card,In-store Pickup,14,3,0.05
-496,61,2024-06-11,5,11.6,2.28,Credit Card,Home Delivery,33,1,0.0
-496,61,2024-06-11,5,11.6,2.28,Credit Card,Home Delivery,57,7,0.16
-496,61,2024-06-11,5,11.6,2.28,Credit Card,Home Delivery,14,7,0.08
-497,17,2024-04-03,20,9.07,8.52,PayPal,In-store Pickup,68,1,0.25
-497,17,2024-04-03,20,9.07,8.52,PayPal,In-store Pickup,6,10,0.17
-498,81,2024-02-03,17,12.16,10.21,Cash,In-store Pickup,46,4,0.15
-498,81,2024-02-03,17,12.16,10.21,Cash,In-store Pickup,44,9,0.26
-498,81,2024-02-03,17,12.16,10.21,Cash,In-store Pickup,98,7,0.02
-499,77,2024-02-10,17,14.56,8.39,Credit Card,Home Delivery,77,9,0.27
-500,18,2024-09-10,5,17.38,7.19,Debit Card,Home Delivery,94,7,0.14
-500,18,2024-09-10,5,17.38,7.19,Debit Card,Home Delivery,71,9,0.08
+OrderID,CustomerID,OrderDate,StoreID,ShippingFee,Tax,PaymentMethod,DeliveryOption,ProductID,Quantity,Discount,EmployeeID
+1,81,2024-02-14,18,18.53,3.16,Debit Card,In-store Pickup,3,8,0.24,8
+2,83,2024-07-05,16,11.75,13.06,Debit Card,In-store Pickup,21,6,0.15,65
+2,83,2024-07-05,16,11.75,13.06,Debit Card,In-store Pickup,57,10,0.08,65
+2,83,2024-07-05,16,11.75,13.06,Debit Card,In-store Pickup,67,10,0.1,65
+2,83,2024-07-05,16,11.75,13.06,Debit Card,In-store Pickup,30,8,0.04,65
+2,83,2024-07-05,16,11.75,13.06,Debit Card,In-store Pickup,19,7,0.04,65
+3,14,2024-07-04,14,18.12,1.71,Debit Card,Home Delivery,41,1,0.22,6
+4,100,2024-04-05,4,19.21,14.62,Cash,In-store Pickup,54,5,0.08,7
+4,100,2024-04-05,4,19.21,14.62,Cash,In-store Pickup,73,10,0.02,7
+4,100,2024-04-05,4,19.21,14.62,Cash,In-store Pickup,15,1,0.04,7
+5,13,2024-06-19,1,11.6,3.91,PayPal,Home Delivery,31,9,0.23,30
+6,44,2024-06-28,13,9.83,8.98,PayPal,Home Delivery,41,9,0.1,25
+6,44,2024-06-28,13,9.83,8.98,PayPal,Home Delivery,32,2,0.14,25
+6,44,2024-06-28,13,9.83,8.98,PayPal,Home Delivery,71,6,0.09,25
+6,44,2024-06-28,13,9.83,8.98,PayPal,Home Delivery,37,10,0.25,25
+6,44,2024-06-28,13,9.83,8.98,PayPal,Home Delivery,13,4,0.01,25
+7,62,2024-03-29,20,5.32,6.67,Cash,In-store Pickup,46,8,0.06,77
+8,12,2024-06-17,5,15.85,3.74,Credit Card,Home Delivery,7,8,0.22,29
+9,34,2024-04-10,17,7.39,6.47,Debit Card,In-store Pickup,23,10,0.23,56
+9,34,2024-04-10,17,7.39,6.47,Debit Card,In-store Pickup,35,8,0.09,56
+9,34,2024-04-10,17,7.39,6.47,Debit Card,In-store Pickup,31,10,0.13,56
+10,31,2024-10-29,12,13.77,3.66,Debit Card,In-store Pickup,91,4,0.14,5
+11,22,2024-03-11,4,13.58,12.48,Credit Card,In-store Pickup,95,1,0.17,85
+11,22,2024-03-11,4,13.58,12.48,Credit Card,In-store Pickup,33,2,0.29,85
+11,22,2024-03-11,4,13.58,12.48,Credit Card,In-store Pickup,58,8,0.25,85
+11,22,2024-03-11,4,13.58,12.48,Credit Card,In-store Pickup,68,8,0.22,85
+12,79,2024-09-10,14,5.0,1.34,Credit Card,In-store Pickup,7,4,0.23,72
+12,79,2024-09-10,14,5.0,1.34,Credit Card,In-store Pickup,48,3,0.06,72
+13,41,2024-06-05,4,17.45,10.34,Credit Card,In-store Pickup,3,6,0.01,2
+13,41,2024-06-05,4,17.45,10.34,Credit Card,In-store Pickup,59,2,0.18,2
+13,41,2024-06-05,4,17.45,10.34,Credit Card,In-store Pickup,95,10,0.13,2
+14,62,2024-01-07,17,11.62,9.14,Cash,Home Delivery,90,3,0.18,54
+14,62,2024-01-07,17,11.62,9.14,Cash,Home Delivery,23,10,0.07,54
+15,95,2024-03-24,11,11.03,5.94,PayPal,In-store Pickup,17,2,0.22,54
+15,95,2024-03-24,11,11.03,5.94,PayPal,In-store Pickup,71,10,0.28,54
+15,95,2024-03-24,11,11.03,5.94,PayPal,In-store Pickup,10,7,0.02,54
+15,95,2024-03-24,11,11.03,5.94,PayPal,In-store Pickup,48,4,0.21,54
+16,52,2024-09-25,5,15.89,10.47,Credit Card,In-store Pickup,11,1,0.18,58
+17,83,2024-10-18,18,11.73,4.66,PayPal,In-store Pickup,85,2,0.25,15
+17,83,2024-10-18,18,11.73,4.66,PayPal,In-store Pickup,52,6,0.18,15
+17,83,2024-10-18,18,11.73,4.66,PayPal,In-store Pickup,61,10,0.05,15
+17,83,2024-10-18,18,11.73,4.66,PayPal,In-store Pickup,36,8,0.13,15
+17,83,2024-10-18,18,11.73,4.66,PayPal,In-store Pickup,3,6,0.08,15
+18,49,2024-02-16,11,18.76,1.03,Debit Card,Home Delivery,23,2,0.26,58
+18,49,2024-02-16,11,18.76,1.03,Debit Card,Home Delivery,8,4,0.07,58
+18,49,2024-02-16,11,18.76,1.03,Debit Card,Home Delivery,84,2,0.07,58
+18,49,2024-02-16,11,18.76,1.03,Debit Card,Home Delivery,3,5,0.03,58
+19,49,2024-07-13,8,6.91,9.24,Debit Card,In-store Pickup,69,9,0.25,50
+19,49,2024-07-13,8,6.91,9.24,Debit Card,In-store Pickup,4,9,0.21,50
+19,49,2024-07-13,8,6.91,9.24,Debit Card,In-store Pickup,79,10,0.07,50
+19,49,2024-07-13,8,6.91,9.24,Debit Card,In-store Pickup,90,4,0.22,50
+19,49,2024-07-13,8,6.91,9.24,Debit Card,In-store Pickup,38,9,0.03,50
+20,21,2024-05-12,17,16.51,11.76,Cash,Home Delivery,53,1,0.19,23
+20,21,2024-05-12,17,16.51,11.76,Cash,Home Delivery,34,10,0.24,23
+20,21,2024-05-12,17,16.51,11.76,Cash,Home Delivery,48,4,0.26,23
+21,68,2024-01-03,20,18.54,4.74,PayPal,In-store Pickup,63,8,0.17,1
+21,68,2024-01-03,20,18.54,4.74,PayPal,In-store Pickup,8,4,0.08,1
+21,68,2024-01-03,20,18.54,4.74,PayPal,In-store Pickup,64,3,0.06,1
+21,68,2024-01-03,20,18.54,4.74,PayPal,In-store Pickup,85,8,0.06,1
+21,68,2024-01-03,20,18.54,4.74,PayPal,In-store Pickup,89,7,0.07,1
+22,44,2024-03-12,15,17.63,7.21,Credit Card,In-store Pickup,40,1,0.09,13
+23,70,2024-08-26,13,10.8,7.17,Debit Card,In-store Pickup,77,6,0.09,87
+23,70,2024-08-26,13,10.8,7.17,Debit Card,In-store Pickup,33,8,0.26,87
+23,70,2024-08-26,13,10.8,7.17,Debit Card,In-store Pickup,36,3,0.29,87
+23,70,2024-08-26,13,10.8,7.17,Debit Card,In-store Pickup,81,6,0.25,87
+24,89,2024-05-24,18,14.22,12.41,Cash,Home Delivery,85,4,0.15,65
+24,89,2024-05-24,18,14.22,12.41,Cash,Home Delivery,12,7,0.3,65
+24,89,2024-05-24,18,14.22,12.41,Cash,Home Delivery,59,6,0.11,65
+25,98,2024-02-22,4,16.96,7.32,Debit Card,In-store Pickup,2,10,0.04,76
+25,98,2024-02-22,4,16.96,7.32,Debit Card,In-store Pickup,24,5,0.1,76
+25,98,2024-02-22,4,16.96,7.32,Debit Card,In-store Pickup,36,1,0.12,76
+26,82,2024-04-02,16,9.48,14.54,PayPal,Home Delivery,1,9,0.12,55
+26,82,2024-04-02,16,9.48,14.54,PayPal,Home Delivery,92,1,0.01,55
+27,48,2024-01-28,14,19.89,9.51,Credit Card,Home Delivery,18,5,0.04,48
+27,48,2024-01-28,14,19.89,9.51,Credit Card,Home Delivery,38,6,0.04,48
+27,48,2024-01-28,14,19.89,9.51,Credit Card,Home Delivery,19,9,0.07,48
+28,58,2024-01-12,19,11.22,12.44,PayPal,In-store Pickup,74,1,0.17,26
+28,58,2024-01-12,19,11.22,12.44,PayPal,In-store Pickup,11,2,0.29,26
+28,58,2024-01-12,19,11.22,12.44,PayPal,In-store Pickup,77,10,0.28,26
+28,58,2024-01-12,19,11.22,12.44,PayPal,In-store Pickup,84,3,0.23,26
+29,58,2024-03-17,15,8.81,7.16,Cash,Home Delivery,51,5,0.2,64
+29,58,2024-03-17,15,8.81,7.16,Cash,Home Delivery,10,4,0.15,64
+29,58,2024-03-17,15,8.81,7.16,Cash,Home Delivery,73,1,0.18,64
+29,58,2024-03-17,15,8.81,7.16,Cash,Home Delivery,42,1,0.06,64
+30,62,2024-07-03,12,9.01,1.22,Cash,Home Delivery,56,10,0.12,83
+30,62,2024-07-03,12,9.01,1.22,Cash,Home Delivery,24,6,0.2,83
+30,62,2024-07-03,12,9.01,1.22,Cash,Home Delivery,26,4,0.2,83
+31,77,2024-02-09,14,7.71,2.75,PayPal,In-store Pickup,48,4,0.3,55
+32,4,2024-08-03,14,6.61,7.13,PayPal,In-store Pickup,36,1,0.13,24
+33,21,2024-03-08,4,14.68,7.16,PayPal,Home Delivery,38,5,0.08,69
+34,46,2024-04-21,17,14.9,8.37,Debit Card,In-store Pickup,92,9,0.28,94
+34,46,2024-04-21,17,14.9,8.37,Debit Card,In-store Pickup,16,3,0.08,94
+34,46,2024-04-21,17,14.9,8.37,Debit Card,In-store Pickup,38,8,0.26,94
+34,46,2024-04-21,17,14.9,8.37,Debit Card,In-store Pickup,31,9,0.2,94
+34,46,2024-04-21,17,14.9,8.37,Debit Card,In-store Pickup,4,6,0.13,94
+35,41,2024-03-18,19,17.55,9.63,Cash,Home Delivery,21,8,0.04,53
+35,41,2024-03-18,19,17.55,9.63,Cash,Home Delivery,62,7,0.26,53
+35,41,2024-03-18,19,17.55,9.63,Cash,Home Delivery,49,3,0.28,53
+35,41,2024-03-18,19,17.55,9.63,Cash,Home Delivery,9,6,0.25,53
+35,41,2024-03-18,19,17.55,9.63,Cash,Home Delivery,85,1,0.29,53
+36,49,2024-04-13,1,5.45,13.2,Debit Card,Home Delivery,44,2,0.14,55
+37,12,2024-09-04,5,19.89,6.17,PayPal,Home Delivery,21,2,0.2,81
+37,12,2024-09-04,5,19.89,6.17,PayPal,Home Delivery,61,5,0.25,81
+37,12,2024-09-04,5,19.89,6.17,PayPal,Home Delivery,99,8,0.29,81
+37,12,2024-09-04,5,19.89,6.17,PayPal,Home Delivery,41,10,0.15,81
+38,47,2024-08-14,15,17.94,8.1,Cash,Home Delivery,67,4,0.09,45
+38,47,2024-08-14,15,17.94,8.1,Cash,Home Delivery,43,4,0.01,45
+38,47,2024-08-14,15,17.94,8.1,Cash,Home Delivery,31,8,0.22,45
+38,47,2024-08-14,15,17.94,8.1,Cash,Home Delivery,60,4,0.14,45
+38,47,2024-08-14,15,17.94,8.1,Cash,Home Delivery,34,3,0.04,45
+39,87,2024-05-24,2,7.01,12.84,Debit Card,In-store Pickup,81,7,0.15,76
+40,72,2024-10-16,19,19.02,8.34,Cash,In-store Pickup,87,7,0.24,92
+40,72,2024-10-16,19,19.02,8.34,Cash,In-store Pickup,11,5,0.01,92
+40,72,2024-10-16,19,19.02,8.34,Cash,In-store Pickup,87,7,0.19,92
+41,76,2024-06-27,3,10.98,7.12,Cash,Home Delivery,78,1,0.3,13
+41,76,2024-06-27,3,10.98,7.12,Cash,Home Delivery,49,10,0.16,13
+41,76,2024-06-27,3,10.98,7.12,Cash,Home Delivery,77,7,0.17,13
+41,76,2024-06-27,3,10.98,7.12,Cash,Home Delivery,75,7,0.19,13
+41,76,2024-06-27,3,10.98,7.12,Cash,Home Delivery,71,4,0.11,13
+42,77,2024-06-19,12,6.37,12.57,Debit Card,In-store Pickup,98,7,0.28,22
+42,77,2024-06-19,12,6.37,12.57,Debit Card,In-store Pickup,77,8,0.24,22
+42,77,2024-06-19,12,6.37,12.57,Debit Card,In-store Pickup,91,6,0.05,22
+42,77,2024-06-19,12,6.37,12.57,Debit Card,In-store Pickup,69,6,0.02,22
+42,77,2024-06-19,12,6.37,12.57,Debit Card,In-store Pickup,12,6,0.02,22
+43,87,2024-01-18,15,14.52,6.63,Debit Card,Home Delivery,37,4,0.02,77
+43,87,2024-01-18,15,14.52,6.63,Debit Card,Home Delivery,44,2,0.16,77
+43,87,2024-01-18,15,14.52,6.63,Debit Card,Home Delivery,78,10,0.09,77
+44,45,2024-10-22,1,16.4,12.33,Credit Card,Home Delivery,84,5,0.03,92
+44,45,2024-10-22,1,16.4,12.33,Credit Card,Home Delivery,53,7,0.26,92
+45,77,2024-08-28,20,13.01,11.01,PayPal,In-store Pickup,58,1,0.05,69
+45,77,2024-08-28,20,13.01,11.01,PayPal,In-store Pickup,41,9,0.22,69
+46,79,2024-05-08,15,13.56,7.11,Cash,Home Delivery,86,5,0.28,17
+47,48,2024-07-07,3,11.19,10.83,PayPal,In-store Pickup,58,1,0.24,94
+47,48,2024-07-07,3,11.19,10.83,PayPal,In-store Pickup,73,8,0.19,94
+47,48,2024-07-07,3,11.19,10.83,PayPal,In-store Pickup,10,8,0.07,94
+48,66,2024-09-11,12,12.64,6.34,PayPal,In-store Pickup,76,5,0.04,10
+48,66,2024-09-11,12,12.64,6.34,PayPal,In-store Pickup,93,3,0.01,10
+48,66,2024-09-11,12,12.64,6.34,PayPal,In-store Pickup,96,3,0.13,10
+48,66,2024-09-11,12,12.64,6.34,PayPal,In-store Pickup,16,10,0.07,10
+49,13,2024-01-14,2,7.31,5.88,Credit Card,In-store Pickup,53,10,0.01,77
+49,13,2024-01-14,2,7.31,5.88,Credit Card,In-store Pickup,66,10,0.08,77
+49,13,2024-01-14,2,7.31,5.88,Credit Card,In-store Pickup,54,9,0.14,77
+49,13,2024-01-14,2,7.31,5.88,Credit Card,In-store Pickup,100,6,0.21,77
+50,28,2024-03-26,3,16.95,3.14,PayPal,Home Delivery,13,7,0.03,47
+51,51,2024-05-30,8,18.42,4.27,PayPal,In-store Pickup,60,3,0.21,1
+51,51,2024-05-30,8,18.42,4.27,PayPal,In-store Pickup,86,4,0.23,1
+51,51,2024-05-30,8,18.42,4.27,PayPal,In-store Pickup,4,8,0.11,1
+51,51,2024-05-30,8,18.42,4.27,PayPal,In-store Pickup,12,10,0.28,1
+52,34,2024-08-20,15,9.22,13.69,Debit Card,Home Delivery,59,9,0.15,19
+52,34,2024-08-20,15,9.22,13.69,Debit Card,Home Delivery,92,3,0.27,19
+52,34,2024-08-20,15,9.22,13.69,Debit Card,Home Delivery,76,3,0.19,19
+53,87,2024-09-10,1,19.46,3.95,PayPal,Home Delivery,4,4,0.1,2
+53,87,2024-09-10,1,19.46,3.95,PayPal,Home Delivery,99,6,0.16,2
+53,87,2024-09-10,1,19.46,3.95,PayPal,Home Delivery,43,5,0.13,2
+53,87,2024-09-10,1,19.46,3.95,PayPal,Home Delivery,11,9,0.25,2
+53,87,2024-09-10,1,19.46,3.95,PayPal,Home Delivery,91,9,0.06,2
+54,67,2024-01-04,2,7.43,7.09,Debit Card,In-store Pickup,89,5,0.3,24
+55,64,2024-02-06,15,14.55,1.9,Debit Card,In-store Pickup,25,8,0.13,57
+55,64,2024-02-06,15,14.55,1.9,Debit Card,In-store Pickup,52,3,0.25,57
+55,64,2024-02-06,15,14.55,1.9,Debit Card,In-store Pickup,37,3,0.24,57
+55,64,2024-02-06,15,14.55,1.9,Debit Card,In-store Pickup,53,6,0.02,57
+55,64,2024-02-06,15,14.55,1.9,Debit Card,In-store Pickup,53,3,0.15,57
+56,77,2024-08-19,9,13.2,12.03,PayPal,Home Delivery,87,7,0.27,50
+57,78,2024-04-04,11,8.64,7.69,PayPal,In-store Pickup,11,1,0.01,69
+57,78,2024-04-04,11,8.64,7.69,PayPal,In-store Pickup,67,1,0.04,69
+57,78,2024-04-04,11,8.64,7.69,PayPal,In-store Pickup,36,10,0.07,69
+57,78,2024-04-04,11,8.64,7.69,PayPal,In-store Pickup,2,8,0.14,69
+57,78,2024-04-04,11,8.64,7.69,PayPal,In-store Pickup,45,7,0.16,69
+58,34,2024-07-31,1,5.26,3.8,Cash,In-store Pickup,23,3,0.05,64
+59,65,2024-05-11,4,5.7,8.49,Cash,In-store Pickup,27,1,0.08,36
+60,28,2024-09-21,14,5.2,2.38,PayPal,In-store Pickup,61,10,0.17,70
+61,9,2024-06-06,18,9.71,9.72,PayPal,Home Delivery,20,7,0.05,2
+61,9,2024-06-06,18,9.71,9.72,PayPal,Home Delivery,11,10,0.01,2
+61,9,2024-06-06,18,9.71,9.72,PayPal,Home Delivery,19,5,0.22,2
+62,39,2024-04-08,7,16.6,6.15,Debit Card,Home Delivery,4,6,0.18,35
+62,39,2024-04-08,7,16.6,6.15,Debit Card,Home Delivery,95,9,0.18,35
+62,39,2024-04-08,7,16.6,6.15,Debit Card,Home Delivery,63,2,0.03,35
+63,28,2024-07-03,9,5.24,10.75,Debit Card,In-store Pickup,33,6,0.03,85
+63,28,2024-07-03,9,5.24,10.75,Debit Card,In-store Pickup,19,6,0.22,85
+63,28,2024-07-03,9,5.24,10.75,Debit Card,In-store Pickup,77,1,0.13,85
+63,28,2024-07-03,9,5.24,10.75,Debit Card,In-store Pickup,23,6,0.11,85
+63,28,2024-07-03,9,5.24,10.75,Debit Card,In-store Pickup,96,3,0.11,85
+64,96,2024-05-31,13,19.32,5.16,Cash,Home Delivery,36,8,0.27,79
+64,96,2024-05-31,13,19.32,5.16,Cash,Home Delivery,86,9,0.03,79
+65,13,2024-09-19,16,10.17,10.06,Debit Card,In-store Pickup,28,3,0.2,92
+65,13,2024-09-19,16,10.17,10.06,Debit Card,In-store Pickup,86,2,0.09,92
+65,13,2024-09-19,16,10.17,10.06,Debit Card,In-store Pickup,78,10,0.22,92
+65,13,2024-09-19,16,10.17,10.06,Debit Card,In-store Pickup,68,6,0.16,92
+66,65,2024-05-28,3,19.55,3.66,Credit Card,In-store Pickup,35,3,0.14,29
+67,58,2024-10-11,2,8.7,9.36,Debit Card,In-store Pickup,52,4,0.28,6
+68,70,2024-07-03,13,14.42,8.4,PayPal,In-store Pickup,76,2,0.1,89
+68,70,2024-07-03,13,14.42,8.4,PayPal,In-store Pickup,60,2,0.3,89
+68,70,2024-07-03,13,14.42,8.4,PayPal,In-store Pickup,67,10,0.17,89
+68,70,2024-07-03,13,14.42,8.4,PayPal,In-store Pickup,23,2,0.04,89
+68,70,2024-07-03,13,14.42,8.4,PayPal,In-store Pickup,68,7,0.05,89
+69,71,2024-08-16,9,5.96,2.42,Cash,Home Delivery,70,7,0.15,64
+69,71,2024-08-16,9,5.96,2.42,Cash,Home Delivery,91,5,0.15,64
+69,71,2024-08-16,9,5.96,2.42,Cash,Home Delivery,88,5,0.08,64
+69,71,2024-08-16,9,5.96,2.42,Cash,Home Delivery,79,8,0.21,64
+70,38,2024-10-21,1,17.03,2.71,Debit Card,Home Delivery,52,7,0.3,38
+70,38,2024-10-21,1,17.03,2.71,Debit Card,Home Delivery,58,6,0.18,38
+70,38,2024-10-21,1,17.03,2.71,Debit Card,Home Delivery,65,5,0.26,38
+70,38,2024-10-21,1,17.03,2.71,Debit Card,Home Delivery,31,6,0.3,38
+70,38,2024-10-21,1,17.03,2.71,Debit Card,Home Delivery,35,7,0.19,38
+71,7,2024-08-12,20,17.82,14.22,Credit Card,In-store Pickup,93,5,0.15,6
+71,7,2024-08-12,20,17.82,14.22,Credit Card,In-store Pickup,33,2,0.13,6
+71,7,2024-08-12,20,17.82,14.22,Credit Card,In-store Pickup,100,2,0.1,6
+72,87,2024-02-24,12,14.54,9.4,Debit Card,Home Delivery,31,5,0.26,93
+73,70,2024-04-15,19,12.2,2.37,Debit Card,In-store Pickup,3,2,0.2,17
+73,70,2024-04-15,19,12.2,2.37,Debit Card,In-store Pickup,100,4,0.05,17
+73,70,2024-04-15,19,12.2,2.37,Debit Card,In-store Pickup,91,7,0.2,17
+73,70,2024-04-15,19,12.2,2.37,Debit Card,In-store Pickup,62,7,0.03,17
+74,71,2024-09-29,19,5.71,14.15,Cash,Home Delivery,90,9,0.18,24
+75,20,2024-05-03,15,6.76,1.77,Credit Card,In-store Pickup,86,2,0.28,23
+75,20,2024-05-03,15,6.76,1.77,Credit Card,In-store Pickup,23,8,0.15,23
+75,20,2024-05-03,15,6.76,1.77,Credit Card,In-store Pickup,87,8,0.28,23
+75,20,2024-05-03,15,6.76,1.77,Credit Card,In-store Pickup,60,9,0.14,23
+75,20,2024-05-03,15,6.76,1.77,Credit Card,In-store Pickup,78,10,0.23,23
+76,97,2024-03-27,15,15.15,8.49,Cash,Home Delivery,69,2,0.08,69
+77,28,2024-06-25,11,10.55,7.41,PayPal,Home Delivery,18,10,0.02,9
+77,28,2024-06-25,11,10.55,7.41,PayPal,Home Delivery,26,3,0.1,9
+77,28,2024-06-25,11,10.55,7.41,PayPal,Home Delivery,68,7,0.21,9
+78,49,2024-11-03,16,7.84,3.25,Cash,Home Delivery,66,2,0.01,86
+78,49,2024-11-03,16,7.84,3.25,Cash,Home Delivery,40,10,0.0,86
+78,49,2024-11-03,16,7.84,3.25,Cash,Home Delivery,95,8,0.13,86
+78,49,2024-11-03,16,7.84,3.25,Cash,Home Delivery,52,10,0.19,86
+79,5,2024-10-01,18,17.14,9.0,Debit Card,Home Delivery,33,6,0.03,77
+79,5,2024-10-01,18,17.14,9.0,Debit Card,Home Delivery,9,3,0.27,77
+80,12,2024-01-21,10,18.1,9.34,Credit Card,Home Delivery,47,7,0.11,88
+80,12,2024-01-21,10,18.1,9.34,Credit Card,Home Delivery,100,8,0.1,88
+80,12,2024-01-21,10,18.1,9.34,Credit Card,Home Delivery,42,1,0.0,88
+80,12,2024-01-21,10,18.1,9.34,Credit Card,Home Delivery,2,9,0.19,88
+81,9,2024-08-23,20,19.86,7.49,Credit Card,Home Delivery,52,6,0.22,46
+82,49,2024-06-07,16,16.64,2.31,Credit Card,Home Delivery,48,10,0.05,3
+83,94,2024-10-31,13,10.96,1.28,Cash,Home Delivery,33,4,0.25,24
+83,94,2024-10-31,13,10.96,1.28,Cash,Home Delivery,81,2,0.03,24
+83,94,2024-10-31,13,10.96,1.28,Cash,Home Delivery,62,2,0.08,24
+84,72,2024-07-04,17,13.92,5.82,Debit Card,Home Delivery,94,9,0.26,51
+84,72,2024-07-04,17,13.92,5.82,Debit Card,Home Delivery,79,3,0.23,51
+84,72,2024-07-04,17,13.92,5.82,Debit Card,Home Delivery,35,3,0.14,51
+84,72,2024-07-04,17,13.92,5.82,Debit Card,Home Delivery,32,5,0.28,51
+84,72,2024-07-04,17,13.92,5.82,Debit Card,Home Delivery,47,4,0.14,51
+85,49,2024-04-24,20,17.19,12.86,PayPal,In-store Pickup,15,5,0.11,28
+85,49,2024-04-24,20,17.19,12.86,PayPal,In-store Pickup,62,6,0.18,28
+86,95,2024-09-13,10,8.01,4.16,Credit Card,Home Delivery,87,1,0.22,39
+87,45,2024-06-03,11,5.35,9.9,Debit Card,Home Delivery,68,6,0.12,47
+87,45,2024-06-03,11,5.35,9.9,Debit Card,Home Delivery,26,10,0.09,47
+87,45,2024-06-03,11,5.35,9.9,Debit Card,Home Delivery,25,3,0.15,47
+87,45,2024-06-03,11,5.35,9.9,Debit Card,Home Delivery,94,2,0.21,47
+87,45,2024-06-03,11,5.35,9.9,Debit Card,Home Delivery,94,5,0.12,47
+88,90,2024-05-10,20,16.59,13.86,Credit Card,In-store Pickup,74,10,0.05,4
+88,90,2024-05-10,20,16.59,13.86,Credit Card,In-store Pickup,18,7,0.06,4
+88,90,2024-05-10,20,16.59,13.86,Credit Card,In-store Pickup,10,7,0.27,4
+88,90,2024-05-10,20,16.59,13.86,Credit Card,In-store Pickup,10,6,0.2,4
+88,90,2024-05-10,20,16.59,13.86,Credit Card,In-store Pickup,41,7,0.02,4
+89,72,2024-05-15,14,8.25,3.44,Debit Card,In-store Pickup,95,4,0.05,14
+89,72,2024-05-15,14,8.25,3.44,Debit Card,In-store Pickup,56,1,0.11,14
+90,28,2024-04-11,14,5.76,9.28,PayPal,Home Delivery,89,7,0.11,42
+90,28,2024-04-11,14,5.76,9.28,PayPal,Home Delivery,6,5,0.06,42
+90,28,2024-04-11,14,5.76,9.28,PayPal,Home Delivery,26,7,0.03,42
+90,28,2024-04-11,14,5.76,9.28,PayPal,Home Delivery,68,4,0.24,42
+90,28,2024-04-11,14,5.76,9.28,PayPal,Home Delivery,44,3,0.1,42
+91,87,2024-06-18,8,17.0,5.19,PayPal,Home Delivery,21,6,0.09,40
+91,87,2024-06-18,8,17.0,5.19,PayPal,Home Delivery,75,8,0.09,40
+91,87,2024-06-18,8,17.0,5.19,PayPal,Home Delivery,35,8,0.04,40
+91,87,2024-06-18,8,17.0,5.19,PayPal,Home Delivery,44,4,0.04,40
+92,68,2024-03-10,11,19.12,14.84,Cash,Home Delivery,34,7,0.0,82
+92,68,2024-03-10,11,19.12,14.84,Cash,Home Delivery,71,6,0.25,82
+92,68,2024-03-10,11,19.12,14.84,Cash,Home Delivery,76,8,0.09,82
+93,67,2024-01-15,12,14.27,10.52,Debit Card,Home Delivery,51,9,0.26,53
+94,93,2024-09-04,11,6.31,6.27,Credit Card,Home Delivery,3,2,0.25,64
+95,47,2024-06-19,20,6.51,11.64,Credit Card,Home Delivery,33,4,0.0,75
+95,47,2024-06-19,20,6.51,11.64,Credit Card,Home Delivery,60,10,0.19,75
+95,47,2024-06-19,20,6.51,11.64,Credit Card,Home Delivery,2,6,0.11,75
+95,47,2024-06-19,20,6.51,11.64,Credit Card,Home Delivery,5,9,0.08,75
+96,45,2024-06-25,9,6.28,9.01,PayPal,In-store Pickup,49,6,0.24,56
+96,45,2024-06-25,9,6.28,9.01,PayPal,In-store Pickup,68,8,0.06,56
+96,45,2024-06-25,9,6.28,9.01,PayPal,In-store Pickup,30,2,0.05,56
+96,45,2024-06-25,9,6.28,9.01,PayPal,In-store Pickup,73,10,0.24,56
+97,91,2024-08-08,3,19.49,6.47,Debit Card,Home Delivery,53,5,0.02,63
+97,91,2024-08-08,3,19.49,6.47,Debit Card,Home Delivery,64,3,0.15,63
+98,4,2024-10-15,6,10.16,12.64,Debit Card,In-store Pickup,62,10,0.26,73
+98,4,2024-10-15,6,10.16,12.64,Debit Card,In-store Pickup,26,8,0.23,73
+99,1,2024-09-09,12,19.61,13.95,Credit Card,Home Delivery,28,8,0.29,37
+100,58,2024-08-06,1,9.05,10.6,PayPal,Home Delivery,78,8,0.08,67
+100,58,2024-08-06,1,9.05,10.6,PayPal,Home Delivery,80,5,0.18,67
+100,58,2024-08-06,1,9.05,10.6,PayPal,Home Delivery,74,5,0.08,67
+100,58,2024-08-06,1,9.05,10.6,PayPal,Home Delivery,57,3,0.16,67
+100,58,2024-08-06,1,9.05,10.6,PayPal,Home Delivery,3,8,0.04,67
+101,92,2024-01-25,16,18.64,2.51,PayPal,In-store Pickup,18,3,0.03,87
+102,60,2024-08-09,14,12.68,10.69,Cash,Home Delivery,80,7,0.2,54
+102,60,2024-08-09,14,12.68,10.69,Cash,Home Delivery,40,9,0.21,54
+103,60,2024-07-22,13,7.54,6.28,Cash,In-store Pickup,43,8,0.2,84
+103,60,2024-07-22,13,7.54,6.28,Cash,In-store Pickup,24,6,0.01,84
+103,60,2024-07-22,13,7.54,6.28,Cash,In-store Pickup,18,2,0.14,84
+104,85,2024-08-08,11,8.03,12.73,PayPal,Home Delivery,3,3,0.16,58
+104,85,2024-08-08,11,8.03,12.73,PayPal,Home Delivery,10,2,0.0,58
+104,85,2024-08-08,11,8.03,12.73,PayPal,Home Delivery,51,3,0.08,58
+104,85,2024-08-08,11,8.03,12.73,PayPal,Home Delivery,51,9,0.22,58
+105,84,2024-04-16,3,17.83,12.29,Debit Card,Home Delivery,23,8,0.18,38
+106,14,2024-01-31,7,5.92,4.49,Debit Card,In-store Pickup,71,5,0.14,87
+106,14,2024-01-31,7,5.92,4.49,Debit Card,In-store Pickup,22,2,0.04,87
+106,14,2024-01-31,7,5.92,4.49,Debit Card,In-store Pickup,41,8,0.09,87
+107,4,2024-01-17,8,14.01,7.23,Cash,Home Delivery,73,3,0.03,61
+108,29,2024-04-25,10,14.62,10.23,Cash,In-store Pickup,39,1,0.27,87
+108,29,2024-04-25,10,14.62,10.23,Cash,In-store Pickup,60,6,0.07,87
+109,13,2024-01-31,15,12.3,12.56,Cash,Home Delivery,72,9,0.06,97
+109,13,2024-01-31,15,12.3,12.56,Cash,Home Delivery,3,10,0.03,97
+109,13,2024-01-31,15,12.3,12.56,Cash,Home Delivery,25,6,0.21,97
+109,13,2024-01-31,15,12.3,12.56,Cash,Home Delivery,13,3,0.19,97
+109,13,2024-01-31,15,12.3,12.56,Cash,Home Delivery,31,4,0.16,97
+110,56,2024-03-28,13,6.02,10.85,Cash,In-store Pickup,30,3,0.03,76
+110,56,2024-03-28,13,6.02,10.85,Cash,In-store Pickup,4,3,0.24,76
+110,56,2024-03-28,13,6.02,10.85,Cash,In-store Pickup,34,3,0.29,76
+110,56,2024-03-28,13,6.02,10.85,Cash,In-store Pickup,27,7,0.14,76
+110,56,2024-03-28,13,6.02,10.85,Cash,In-store Pickup,5,6,0.09,76
+111,98,2024-03-24,14,17.21,9.42,Debit Card,Home Delivery,100,9,0.22,75
+111,98,2024-03-24,14,17.21,9.42,Debit Card,Home Delivery,23,4,0.06,75
+111,98,2024-03-24,14,17.21,9.42,Debit Card,Home Delivery,91,8,0.22,75
+111,98,2024-03-24,14,17.21,9.42,Debit Card,Home Delivery,57,1,0.25,75
+112,72,2024-04-06,16,5.55,6.55,Debit Card,In-store Pickup,4,7,0.09,91
+112,72,2024-04-06,16,5.55,6.55,Debit Card,In-store Pickup,35,9,0.24,91
+112,72,2024-04-06,16,5.55,6.55,Debit Card,In-store Pickup,77,10,0.04,91
+112,72,2024-04-06,16,5.55,6.55,Debit Card,In-store Pickup,29,10,0.13,91
+112,72,2024-04-06,16,5.55,6.55,Debit Card,In-store Pickup,38,5,0.03,91
+113,1,2024-07-24,14,7.74,9.56,PayPal,In-store Pickup,36,3,0.05,82
+113,1,2024-07-24,14,7.74,9.56,PayPal,In-store Pickup,40,8,0.03,82
+114,48,2024-06-26,9,11.69,3.58,Credit Card,In-store Pickup,97,10,0.28,77
+114,48,2024-06-26,9,11.69,3.58,Credit Card,In-store Pickup,53,1,0.21,77
+115,62,2024-08-24,10,5.68,7.68,Cash,In-store Pickup,2,5,0.19,42
+115,62,2024-08-24,10,5.68,7.68,Cash,In-store Pickup,60,10,0.27,42
+115,62,2024-08-24,10,5.68,7.68,Cash,In-store Pickup,100,2,0.17,42
+115,62,2024-08-24,10,5.68,7.68,Cash,In-store Pickup,42,2,0.04,42
+116,50,2024-01-22,18,10.32,7.17,Debit Card,Home Delivery,17,9,0.15,10
+116,50,2024-01-22,18,10.32,7.17,Debit Card,Home Delivery,73,10,0.11,10
+116,50,2024-01-22,18,10.32,7.17,Debit Card,Home Delivery,5,3,0.2,10
+117,33,2024-06-19,3,14.52,13.14,Credit Card,In-store Pickup,14,9,0.2,44
+118,17,2024-08-27,14,19.67,3.95,Credit Card,In-store Pickup,38,3,0.24,33
+118,17,2024-08-27,14,19.67,3.95,Credit Card,In-store Pickup,84,7,0.05,33
+118,17,2024-08-27,14,19.67,3.95,Credit Card,In-store Pickup,51,4,0.03,33
+119,62,2024-08-02,6,10.66,3.67,PayPal,In-store Pickup,97,8,0.02,99
+120,9,2024-04-25,17,7.1,14.41,Cash,Home Delivery,53,1,0.25,28
+120,9,2024-04-25,17,7.1,14.41,Cash,Home Delivery,24,10,0.13,28
+120,9,2024-04-25,17,7.1,14.41,Cash,Home Delivery,44,10,0.17,28
+121,88,2024-05-26,18,18.74,4.63,Credit Card,In-store Pickup,87,7,0.25,52
+122,11,2024-06-14,11,12.82,1.34,Credit Card,In-store Pickup,9,2,0.12,45
+122,11,2024-06-14,11,12.82,1.34,Credit Card,In-store Pickup,47,9,0.0,45
+123,1,2024-10-14,8,16.02,4.34,Cash,Home Delivery,26,9,0.22,78
+124,53,2024-08-24,12,13.69,8.44,PayPal,Home Delivery,17,8,0.09,29
+125,91,2024-04-22,15,11.16,14.88,Credit Card,In-store Pickup,94,9,0.2,94
+125,91,2024-04-22,15,11.16,14.88,Credit Card,In-store Pickup,63,6,0.25,94
+125,91,2024-04-22,15,11.16,14.88,Credit Card,In-store Pickup,48,10,0.22,94
+125,91,2024-04-22,15,11.16,14.88,Credit Card,In-store Pickup,16,9,0.2,94
+125,91,2024-04-22,15,11.16,14.88,Credit Card,In-store Pickup,87,9,0.15,94
+126,50,2024-07-22,12,9.18,7.45,PayPal,In-store Pickup,17,8,0.28,36
+126,50,2024-07-22,12,9.18,7.45,PayPal,In-store Pickup,29,10,0.09,36
+126,50,2024-07-22,12,9.18,7.45,PayPal,In-store Pickup,28,6,0.04,36
+126,50,2024-07-22,12,9.18,7.45,PayPal,In-store Pickup,88,6,0.06,36
+126,50,2024-07-22,12,9.18,7.45,PayPal,In-store Pickup,88,4,0.27,36
+127,11,2024-08-31,13,11.55,1.67,Debit Card,Home Delivery,59,10,0.27,43
+127,11,2024-08-31,13,11.55,1.67,Debit Card,Home Delivery,57,10,0.2,43
+127,11,2024-08-31,13,11.55,1.67,Debit Card,Home Delivery,39,7,0.09,43
+127,11,2024-08-31,13,11.55,1.67,Debit Card,Home Delivery,35,1,0.12,43
+127,11,2024-08-31,13,11.55,1.67,Debit Card,Home Delivery,78,1,0.07,43
+128,89,2024-06-11,10,5.36,2.7,Credit Card,Home Delivery,91,4,0.16,15
+128,89,2024-06-11,10,5.36,2.7,Credit Card,Home Delivery,91,6,0.06,15
+129,20,2024-02-24,10,14.18,10.71,PayPal,Home Delivery,47,9,0.18,77
+129,20,2024-02-24,10,14.18,10.71,PayPal,Home Delivery,16,9,0.21,77
+129,20,2024-02-24,10,14.18,10.71,PayPal,Home Delivery,75,8,0.29,77
+130,26,2024-08-25,20,6.24,2.84,PayPal,Home Delivery,97,6,0.09,5
+130,26,2024-08-25,20,6.24,2.84,PayPal,Home Delivery,21,4,0.29,5
+130,26,2024-08-25,20,6.24,2.84,PayPal,Home Delivery,51,5,0.12,5
+131,93,2024-07-11,1,16.94,2.54,Debit Card,Home Delivery,21,3,0.26,10
+131,93,2024-07-11,1,16.94,2.54,Debit Card,Home Delivery,66,6,0.3,10
+131,93,2024-07-11,1,16.94,2.54,Debit Card,Home Delivery,38,3,0.04,10
+131,93,2024-07-11,1,16.94,2.54,Debit Card,Home Delivery,81,4,0.12,10
+131,93,2024-07-11,1,16.94,2.54,Debit Card,Home Delivery,52,9,0.18,10
+132,98,2024-03-11,19,13.67,14.15,Credit Card,Home Delivery,4,6,0.3,94
+132,98,2024-03-11,19,13.67,14.15,Credit Card,Home Delivery,95,3,0.11,94
+133,72,2024-11-06,11,9.89,3.1,PayPal,Home Delivery,72,8,0.12,22
+133,72,2024-11-06,11,9.89,3.1,PayPal,Home Delivery,79,5,0.28,22
+134,83,2024-05-28,5,13.34,1.54,Cash,Home Delivery,49,8,0.22,98
+135,68,2024-07-21,5,8.17,13.1,PayPal,Home Delivery,88,10,0.06,66
+135,68,2024-07-21,5,8.17,13.1,PayPal,Home Delivery,49,10,0.26,66
+135,68,2024-07-21,5,8.17,13.1,PayPal,Home Delivery,13,10,0.19,66
+136,24,2024-08-13,1,13.43,11.36,Cash,In-store Pickup,92,8,0.05,29
+136,24,2024-08-13,1,13.43,11.36,Cash,In-store Pickup,25,1,0.08,29
+137,39,2024-09-08,9,5.57,13.88,Credit Card,In-store Pickup,90,6,0.28,33
+138,85,2024-05-11,6,15.06,5.89,Debit Card,Home Delivery,66,9,0.3,39
+139,76,2024-06-06,4,15.89,12.88,Debit Card,Home Delivery,17,6,0.19,60
+140,86,2024-05-25,9,5.38,14.97,Credit Card,Home Delivery,18,8,0.12,25
+140,86,2024-05-25,9,5.38,14.97,Credit Card,Home Delivery,95,4,0.24,25
+140,86,2024-05-25,9,5.38,14.97,Credit Card,Home Delivery,35,2,0.21,25
+140,86,2024-05-25,9,5.38,14.97,Credit Card,Home Delivery,27,6,0.22,25
+140,86,2024-05-25,9,5.38,14.97,Credit Card,Home Delivery,35,2,0.26,25
+141,68,2024-03-17,8,15.05,2.95,Credit Card,In-store Pickup,45,7,0.2,50
+141,68,2024-03-17,8,15.05,2.95,Credit Card,In-store Pickup,89,9,0.0,50
+142,18,2024-11-04,1,12.45,8.18,Debit Card,In-store Pickup,53,7,0.24,30
+142,18,2024-11-04,1,12.45,8.18,Debit Card,In-store Pickup,37,7,0.29,30
+143,46,2024-02-16,3,14.97,14.76,Debit Card,Home Delivery,30,3,0.2,14
+143,46,2024-02-16,3,14.97,14.76,Debit Card,Home Delivery,33,1,0.07,14
+144,66,2024-03-26,3,16.82,7.32,Debit Card,In-store Pickup,36,9,0.06,21
+144,66,2024-03-26,3,16.82,7.32,Debit Card,In-store Pickup,26,2,0.08,21
+145,36,2024-04-30,17,14.44,14.02,PayPal,Home Delivery,51,4,0.01,36
+145,36,2024-04-30,17,14.44,14.02,PayPal,Home Delivery,66,2,0.27,36
+145,36,2024-04-30,17,14.44,14.02,PayPal,Home Delivery,98,8,0.07,36
+146,56,2024-02-22,13,15.88,12.04,Credit Card,Home Delivery,46,4,0.2,18
+146,56,2024-02-22,13,15.88,12.04,Credit Card,Home Delivery,12,4,0.28,18
+146,56,2024-02-22,13,15.88,12.04,Credit Card,Home Delivery,72,9,0.11,18
+147,22,2024-10-16,19,12.55,6.25,Debit Card,Home Delivery,16,10,0.09,47
+147,22,2024-10-16,19,12.55,6.25,Debit Card,Home Delivery,83,5,0.16,47
+148,50,2024-10-31,20,18.9,7.17,Credit Card,Home Delivery,96,8,0.1,86
+149,66,2024-06-11,12,8.57,14.95,Debit Card,Home Delivery,69,9,0.26,26
+149,66,2024-06-11,12,8.57,14.95,Debit Card,Home Delivery,11,3,0.11,26
+150,29,2024-08-11,12,14.84,8.89,Cash,In-store Pickup,93,6,0.18,47
+150,29,2024-08-11,12,14.84,8.89,Cash,In-store Pickup,88,6,0.0,47
+150,29,2024-08-11,12,14.84,8.89,Cash,In-store Pickup,17,6,0.19,47
+150,29,2024-08-11,12,14.84,8.89,Cash,In-store Pickup,69,7,0.11,47
+151,48,2024-08-24,5,8.91,4.18,Credit Card,In-store Pickup,82,5,0.21,42
+151,48,2024-08-24,5,8.91,4.18,Credit Card,In-store Pickup,38,8,0.3,42
+152,45,2024-04-29,20,7.42,6.32,Credit Card,Home Delivery,24,2,0.13,56
+152,45,2024-04-29,20,7.42,6.32,Credit Card,Home Delivery,46,8,0.16,56
+152,45,2024-04-29,20,7.42,6.32,Credit Card,Home Delivery,19,6,0.29,56
+153,95,2024-10-29,4,16.62,11.37,Credit Card,Home Delivery,13,7,0.22,40
+154,7,2024-11-03,11,8.33,11.87,Credit Card,Home Delivery,49,3,0.08,66
+154,7,2024-11-03,11,8.33,11.87,Credit Card,Home Delivery,97,3,0.24,66
+154,7,2024-11-03,11,8.33,11.87,Credit Card,Home Delivery,92,4,0.11,66
+154,7,2024-11-03,11,8.33,11.87,Credit Card,Home Delivery,19,1,0.02,66
+154,7,2024-11-03,11,8.33,11.87,Credit Card,Home Delivery,89,1,0.04,66
+155,90,2024-03-18,16,18.2,13.83,Cash,In-store Pickup,57,1,0.21,70
+156,85,2024-04-27,3,5.81,12.52,Cash,Home Delivery,18,8,0.27,94
+156,85,2024-04-27,3,5.81,12.52,Cash,Home Delivery,65,7,0.28,94
+156,85,2024-04-27,3,5.81,12.52,Cash,Home Delivery,32,2,0.25,94
+156,85,2024-04-27,3,5.81,12.52,Cash,Home Delivery,23,2,0.21,94
+156,85,2024-04-27,3,5.81,12.52,Cash,Home Delivery,48,2,0.13,94
+157,23,2024-02-16,16,14.83,11.98,Credit Card,In-store Pickup,36,6,0.03,90
+157,23,2024-02-16,16,14.83,11.98,Credit Card,In-store Pickup,27,3,0.02,90
+157,23,2024-02-16,16,14.83,11.98,Credit Card,In-store Pickup,40,8,0.11,90
+157,23,2024-02-16,16,14.83,11.98,Credit Card,In-store Pickup,61,7,0.13,90
+157,23,2024-02-16,16,14.83,11.98,Credit Card,In-store Pickup,100,1,0.19,90
+158,76,2024-09-10,12,5.84,10.31,Debit Card,Home Delivery,65,10,0.03,68
+158,76,2024-09-10,12,5.84,10.31,Debit Card,Home Delivery,33,10,0.2,68
+158,76,2024-09-10,12,5.84,10.31,Debit Card,Home Delivery,21,9,0.23,68
+159,70,2024-03-04,11,15.99,3.84,Credit Card,In-store Pickup,27,5,0.24,29
+160,71,2024-04-09,5,15.21,9.7,Debit Card,Home Delivery,32,1,0.24,98
+160,71,2024-04-09,5,15.21,9.7,Debit Card,Home Delivery,70,7,0.12,98
+161,79,2024-01-22,4,9.5,7.64,PayPal,In-store Pickup,89,2,0.06,49
+161,79,2024-01-22,4,9.5,7.64,PayPal,In-store Pickup,9,6,0.08,49
+162,98,2024-06-02,9,19.2,10.79,Credit Card,Home Delivery,26,6,0.23,41
+162,98,2024-06-02,9,19.2,10.79,Credit Card,Home Delivery,19,7,0.07,41
+162,98,2024-06-02,9,19.2,10.79,Credit Card,Home Delivery,3,10,0.21,41
+162,98,2024-06-02,9,19.2,10.79,Credit Card,Home Delivery,92,1,0.0,41
+162,98,2024-06-02,9,19.2,10.79,Credit Card,Home Delivery,55,8,0.12,41
+163,78,2024-09-06,19,18.33,3.45,Debit Card,In-store Pickup,96,9,0.04,69
+164,3,2024-06-16,14,7.71,8.06,PayPal,Home Delivery,39,1,0.18,40
+164,3,2024-06-16,14,7.71,8.06,PayPal,Home Delivery,24,10,0.14,40
+165,67,2024-02-11,19,15.74,3.91,PayPal,In-store Pickup,79,5,0.25,53
+165,67,2024-02-11,19,15.74,3.91,PayPal,In-store Pickup,41,3,0.29,53
+165,67,2024-02-11,19,15.74,3.91,PayPal,In-store Pickup,80,3,0.04,53
+165,67,2024-02-11,19,15.74,3.91,PayPal,In-store Pickup,46,8,0.3,53
+166,43,2024-06-22,7,15.03,10.81,PayPal,In-store Pickup,37,7,0.02,71
+166,43,2024-06-22,7,15.03,10.81,PayPal,In-store Pickup,8,5,0.24,71
+166,43,2024-06-22,7,15.03,10.81,PayPal,In-store Pickup,100,2,0.22,71
+166,43,2024-06-22,7,15.03,10.81,PayPal,In-store Pickup,25,9,0.09,71
+166,43,2024-06-22,7,15.03,10.81,PayPal,In-store Pickup,32,3,0.17,71
+167,81,2024-08-08,17,17.48,7.57,Debit Card,Home Delivery,11,6,0.15,84
+167,81,2024-08-08,17,17.48,7.57,Debit Card,Home Delivery,28,7,0.06,84
+167,81,2024-08-08,17,17.48,7.57,Debit Card,Home Delivery,61,3,0.02,84
+167,81,2024-08-08,17,17.48,7.57,Debit Card,Home Delivery,58,3,0.17,84
+168,96,2024-03-11,19,9.58,14.82,Cash,Home Delivery,32,4,0.01,18
+168,96,2024-03-11,19,9.58,14.82,Cash,Home Delivery,70,7,0.04,18
+168,96,2024-03-11,19,9.58,14.82,Cash,Home Delivery,17,6,0.3,18
+168,96,2024-03-11,19,9.58,14.82,Cash,Home Delivery,78,9,0.02,18
+169,8,2024-01-16,13,17.85,5.99,Debit Card,In-store Pickup,58,6,0.05,14
+169,8,2024-01-16,13,17.85,5.99,Debit Card,In-store Pickup,38,4,0.15,14
+169,8,2024-01-16,13,17.85,5.99,Debit Card,In-store Pickup,25,7,0.27,14
+170,21,2024-10-19,5,5.39,6.11,Cash,Home Delivery,5,3,0.03,14
+170,21,2024-10-19,5,5.39,6.11,Cash,Home Delivery,5,6,0.08,14
+170,21,2024-10-19,5,5.39,6.11,Cash,Home Delivery,5,3,0.05,14
+170,21,2024-10-19,5,5.39,6.11,Cash,Home Delivery,64,5,0.13,14
+170,21,2024-10-19,5,5.39,6.11,Cash,Home Delivery,37,2,0.09,14
+171,17,2024-04-18,10,17.01,5.82,Cash,Home Delivery,47,6,0.02,46
+171,17,2024-04-18,10,17.01,5.82,Cash,Home Delivery,89,8,0.27,46
+171,17,2024-04-18,10,17.01,5.82,Cash,Home Delivery,86,6,0.21,46
+171,17,2024-04-18,10,17.01,5.82,Cash,Home Delivery,4,6,0.19,46
+171,17,2024-04-18,10,17.01,5.82,Cash,Home Delivery,49,3,0.17,46
+172,37,2024-09-27,2,5.84,3.2,Cash,In-store Pickup,47,10,0.23,88
+172,37,2024-09-27,2,5.84,3.2,Cash,In-store Pickup,73,10,0.04,88
+172,37,2024-09-27,2,5.84,3.2,Cash,In-store Pickup,46,2,0.2,88
+172,37,2024-09-27,2,5.84,3.2,Cash,In-store Pickup,48,9,0.19,88
+173,13,2024-07-29,19,13.97,9.13,Credit Card,In-store Pickup,83,1,0.01,85
+173,13,2024-07-29,19,13.97,9.13,Credit Card,In-store Pickup,42,2,0.21,85
+174,92,2024-05-15,13,16.77,2.94,Cash,In-store Pickup,63,2,0.13,38
+174,92,2024-05-15,13,16.77,2.94,Cash,In-store Pickup,8,9,0.18,38
+175,35,2024-09-22,3,5.41,4.24,Credit Card,In-store Pickup,30,8,0.28,27
+175,35,2024-09-22,3,5.41,4.24,Credit Card,In-store Pickup,92,2,0.28,27
+175,35,2024-09-22,3,5.41,4.24,Credit Card,In-store Pickup,99,9,0.21,27
+176,48,2024-07-28,4,6.48,13.29,Credit Card,In-store Pickup,59,4,0.1,28
+176,48,2024-07-28,4,6.48,13.29,Credit Card,In-store Pickup,36,10,0.25,28
+176,48,2024-07-28,4,6.48,13.29,Credit Card,In-store Pickup,6,8,0.06,28
+177,99,2024-01-05,17,8.49,13.96,Debit Card,In-store Pickup,26,9,0.03,70
+178,34,2024-01-03,2,15.08,10.67,Debit Card,In-store Pickup,57,2,0.25,65
+179,41,2024-10-01,18,14.6,7.42,PayPal,Home Delivery,53,7,0.19,24
+180,9,2024-06-02,10,7.49,12.59,Cash,In-store Pickup,26,3,0.21,99
+180,9,2024-06-02,10,7.49,12.59,Cash,In-store Pickup,3,6,0.05,99
+180,9,2024-06-02,10,7.49,12.59,Cash,In-store Pickup,22,9,0.09,99
+180,9,2024-06-02,10,7.49,12.59,Cash,In-store Pickup,52,6,0.2,99
+181,19,2024-08-10,8,10.38,10.28,Debit Card,In-store Pickup,36,7,0.08,93
+181,19,2024-08-10,8,10.38,10.28,Debit Card,In-store Pickup,16,5,0.14,93
+181,19,2024-08-10,8,10.38,10.28,Debit Card,In-store Pickup,17,3,0.23,93
+182,25,2024-01-11,15,14.77,2.63,PayPal,In-store Pickup,36,10,0.06,91
+182,25,2024-01-11,15,14.77,2.63,PayPal,In-store Pickup,47,6,0.23,91
+182,25,2024-01-11,15,14.77,2.63,PayPal,In-store Pickup,87,4,0.22,91
+183,40,2024-04-02,3,18.16,2.92,Debit Card,Home Delivery,85,10,0.24,38
+183,40,2024-04-02,3,18.16,2.92,Debit Card,Home Delivery,6,6,0.21,38
+183,40,2024-04-02,3,18.16,2.92,Debit Card,Home Delivery,38,4,0.12,38
+183,40,2024-04-02,3,18.16,2.92,Debit Card,Home Delivery,40,2,0.3,38
+183,40,2024-04-02,3,18.16,2.92,Debit Card,Home Delivery,61,3,0.19,38
+184,98,2024-08-11,4,9.12,9.18,PayPal,Home Delivery,26,6,0.07,29
+184,98,2024-08-11,4,9.12,9.18,PayPal,Home Delivery,16,3,0.06,29
+185,65,2024-08-09,8,12.78,12.24,Credit Card,In-store Pickup,21,1,0.15,76
+186,22,2024-03-23,2,16.28,12.81,Cash,Home Delivery,13,9,0.21,60
+186,22,2024-03-23,2,16.28,12.81,Cash,Home Delivery,29,2,0.06,60
+187,38,2024-07-01,15,18.16,5.16,Debit Card,In-store Pickup,21,5,0.2,71
+187,38,2024-07-01,15,18.16,5.16,Debit Card,In-store Pickup,83,8,0.07,71
+188,74,2024-02-20,3,6.46,4.86,Debit Card,In-store Pickup,96,2,0.24,99
+189,24,2024-03-12,19,17.05,3.92,Credit Card,Home Delivery,97,10,0.24,9
+190,1,2024-10-13,13,6.06,8.63,PayPal,In-store Pickup,44,5,0.21,17
+191,54,2024-01-13,1,11.89,6.07,Credit Card,In-store Pickup,43,6,0.11,98
+192,82,2024-03-07,6,16.22,8.62,PayPal,Home Delivery,54,10,0.03,31
+192,82,2024-03-07,6,16.22,8.62,PayPal,Home Delivery,21,5,0.06,31
+193,64,2024-09-19,18,14.48,10.67,PayPal,In-store Pickup,74,5,0.16,17
+193,64,2024-09-19,18,14.48,10.67,PayPal,In-store Pickup,20,4,0.23,17
+194,80,2024-08-08,2,5.97,3.27,Credit Card,Home Delivery,98,8,0.03,33
+194,80,2024-08-08,2,5.97,3.27,Credit Card,Home Delivery,89,9,0.06,33
+194,80,2024-08-08,2,5.97,3.27,Credit Card,Home Delivery,69,1,0.25,33
+194,80,2024-08-08,2,5.97,3.27,Credit Card,Home Delivery,39,7,0.16,33
+194,80,2024-08-08,2,5.97,3.27,Credit Card,Home Delivery,59,9,0.24,33
+195,70,2024-06-29,5,5.94,7.4,Cash,In-store Pickup,21,3,0.28,54
+195,70,2024-06-29,5,5.94,7.4,Cash,In-store Pickup,14,7,0.13,54
+195,70,2024-06-29,5,5.94,7.4,Cash,In-store Pickup,62,9,0.3,54
+196,30,2024-05-26,14,15.32,5.39,Credit Card,Home Delivery,27,1,0.26,61
+196,30,2024-05-26,14,15.32,5.39,Credit Card,Home Delivery,23,6,0.05,61
+196,30,2024-05-26,14,15.32,5.39,Credit Card,Home Delivery,96,2,0.26,61
+197,73,2024-05-09,11,13.16,10.25,Credit Card,In-store Pickup,65,9,0.26,11
+198,41,2024-03-04,2,8.18,13.0,PayPal,Home Delivery,69,7,0.03,37
+198,41,2024-03-04,2,8.18,13.0,PayPal,Home Delivery,10,8,0.15,37
+198,41,2024-03-04,2,8.18,13.0,PayPal,Home Delivery,33,5,0.21,37
+198,41,2024-03-04,2,8.18,13.0,PayPal,Home Delivery,76,9,0.07,37
+198,41,2024-03-04,2,8.18,13.0,PayPal,Home Delivery,100,7,0.05,37
+199,86,2024-10-26,7,9.02,13.7,Credit Card,In-store Pickup,60,5,0.11,52
+199,86,2024-10-26,7,9.02,13.7,Credit Card,In-store Pickup,84,10,0.3,52
+199,86,2024-10-26,7,9.02,13.7,Credit Card,In-store Pickup,20,5,0.29,52
+200,83,2024-04-29,12,8.3,11.74,Cash,Home Delivery,49,3,0.12,49
+201,55,2024-09-30,11,6.86,13.72,Cash,In-store Pickup,7,10,0.29,11
+201,55,2024-09-30,11,6.86,13.72,Cash,In-store Pickup,97,3,0.22,11
+201,55,2024-09-30,11,6.86,13.72,Cash,In-store Pickup,93,4,0.28,11
+201,55,2024-09-30,11,6.86,13.72,Cash,In-store Pickup,89,4,0.22,11
+202,80,2024-10-22,1,19.52,10.91,Credit Card,Home Delivery,98,3,0.15,23
+202,80,2024-10-22,1,19.52,10.91,Credit Card,Home Delivery,72,8,0.21,23
+202,80,2024-10-22,1,19.52,10.91,Credit Card,Home Delivery,80,3,0.08,23
+203,69,2024-01-23,19,6.46,5.11,Cash,Home Delivery,37,8,0.28,15
+203,69,2024-01-23,19,6.46,5.11,Cash,Home Delivery,75,3,0.14,15
+203,69,2024-01-23,19,6.46,5.11,Cash,Home Delivery,36,9,0.14,15
+203,69,2024-01-23,19,6.46,5.11,Cash,Home Delivery,95,10,0.28,15
+203,69,2024-01-23,19,6.46,5.11,Cash,Home Delivery,35,10,0.14,15
+204,76,2024-09-08,10,8.44,13.51,Cash,Home Delivery,93,3,0.04,94
+204,76,2024-09-08,10,8.44,13.51,Cash,Home Delivery,36,10,0.04,94
+205,91,2024-04-25,4,13.02,2.79,Debit Card,Home Delivery,81,2,0.18,47
+206,9,2024-03-23,18,16.46,13.79,Debit Card,In-store Pickup,29,4,0.08,73
+206,9,2024-03-23,18,16.46,13.79,Debit Card,In-store Pickup,71,8,0.01,73
+206,9,2024-03-23,18,16.46,13.79,Debit Card,In-store Pickup,50,2,0.25,73
+206,9,2024-03-23,18,16.46,13.79,Debit Card,In-store Pickup,38,7,0.12,73
+206,9,2024-03-23,18,16.46,13.79,Debit Card,In-store Pickup,37,6,0.09,73
+207,44,2024-05-12,10,6.54,14.63,Credit Card,Home Delivery,75,9,0.14,74
+208,96,2024-02-23,4,17.46,3.48,Cash,In-store Pickup,46,1,0.28,81
+209,25,2024-04-29,7,7.86,1.52,Cash,Home Delivery,27,5,0.16,22
+210,57,2024-03-29,18,12.74,2.0,PayPal,Home Delivery,52,1,0.15,2
+210,57,2024-03-29,18,12.74,2.0,PayPal,Home Delivery,75,6,0.21,2
+210,57,2024-03-29,18,12.74,2.0,PayPal,Home Delivery,30,8,0.11,2
+210,57,2024-03-29,18,12.74,2.0,PayPal,Home Delivery,59,9,0.18,2
+210,57,2024-03-29,18,12.74,2.0,PayPal,Home Delivery,61,3,0.01,2
+211,57,2024-01-30,20,17.4,5.83,PayPal,Home Delivery,61,9,0.24,41
+211,57,2024-01-30,20,17.4,5.83,PayPal,Home Delivery,49,9,0.14,41
+212,12,2024-10-16,11,15.96,12.66,PayPal,In-store Pickup,70,10,0.22,42
+212,12,2024-10-16,11,15.96,12.66,PayPal,In-store Pickup,17,8,0.04,42
+212,12,2024-10-16,11,15.96,12.66,PayPal,In-store Pickup,26,2,0.04,42
+213,100,2024-09-14,10,15.79,13.2,Credit Card,In-store Pickup,50,9,0.02,32
+213,100,2024-09-14,10,15.79,13.2,Credit Card,In-store Pickup,24,4,0.1,32
+213,100,2024-09-14,10,15.79,13.2,Credit Card,In-store Pickup,12,8,0.01,32
+213,100,2024-09-14,10,15.79,13.2,Credit Card,In-store Pickup,12,8,0.3,32
+214,26,2024-05-31,5,17.22,10.12,Credit Card,Home Delivery,49,5,0.09,33
+214,26,2024-05-31,5,17.22,10.12,Credit Card,Home Delivery,32,10,0.14,33
+214,26,2024-05-31,5,17.22,10.12,Credit Card,Home Delivery,38,3,0.29,33
+214,26,2024-05-31,5,17.22,10.12,Credit Card,Home Delivery,12,4,0.16,33
+214,26,2024-05-31,5,17.22,10.12,Credit Card,Home Delivery,11,6,0.06,33
+215,99,2024-04-21,2,19.25,13.34,Credit Card,In-store Pickup,61,4,0.21,38
+216,96,2024-06-29,11,5.32,12.69,Debit Card,Home Delivery,35,1,0.23,57
+217,21,2024-01-28,2,10.5,10.21,Debit Card,Home Delivery,17,10,0.08,11
+217,21,2024-01-28,2,10.5,10.21,Debit Card,Home Delivery,51,9,0.05,11
+217,21,2024-01-28,2,10.5,10.21,Debit Card,Home Delivery,59,6,0.25,11
+218,97,2024-10-17,17,8.73,4.44,Credit Card,In-store Pickup,49,2,0.1,38
+218,97,2024-10-17,17,8.73,4.44,Credit Card,In-store Pickup,64,4,0.02,38
+219,80,2024-10-19,7,13.33,5.7,Credit Card,In-store Pickup,15,5,0.11,13
+219,80,2024-10-19,7,13.33,5.7,Credit Card,In-store Pickup,16,1,0.12,13
+220,81,2024-02-22,20,9.38,1.11,Cash,Home Delivery,27,7,0.23,41
+220,81,2024-02-22,20,9.38,1.11,Cash,Home Delivery,95,5,0.18,41
+221,81,2024-03-23,3,7.56,13.84,Credit Card,Home Delivery,38,4,0.08,32
+221,81,2024-03-23,3,7.56,13.84,Credit Card,Home Delivery,30,10,0.04,32
+221,81,2024-03-23,3,7.56,13.84,Credit Card,Home Delivery,93,2,0.05,32
+221,81,2024-03-23,3,7.56,13.84,Credit Card,Home Delivery,22,4,0.06,32
+222,97,2024-04-30,19,14.02,8.12,Credit Card,In-store Pickup,94,3,0.04,63
+222,97,2024-04-30,19,14.02,8.12,Credit Card,In-store Pickup,69,4,0.03,63
+223,77,2024-08-31,11,14.03,12.97,Cash,Home Delivery,31,2,0.22,67
+223,77,2024-08-31,11,14.03,12.97,Cash,Home Delivery,97,1,0.02,67
+223,77,2024-08-31,11,14.03,12.97,Cash,Home Delivery,27,4,0.3,67
+223,77,2024-08-31,11,14.03,12.97,Cash,Home Delivery,61,1,0.29,67
+223,77,2024-08-31,11,14.03,12.97,Cash,Home Delivery,86,9,0.25,67
+224,61,2024-09-29,11,9.45,1.8,Cash,Home Delivery,5,2,0.03,8
+224,61,2024-09-29,11,9.45,1.8,Cash,Home Delivery,88,2,0.05,8
+224,61,2024-09-29,11,9.45,1.8,Cash,Home Delivery,7,9,0.11,8
+225,2,2024-01-09,11,17.2,9.09,Credit Card,In-store Pickup,12,4,0.18,37
+225,2,2024-01-09,11,17.2,9.09,Credit Card,In-store Pickup,6,7,0.16,37
+225,2,2024-01-09,11,17.2,9.09,Credit Card,In-store Pickup,60,4,0.18,37
+225,2,2024-01-09,11,17.2,9.09,Credit Card,In-store Pickup,25,7,0.18,37
+225,2,2024-01-09,11,17.2,9.09,Credit Card,In-store Pickup,94,8,0.18,37
+226,54,2024-05-13,18,19.91,12.32,Cash,Home Delivery,22,1,0.01,53
+226,54,2024-05-13,18,19.91,12.32,Cash,Home Delivery,3,5,0.05,53
+226,54,2024-05-13,18,19.91,12.32,Cash,Home Delivery,69,9,0.1,53
+226,54,2024-05-13,18,19.91,12.32,Cash,Home Delivery,17,10,0.02,53
+227,60,2024-03-09,3,15.79,5.68,Credit Card,Home Delivery,24,4,0.02,69
+227,60,2024-03-09,3,15.79,5.68,Credit Card,Home Delivery,4,7,0.0,69
+227,60,2024-03-09,3,15.79,5.68,Credit Card,Home Delivery,82,9,0.24,69
+227,60,2024-03-09,3,15.79,5.68,Credit Card,Home Delivery,82,5,0.04,69
+228,82,2024-05-27,16,10.6,9.78,Credit Card,In-store Pickup,5,6,0.01,27
+228,82,2024-05-27,16,10.6,9.78,Credit Card,In-store Pickup,42,10,0.11,27
+228,82,2024-05-27,16,10.6,9.78,Credit Card,In-store Pickup,65,6,0.09,27
+228,82,2024-05-27,16,10.6,9.78,Credit Card,In-store Pickup,25,8,0.25,27
+228,82,2024-05-27,16,10.6,9.78,Credit Card,In-store Pickup,69,5,0.26,27
+229,22,2024-05-26,5,14.05,8.37,PayPal,In-store Pickup,73,9,0.29,70
+229,22,2024-05-26,5,14.05,8.37,PayPal,In-store Pickup,76,9,0.14,70
+230,6,2024-04-03,16,5.86,10.05,Cash,Home Delivery,22,7,0.11,64
+230,6,2024-04-03,16,5.86,10.05,Cash,Home Delivery,46,10,0.08,64
+230,6,2024-04-03,16,5.86,10.05,Cash,Home Delivery,38,7,0.24,64
+231,24,2024-08-15,5,11.43,14.98,PayPal,In-store Pickup,62,1,0.01,8
+232,19,2024-03-29,9,14.56,9.73,Debit Card,In-store Pickup,90,8,0.27,15
+232,19,2024-03-29,9,14.56,9.73,Debit Card,In-store Pickup,86,1,0.01,15
+232,19,2024-03-29,9,14.56,9.73,Debit Card,In-store Pickup,100,3,0.06,15
+232,19,2024-03-29,9,14.56,9.73,Debit Card,In-store Pickup,98,8,0.26,15
+233,39,2024-03-06,11,16.36,6.81,Credit Card,In-store Pickup,82,10,0.22,91
+233,39,2024-03-06,11,16.36,6.81,Credit Card,In-store Pickup,93,10,0.06,91
+233,39,2024-03-06,11,16.36,6.81,Credit Card,In-store Pickup,91,7,0.16,91
+234,67,2024-08-31,3,5.73,12.74,Debit Card,In-store Pickup,53,2,0.1,91
+234,67,2024-08-31,3,5.73,12.74,Debit Card,In-store Pickup,79,8,0.01,91
+234,67,2024-08-31,3,5.73,12.74,Debit Card,In-store Pickup,62,4,0.01,91
+234,67,2024-08-31,3,5.73,12.74,Debit Card,In-store Pickup,49,7,0.01,91
+235,32,2024-05-31,8,13.8,7.48,PayPal,In-store Pickup,91,4,0.08,9
+235,32,2024-05-31,8,13.8,7.48,PayPal,In-store Pickup,73,8,0.25,9
+235,32,2024-05-31,8,13.8,7.48,PayPal,In-store Pickup,19,1,0.29,9
+236,31,2024-03-20,17,6.9,6.5,Debit Card,Home Delivery,15,9,0.17,85
+236,31,2024-03-20,17,6.9,6.5,Debit Card,Home Delivery,38,2,0.02,85
+236,31,2024-03-20,17,6.9,6.5,Debit Card,Home Delivery,98,7,0.28,85
+236,31,2024-03-20,17,6.9,6.5,Debit Card,Home Delivery,66,8,0.16,85
+237,27,2024-06-08,3,16.08,7.46,Debit Card,Home Delivery,96,5,0.05,67
+238,50,2024-09-17,14,6.2,4.12,Credit Card,In-store Pickup,12,1,0.13,61
+238,50,2024-09-17,14,6.2,4.12,Credit Card,In-store Pickup,86,2,0.12,61
+238,50,2024-09-17,14,6.2,4.12,Credit Card,In-store Pickup,23,6,0.01,61
+239,39,2024-07-05,8,11.19,13.61,Debit Card,Home Delivery,80,1,0.01,46
+239,39,2024-07-05,8,11.19,13.61,Debit Card,Home Delivery,75,9,0.23,46
+239,39,2024-07-05,8,11.19,13.61,Debit Card,Home Delivery,3,8,0.06,46
+239,39,2024-07-05,8,11.19,13.61,Debit Card,Home Delivery,86,5,0.03,46
+240,78,2024-09-05,1,17.64,4.69,Debit Card,In-store Pickup,24,2,0.03,42
+240,78,2024-09-05,1,17.64,4.69,Debit Card,In-store Pickup,24,7,0.08,42
+241,3,2024-05-02,12,17.76,9.73,Debit Card,Home Delivery,19,10,0.08,13
+241,3,2024-05-02,12,17.76,9.73,Debit Card,Home Delivery,72,4,0.28,13
+242,43,2024-07-20,15,7.68,9.35,Debit Card,In-store Pickup,95,7,0.12,39
+242,43,2024-07-20,15,7.68,9.35,Debit Card,In-store Pickup,28,9,0.08,39
+242,43,2024-07-20,15,7.68,9.35,Debit Card,In-store Pickup,94,6,0.17,39
+243,13,2024-04-08,3,11.45,5.11,Cash,Home Delivery,17,8,0.01,88
+243,13,2024-04-08,3,11.45,5.11,Cash,Home Delivery,81,8,0.06,88
+243,13,2024-04-08,3,11.45,5.11,Cash,Home Delivery,42,2,0.19,88
+243,13,2024-04-08,3,11.45,5.11,Cash,Home Delivery,15,5,0.07,88
+243,13,2024-04-08,3,11.45,5.11,Cash,Home Delivery,18,2,0.14,88
+244,82,2024-06-10,6,14.15,6.34,Credit Card,Home Delivery,32,1,0.16,55
+245,47,2024-04-20,15,5.55,14.13,Credit Card,In-store Pickup,49,9,0.02,80
+245,47,2024-04-20,15,5.55,14.13,Credit Card,In-store Pickup,13,7,0.24,80
+245,47,2024-04-20,15,5.55,14.13,Credit Card,In-store Pickup,99,8,0.13,80
+245,47,2024-04-20,15,5.55,14.13,Credit Card,In-store Pickup,68,7,0.09,80
+245,47,2024-04-20,15,5.55,14.13,Credit Card,In-store Pickup,21,10,0.28,80
+246,93,2024-03-16,10,16.12,12.19,PayPal,Home Delivery,15,5,0.15,25
+246,93,2024-03-16,10,16.12,12.19,PayPal,Home Delivery,54,4,0.21,25
+247,100,2024-06-12,7,18.93,10.3,PayPal,Home Delivery,77,1,0.16,58
+247,100,2024-06-12,7,18.93,10.3,PayPal,Home Delivery,81,3,0.14,58
+247,100,2024-06-12,7,18.93,10.3,PayPal,Home Delivery,29,7,0.24,58
+248,31,2024-07-20,16,15.17,7.7,Credit Card,Home Delivery,5,6,0.06,34
+248,31,2024-07-20,16,15.17,7.7,Credit Card,Home Delivery,44,4,0.26,34
+248,31,2024-07-20,16,15.17,7.7,Credit Card,Home Delivery,61,8,0.18,34
+248,31,2024-07-20,16,15.17,7.7,Credit Card,Home Delivery,39,1,0.17,34
+249,46,2024-05-24,6,14.55,6.81,Debit Card,Home Delivery,46,8,0.02,49
+249,46,2024-05-24,6,14.55,6.81,Debit Card,Home Delivery,9,6,0.05,49
+249,46,2024-05-24,6,14.55,6.81,Debit Card,Home Delivery,9,8,0.06,49
+249,46,2024-05-24,6,14.55,6.81,Debit Card,Home Delivery,21,8,0.23,49
+250,65,2024-05-30,9,7.74,11.22,Debit Card,In-store Pickup,39,5,0.16,70
+250,65,2024-05-30,9,7.74,11.22,Debit Card,In-store Pickup,29,8,0.24,70
+250,65,2024-05-30,9,7.74,11.22,Debit Card,In-store Pickup,16,8,0.03,70
+250,65,2024-05-30,9,7.74,11.22,Debit Card,In-store Pickup,57,1,0.08,70
+250,65,2024-05-30,9,7.74,11.22,Debit Card,In-store Pickup,34,3,0.14,70
+251,3,2024-07-30,3,5.37,3.33,Credit Card,In-store Pickup,36,4,0.18,9
+251,3,2024-07-30,3,5.37,3.33,Credit Card,In-store Pickup,6,8,0.16,9
+251,3,2024-07-30,3,5.37,3.33,Credit Card,In-store Pickup,26,9,0.12,9
+251,3,2024-07-30,3,5.37,3.33,Credit Card,In-store Pickup,1,2,0.03,9
+252,94,2024-10-16,2,19.04,4.54,Cash,Home Delivery,92,7,0.21,73
+252,94,2024-10-16,2,19.04,4.54,Cash,Home Delivery,5,4,0.03,73
+252,94,2024-10-16,2,19.04,4.54,Cash,Home Delivery,87,8,0.16,73
+253,4,2024-08-12,7,17.46,8.45,PayPal,In-store Pickup,80,5,0.19,51
+253,4,2024-08-12,7,17.46,8.45,PayPal,In-store Pickup,38,5,0.05,51
+253,4,2024-08-12,7,17.46,8.45,PayPal,In-store Pickup,55,9,0.03,51
+253,4,2024-08-12,7,17.46,8.45,PayPal,In-store Pickup,47,6,0.09,51
+253,4,2024-08-12,7,17.46,8.45,PayPal,In-store Pickup,40,5,0.18,51
+254,15,2024-02-29,9,16.76,9.9,Cash,In-store Pickup,45,9,0.29,17
+254,15,2024-02-29,9,16.76,9.9,Cash,In-store Pickup,42,4,0.16,17
+254,15,2024-02-29,9,16.76,9.9,Cash,In-store Pickup,90,7,0.13,17
+254,15,2024-02-29,9,16.76,9.9,Cash,In-store Pickup,52,6,0.22,17
+254,15,2024-02-29,9,16.76,9.9,Cash,In-store Pickup,81,2,0.18,17
+255,62,2024-09-01,7,18.54,2.61,PayPal,In-store Pickup,11,1,0.29,81
+255,62,2024-09-01,7,18.54,2.61,PayPal,In-store Pickup,23,7,0.25,81
+255,62,2024-09-01,7,18.54,2.61,PayPal,In-store Pickup,39,3,0.23,81
+256,71,2024-03-08,12,11.18,11.02,Credit Card,In-store Pickup,34,2,0.0,88
+257,45,2024-01-07,8,5.29,11.09,PayPal,In-store Pickup,75,9,0.24,58
+257,45,2024-01-07,8,5.29,11.09,PayPal,In-store Pickup,24,3,0.23,58
+257,45,2024-01-07,8,5.29,11.09,PayPal,In-store Pickup,68,8,0.02,58
+257,45,2024-01-07,8,5.29,11.09,PayPal,In-store Pickup,35,10,0.23,58
+257,45,2024-01-07,8,5.29,11.09,PayPal,In-store Pickup,13,3,0.09,58
+258,6,2024-05-14,2,5.49,11.85,Credit Card,In-store Pickup,47,3,0.09,44
+258,6,2024-05-14,2,5.49,11.85,Credit Card,In-store Pickup,80,3,0.17,44
+258,6,2024-05-14,2,5.49,11.85,Credit Card,In-store Pickup,27,6,0.05,44
+259,85,2024-02-19,9,12.38,10.44,Credit Card,Home Delivery,59,7,0.15,1
+259,85,2024-02-19,9,12.38,10.44,Credit Card,Home Delivery,77,5,0.2,1
+259,85,2024-02-19,9,12.38,10.44,Credit Card,Home Delivery,71,10,0.09,1
+259,85,2024-02-19,9,12.38,10.44,Credit Card,Home Delivery,44,2,0.29,1
+259,85,2024-02-19,9,12.38,10.44,Credit Card,Home Delivery,94,7,0.28,1
+260,66,2024-06-11,17,14.61,11.48,Cash,Home Delivery,98,3,0.02,40
+260,66,2024-06-11,17,14.61,11.48,Cash,Home Delivery,81,9,0.02,40
+260,66,2024-06-11,17,14.61,11.48,Cash,Home Delivery,1,7,0.1,40
+260,66,2024-06-11,17,14.61,11.48,Cash,Home Delivery,4,9,0.22,40
+261,1,2024-04-07,9,14.66,3.65,Debit Card,Home Delivery,59,6,0.21,99
+262,35,2024-05-24,1,10.91,12.16,Cash,In-store Pickup,39,8,0.3,8
+263,12,2024-09-30,10,15.95,7.04,PayPal,Home Delivery,98,4,0.1,21
+264,97,2024-06-04,7,14.49,14.45,PayPal,Home Delivery,40,3,0.23,27
+264,97,2024-06-04,7,14.49,14.45,PayPal,Home Delivery,13,8,0.28,27
+264,97,2024-06-04,7,14.49,14.45,PayPal,Home Delivery,33,7,0.04,27
+264,97,2024-06-04,7,14.49,14.45,PayPal,Home Delivery,47,4,0.11,27
+265,29,2024-03-17,1,17.74,11.41,Cash,In-store Pickup,20,8,0.12,52
+265,29,2024-03-17,1,17.74,11.41,Cash,In-store Pickup,85,4,0.1,52
+265,29,2024-03-17,1,17.74,11.41,Cash,In-store Pickup,48,1,0.13,52
+265,29,2024-03-17,1,17.74,11.41,Cash,In-store Pickup,93,1,0.18,52
+266,26,2024-01-15,2,13.05,10.94,Cash,In-store Pickup,80,5,0.26,58
+267,79,2024-09-06,3,10.55,10.46,Credit Card,In-store Pickup,47,10,0.28,93
+268,33,2024-08-26,17,11.43,1.15,Debit Card,In-store Pickup,98,3,0.09,12
+269,31,2024-09-29,7,10.28,5.28,PayPal,Home Delivery,44,7,0.07,79
+269,31,2024-09-29,7,10.28,5.28,PayPal,Home Delivery,74,8,0.21,79
+269,31,2024-09-29,7,10.28,5.28,PayPal,Home Delivery,50,8,0.01,79
+270,95,2024-06-28,15,13.09,10.53,Debit Card,In-store Pickup,97,5,0.1,48
+270,95,2024-06-28,15,13.09,10.53,Debit Card,In-store Pickup,62,8,0.12,48
+271,13,2024-04-03,10,11.44,2.91,Credit Card,In-store Pickup,2,10,0.27,31
+271,13,2024-04-03,10,11.44,2.91,Credit Card,In-store Pickup,86,6,0.23,31
+271,13,2024-04-03,10,11.44,2.91,Credit Card,In-store Pickup,39,8,0.14,31
+271,13,2024-04-03,10,11.44,2.91,Credit Card,In-store Pickup,52,3,0.29,31
+272,5,2024-05-30,4,6.62,4.17,PayPal,In-store Pickup,22,5,0.12,81
+273,44,2024-04-03,18,16.92,6.69,Credit Card,In-store Pickup,8,2,0.11,38
+273,44,2024-04-03,18,16.92,6.69,Credit Card,In-store Pickup,48,9,0.12,38
+274,100,2024-09-30,14,12.41,1.74,Credit Card,In-store Pickup,31,7,0.18,90
+274,100,2024-09-30,14,12.41,1.74,Credit Card,In-store Pickup,59,3,0.17,90
+274,100,2024-09-30,14,12.41,1.74,Credit Card,In-store Pickup,37,4,0.22,90
+274,100,2024-09-30,14,12.41,1.74,Credit Card,In-store Pickup,55,5,0.12,90
+275,30,2024-03-27,13,15.16,5.54,Credit Card,Home Delivery,39,4,0.1,44
+275,30,2024-03-27,13,15.16,5.54,Credit Card,Home Delivery,91,9,0.14,44
+275,30,2024-03-27,13,15.16,5.54,Credit Card,Home Delivery,28,9,0.27,44
+275,30,2024-03-27,13,15.16,5.54,Credit Card,Home Delivery,6,5,0.21,44
+275,30,2024-03-27,13,15.16,5.54,Credit Card,Home Delivery,30,10,0.05,44
+276,2,2024-05-31,3,14.21,5.08,Credit Card,In-store Pickup,73,10,0.19,6
+276,2,2024-05-31,3,14.21,5.08,Credit Card,In-store Pickup,72,2,0.24,6
+276,2,2024-05-31,3,14.21,5.08,Credit Card,In-store Pickup,95,2,0.13,6
+276,2,2024-05-31,3,14.21,5.08,Credit Card,In-store Pickup,46,8,0.23,6
+277,86,2024-04-12,5,9.94,3.07,PayPal,Home Delivery,50,5,0.29,25
+277,86,2024-04-12,5,9.94,3.07,PayPal,Home Delivery,53,8,0.3,25
+277,86,2024-04-12,5,9.94,3.07,PayPal,Home Delivery,30,4,0.12,25
+277,86,2024-04-12,5,9.94,3.07,PayPal,Home Delivery,75,1,0.1,25
+278,100,2024-06-30,10,19.77,4.92,PayPal,Home Delivery,95,6,0.21,96
+278,100,2024-06-30,10,19.77,4.92,PayPal,Home Delivery,21,3,0.04,96
+278,100,2024-06-30,10,19.77,4.92,PayPal,Home Delivery,74,9,0.01,96
+279,2,2024-10-10,9,9.7,13.11,PayPal,In-store Pickup,37,3,0.22,31
+279,2,2024-10-10,9,9.7,13.11,PayPal,In-store Pickup,34,10,0.21,31
+280,34,2024-01-14,2,13.53,6.11,PayPal,In-store Pickup,8,8,0.28,8
+280,34,2024-01-14,2,13.53,6.11,PayPal,In-store Pickup,65,9,0.29,8
+280,34,2024-01-14,2,13.53,6.11,PayPal,In-store Pickup,54,9,0.27,8
+280,34,2024-01-14,2,13.53,6.11,PayPal,In-store Pickup,14,8,0.06,8
+281,8,2024-02-20,15,12.05,5.18,Debit Card,In-store Pickup,37,8,0.09,97
+281,8,2024-02-20,15,12.05,5.18,Debit Card,In-store Pickup,76,6,0.3,97
+281,8,2024-02-20,15,12.05,5.18,Debit Card,In-store Pickup,81,6,0.08,97
+282,5,2024-04-04,5,16.81,4.64,Cash,Home Delivery,64,7,0.14,56
+282,5,2024-04-04,5,16.81,4.64,Cash,Home Delivery,69,1,0.21,56
+282,5,2024-04-04,5,16.81,4.64,Cash,Home Delivery,33,9,0.11,56
+283,42,2024-10-21,13,18.13,5.32,Debit Card,In-store Pickup,13,2,0.08,94
+284,93,2024-03-13,11,5.68,14.34,Credit Card,Home Delivery,65,7,0.09,74
+284,93,2024-03-13,11,5.68,14.34,Credit Card,Home Delivery,72,8,0.29,74
+284,93,2024-03-13,11,5.68,14.34,Credit Card,Home Delivery,96,4,0.02,74
+284,93,2024-03-13,11,5.68,14.34,Credit Card,Home Delivery,16,5,0.03,74
+285,13,2024-08-05,14,14.49,1.23,Credit Card,In-store Pickup,9,4,0.25,17
+286,92,2024-04-30,7,13.85,1.5,PayPal,Home Delivery,94,8,0.02,8
+287,66,2024-05-02,2,7.45,9.32,Credit Card,Home Delivery,27,1,0.03,7
+288,60,2024-10-12,16,14.82,2.66,Debit Card,In-store Pickup,47,10,0.15,73
+289,10,2024-05-18,17,15.82,3.85,Debit Card,In-store Pickup,53,4,0.18,5
+289,10,2024-05-18,17,15.82,3.85,Debit Card,In-store Pickup,34,1,0.02,5
+289,10,2024-05-18,17,15.82,3.85,Debit Card,In-store Pickup,30,8,0.12,5
+289,10,2024-05-18,17,15.82,3.85,Debit Card,In-store Pickup,43,2,0.06,5
+290,63,2024-10-01,19,7.15,9.97,Credit Card,Home Delivery,78,4,0.11,25
+290,63,2024-10-01,19,7.15,9.97,Credit Card,Home Delivery,64,9,0.21,25
+291,16,2024-02-07,16,6.54,14.09,Credit Card,In-store Pickup,81,10,0.27,68
+292,9,2024-08-20,9,18.84,3.38,Credit Card,In-store Pickup,3,2,0.06,84
+292,9,2024-08-20,9,18.84,3.38,Credit Card,In-store Pickup,88,4,0.15,84
+292,9,2024-08-20,9,18.84,3.38,Credit Card,In-store Pickup,53,2,0.17,84
+292,9,2024-08-20,9,18.84,3.38,Credit Card,In-store Pickup,74,9,0.02,84
+293,71,2024-01-09,15,12.27,8.44,Credit Card,In-store Pickup,46,7,0.11,43
+293,71,2024-01-09,15,12.27,8.44,Credit Card,In-store Pickup,78,10,0.18,43
+293,71,2024-01-09,15,12.27,8.44,Credit Card,In-store Pickup,26,6,0.05,43
+293,71,2024-01-09,15,12.27,8.44,Credit Card,In-store Pickup,94,8,0.16,43
+293,71,2024-01-09,15,12.27,8.44,Credit Card,In-store Pickup,19,8,0.27,43
+294,68,2024-01-21,15,17.93,7.08,Cash,In-store Pickup,73,3,0.19,1
+294,68,2024-01-21,15,17.93,7.08,Cash,In-store Pickup,2,8,0.0,1
+294,68,2024-01-21,15,17.93,7.08,Cash,In-store Pickup,34,8,0.16,1
+294,68,2024-01-21,15,17.93,7.08,Cash,In-store Pickup,67,8,0.25,1
+295,29,2024-09-09,20,8.17,13.68,Debit Card,Home Delivery,94,1,0.25,23
+295,29,2024-09-09,20,8.17,13.68,Debit Card,Home Delivery,44,8,0.05,23
+295,29,2024-09-09,20,8.17,13.68,Debit Card,Home Delivery,5,10,0.14,23
+295,29,2024-09-09,20,8.17,13.68,Debit Card,Home Delivery,10,1,0.17,23
+296,4,2024-03-13,5,8.03,9.96,Cash,Home Delivery,31,6,0.11,20
+297,95,2024-05-23,20,14.47,14.14,Credit Card,In-store Pickup,50,8,0.03,3
+297,95,2024-05-23,20,14.47,14.14,Credit Card,In-store Pickup,27,2,0.07,3
+297,95,2024-05-23,20,14.47,14.14,Credit Card,In-store Pickup,36,5,0.19,3
+298,74,2024-08-07,18,19.45,1.71,Cash,In-store Pickup,73,3,0.01,64
+298,74,2024-08-07,18,19.45,1.71,Cash,In-store Pickup,79,1,0.22,64
+298,74,2024-08-07,18,19.45,1.71,Cash,In-store Pickup,8,3,0.14,64
+298,74,2024-08-07,18,19.45,1.71,Cash,In-store Pickup,11,8,0.1,64
+298,74,2024-08-07,18,19.45,1.71,Cash,In-store Pickup,61,1,0.24,64
+299,6,2024-02-03,18,13.65,13.75,Cash,In-store Pickup,87,9,0.18,3
+299,6,2024-02-03,18,13.65,13.75,Cash,In-store Pickup,25,2,0.2,3
+299,6,2024-02-03,18,13.65,13.75,Cash,In-store Pickup,42,1,0.12,3
+300,8,2024-05-22,9,14.26,8.87,Cash,In-store Pickup,97,2,0.11,81
+300,8,2024-05-22,9,14.26,8.87,Cash,In-store Pickup,36,1,0.26,81
+300,8,2024-05-22,9,14.26,8.87,Cash,In-store Pickup,56,7,0.18,81
+300,8,2024-05-22,9,14.26,8.87,Cash,In-store Pickup,48,8,0.05,81
+301,11,2024-08-26,19,10.95,9.74,PayPal,In-store Pickup,69,9,0.0,21
+301,11,2024-08-26,19,10.95,9.74,PayPal,In-store Pickup,17,3,0.11,21
+301,11,2024-08-26,19,10.95,9.74,PayPal,In-store Pickup,42,10,0.14,21
+301,11,2024-08-26,19,10.95,9.74,PayPal,In-store Pickup,100,10,0.24,21
+302,63,2024-03-28,20,14.88,9.93,Debit Card,Home Delivery,100,4,0.1,67
+302,63,2024-03-28,20,14.88,9.93,Debit Card,Home Delivery,21,10,0.2,67
+302,63,2024-03-28,20,14.88,9.93,Debit Card,Home Delivery,69,5,0.09,67
+302,63,2024-03-28,20,14.88,9.93,Debit Card,Home Delivery,41,5,0.15,67
+302,63,2024-03-28,20,14.88,9.93,Debit Card,Home Delivery,2,5,0.09,67
+303,4,2024-02-12,9,8.04,8.27,Debit Card,Home Delivery,59,10,0.08,71
+304,43,2024-08-24,10,13.8,14.8,Debit Card,In-store Pickup,31,6,0.07,34
+304,43,2024-08-24,10,13.8,14.8,Debit Card,In-store Pickup,34,9,0.03,34
+304,43,2024-08-24,10,13.8,14.8,Debit Card,In-store Pickup,1,9,0.28,34
+304,43,2024-08-24,10,13.8,14.8,Debit Card,In-store Pickup,68,6,0.12,34
+304,43,2024-08-24,10,13.8,14.8,Debit Card,In-store Pickup,23,6,0.28,34
+305,39,2024-02-21,11,9.49,7.95,Credit Card,Home Delivery,95,5,0.21,82
+305,39,2024-02-21,11,9.49,7.95,Credit Card,Home Delivery,3,6,0.08,82
+305,39,2024-02-21,11,9.49,7.95,Credit Card,Home Delivery,97,8,0.28,82
+306,55,2024-02-22,2,16.15,12.96,PayPal,Home Delivery,12,1,0.21,96
+306,55,2024-02-22,2,16.15,12.96,PayPal,Home Delivery,59,2,0.17,96
+306,55,2024-02-22,2,16.15,12.96,PayPal,Home Delivery,81,10,0.21,96
+306,55,2024-02-22,2,16.15,12.96,PayPal,Home Delivery,52,7,0.04,96
+307,95,2024-10-02,6,12.02,1.62,Cash,In-store Pickup,25,6,0.09,47
+307,95,2024-10-02,6,12.02,1.62,Cash,In-store Pickup,88,1,0.27,47
+308,60,2024-01-16,12,16.35,5.29,PayPal,Home Delivery,85,6,0.25,92
+309,33,2024-01-09,5,13.54,4.1,PayPal,Home Delivery,99,6,0.09,63
+309,33,2024-01-09,5,13.54,4.1,PayPal,Home Delivery,1,9,0.09,63
+310,40,2024-03-23,13,7.79,13.78,PayPal,In-store Pickup,12,3,0.16,86
+310,40,2024-03-23,13,7.79,13.78,PayPal,In-store Pickup,44,2,0.02,86
+311,17,2024-01-05,6,18.62,1.02,Cash,Home Delivery,81,4,0.17,60
+311,17,2024-01-05,6,18.62,1.02,Cash,Home Delivery,59,10,0.27,60
+311,17,2024-01-05,6,18.62,1.02,Cash,Home Delivery,95,8,0.09,60
+312,89,2024-03-05,12,17.52,12.01,Debit Card,In-store Pickup,25,1,0.17,64
+312,89,2024-03-05,12,17.52,12.01,Debit Card,In-store Pickup,45,10,0.23,64
+312,89,2024-03-05,12,17.52,12.01,Debit Card,In-store Pickup,16,5,0.19,64
+312,89,2024-03-05,12,17.52,12.01,Debit Card,In-store Pickup,79,5,0.22,64
+312,89,2024-03-05,12,17.52,12.01,Debit Card,In-store Pickup,62,9,0.09,64
+313,100,2024-03-31,18,10.41,8.09,PayPal,In-store Pickup,41,6,0.16,43
+313,100,2024-03-31,18,10.41,8.09,PayPal,In-store Pickup,87,8,0.02,43
+313,100,2024-03-31,18,10.41,8.09,PayPal,In-store Pickup,61,5,0.15,43
+314,3,2024-03-02,1,5.63,11.18,Credit Card,In-store Pickup,4,3,0.18,26
+315,86,2024-03-09,11,6.04,7.02,PayPal,In-store Pickup,54,4,0.23,72
+315,86,2024-03-09,11,6.04,7.02,PayPal,In-store Pickup,65,9,0.3,72
+316,68,2024-09-03,18,11.7,9.99,Debit Card,Home Delivery,25,2,0.08,0
+316,68,2024-09-03,18,11.7,9.99,Debit Card,Home Delivery,82,10,0.28,0
+317,48,2024-09-01,14,14.45,1.45,Cash,In-store Pickup,44,9,0.04,45
+318,30,2024-05-15,8,7.42,4.12,PayPal,Home Delivery,6,9,0.14,65
+319,81,2024-10-27,15,16.5,1.95,Credit Card,In-store Pickup,90,10,0.2,76
+319,81,2024-10-27,15,16.5,1.95,Credit Card,In-store Pickup,49,3,0.24,76
+320,100,2024-03-08,16,6.61,3.09,PayPal,Home Delivery,18,5,0.26,43
+320,100,2024-03-08,16,6.61,3.09,PayPal,Home Delivery,22,8,0.22,43
+321,58,2024-07-13,7,11.76,14.31,Cash,Home Delivery,62,3,0.23,29
+322,6,2024-06-18,14,14.61,11.1,Cash,Home Delivery,27,10,0.08,89
+322,6,2024-06-18,14,14.61,11.1,Cash,Home Delivery,30,2,0.16,89
+323,85,2024-10-27,17,16.75,6.05,Cash,In-store Pickup,95,8,0.29,39
+323,85,2024-10-27,17,16.75,6.05,Cash,In-store Pickup,19,2,0.16,39
+324,20,2024-01-18,7,18.68,2.68,Debit Card,In-store Pickup,73,8,0.1,89
+324,20,2024-01-18,7,18.68,2.68,Debit Card,In-store Pickup,43,4,0.13,89
+324,20,2024-01-18,7,18.68,2.68,Debit Card,In-store Pickup,90,6,0.22,89
+324,20,2024-01-18,7,18.68,2.68,Debit Card,In-store Pickup,27,6,0.08,89
+324,20,2024-01-18,7,18.68,2.68,Debit Card,In-store Pickup,85,3,0.07,89
+325,11,2024-05-28,14,16.79,7.03,Debit Card,In-store Pickup,28,1,0.02,22
+325,11,2024-05-28,14,16.79,7.03,Debit Card,In-store Pickup,90,1,0.05,22
+325,11,2024-05-28,14,16.79,7.03,Debit Card,In-store Pickup,40,4,0.01,22
+325,11,2024-05-28,14,16.79,7.03,Debit Card,In-store Pickup,53,4,0.11,22
+326,37,2024-07-11,4,7.81,2.86,Debit Card,In-store Pickup,52,10,0.03,50
+326,37,2024-07-11,4,7.81,2.86,Debit Card,In-store Pickup,79,6,0.23,50
+326,37,2024-07-11,4,7.81,2.86,Debit Card,In-store Pickup,60,1,0.06,50
+326,37,2024-07-11,4,7.81,2.86,Debit Card,In-store Pickup,64,4,0.14,50
+327,34,2024-04-11,6,5.29,6.26,Cash,In-store Pickup,74,6,0.24,38
+327,34,2024-04-11,6,5.29,6.26,Cash,In-store Pickup,19,1,0.18,38
+327,34,2024-04-11,6,5.29,6.26,Cash,In-store Pickup,95,2,0.03,38
+328,81,2024-05-11,11,15.15,8.31,Cash,Home Delivery,38,4,0.27,33
+328,81,2024-05-11,11,15.15,8.31,Cash,Home Delivery,34,2,0.07,33
+328,81,2024-05-11,11,15.15,8.31,Cash,Home Delivery,85,6,0.06,33
+329,50,2024-01-17,7,9.24,7.32,Cash,Home Delivery,26,6,0.23,32
+329,50,2024-01-17,7,9.24,7.32,Cash,Home Delivery,10,6,0.14,32
+329,50,2024-01-17,7,9.24,7.32,Cash,Home Delivery,2,3,0.2,32
+329,50,2024-01-17,7,9.24,7.32,Cash,Home Delivery,61,6,0.24,32
+329,50,2024-01-17,7,9.24,7.32,Cash,Home Delivery,69,9,0.11,32
+330,61,2024-06-27,13,15.85,4.93,Credit Card,In-store Pickup,42,7,0.27,51
+330,61,2024-06-27,13,15.85,4.93,Credit Card,In-store Pickup,11,2,0.22,51
+330,61,2024-06-27,13,15.85,4.93,Credit Card,In-store Pickup,94,8,0.24,51
+331,88,2024-03-23,9,10.72,14.18,Credit Card,Home Delivery,84,2,0.04,65
+331,88,2024-03-23,9,10.72,14.18,Credit Card,Home Delivery,71,3,0.02,65
+332,14,2024-03-22,3,6.03,13.4,Credit Card,Home Delivery,41,6,0.09,85
+332,14,2024-03-22,3,6.03,13.4,Credit Card,Home Delivery,88,5,0.29,85
+332,14,2024-03-22,3,6.03,13.4,Credit Card,Home Delivery,43,1,0.17,85
+333,77,2024-09-04,3,12.13,5.39,Debit Card,Home Delivery,85,9,0.11,73
+333,77,2024-09-04,3,12.13,5.39,Debit Card,Home Delivery,30,1,0.18,73
+333,77,2024-09-04,3,12.13,5.39,Debit Card,Home Delivery,54,1,0.2,73
+333,77,2024-09-04,3,12.13,5.39,Debit Card,Home Delivery,58,7,0.11,73
+334,34,2024-03-14,5,9.97,3.51,Cash,In-store Pickup,81,3,0.11,43
+334,34,2024-03-14,5,9.97,3.51,Cash,In-store Pickup,49,3,0.23,43
+334,34,2024-03-14,5,9.97,3.51,Cash,In-store Pickup,65,8,0.11,43
+335,86,2024-07-20,19,15.79,5.65,Debit Card,Home Delivery,10,4,0.19,17
+335,86,2024-07-20,19,15.79,5.65,Debit Card,Home Delivery,8,10,0.1,17
+335,86,2024-07-20,19,15.79,5.65,Debit Card,Home Delivery,4,1,0.24,17
+335,86,2024-07-20,19,15.79,5.65,Debit Card,Home Delivery,84,2,0.12,17
+335,86,2024-07-20,19,15.79,5.65,Debit Card,Home Delivery,25,7,0.24,17
+336,72,2024-08-21,4,19.86,4.29,Cash,Home Delivery,59,4,0.27,39
+336,72,2024-08-21,4,19.86,4.29,Cash,Home Delivery,16,4,0.13,39
+336,72,2024-08-21,4,19.86,4.29,Cash,Home Delivery,95,9,0.07,39
+336,72,2024-08-21,4,19.86,4.29,Cash,Home Delivery,34,3,0.11,39
+337,82,2024-01-24,19,6.9,10.74,Debit Card,Home Delivery,86,6,0.02,43
+337,82,2024-01-24,19,6.9,10.74,Debit Card,Home Delivery,97,10,0.09,43
+338,68,2024-10-09,11,18.72,2.52,Credit Card,Home Delivery,92,8,0.18,70
+339,82,2024-03-22,1,15.74,7.15,Credit Card,Home Delivery,86,10,0.28,66
+340,5,2024-05-14,3,7.88,6.79,Debit Card,Home Delivery,57,5,0.02,70
+340,5,2024-05-14,3,7.88,6.79,Debit Card,Home Delivery,31,2,0.02,70
+340,5,2024-05-14,3,7.88,6.79,Debit Card,Home Delivery,98,10,0.01,70
+340,5,2024-05-14,3,7.88,6.79,Debit Card,Home Delivery,38,10,0.16,70
+340,5,2024-05-14,3,7.88,6.79,Debit Card,Home Delivery,75,8,0.03,70
+341,57,2024-06-28,4,9.02,9.3,Credit Card,Home Delivery,39,1,0.02,17
+341,57,2024-06-28,4,9.02,9.3,Credit Card,Home Delivery,79,1,0.05,17
+341,57,2024-06-28,4,9.02,9.3,Credit Card,Home Delivery,87,5,0.05,17
+342,76,2024-05-18,18,8.31,12.82,Cash,In-store Pickup,95,9,0.1,99
+343,60,2024-01-14,3,12.46,14.26,PayPal,In-store Pickup,60,8,0.01,0
+343,60,2024-01-14,3,12.46,14.26,PayPal,In-store Pickup,89,10,0.29,0
+344,78,2024-06-29,11,9.63,10.03,Debit Card,Home Delivery,57,7,0.13,3
+344,78,2024-06-29,11,9.63,10.03,Debit Card,Home Delivery,81,6,0.03,3
+345,7,2024-09-23,7,14.62,6.5,Cash,In-store Pickup,22,10,0.08,96
+345,7,2024-09-23,7,14.62,6.5,Cash,In-store Pickup,67,9,0.0,96
+345,7,2024-09-23,7,14.62,6.5,Cash,In-store Pickup,33,2,0.15,96
+345,7,2024-09-23,7,14.62,6.5,Cash,In-store Pickup,28,4,0.04,96
+346,21,2024-05-25,10,6.02,10.63,PayPal,In-store Pickup,50,9,0.27,68
+346,21,2024-05-25,10,6.02,10.63,PayPal,In-store Pickup,15,5,0.12,68
+346,21,2024-05-25,10,6.02,10.63,PayPal,In-store Pickup,42,4,0.03,68
+346,21,2024-05-25,10,6.02,10.63,PayPal,In-store Pickup,37,4,0.1,68
+347,16,2024-05-02,10,13.0,13.27,Credit Card,In-store Pickup,8,6,0.1,48
+348,97,2024-11-02,13,5.77,4.78,Credit Card,In-store Pickup,53,1,0.09,7
+348,97,2024-11-02,13,5.77,4.78,Credit Card,In-store Pickup,74,7,0.08,7
+349,55,2024-07-14,8,5.9,12.69,PayPal,Home Delivery,46,10,0.19,44
+349,55,2024-07-14,8,5.9,12.69,PayPal,Home Delivery,42,10,0.28,44
+349,55,2024-07-14,8,5.9,12.69,PayPal,Home Delivery,11,4,0.29,44
+349,55,2024-07-14,8,5.9,12.69,PayPal,Home Delivery,40,8,0.2,44
+349,55,2024-07-14,8,5.9,12.69,PayPal,Home Delivery,54,4,0.21,44
+350,81,2024-10-16,3,8.28,11.76,PayPal,Home Delivery,46,3,0.25,96
+350,81,2024-10-16,3,8.28,11.76,PayPal,Home Delivery,74,5,0.03,96
+350,81,2024-10-16,3,8.28,11.76,PayPal,Home Delivery,35,8,0.1,96
+351,72,2024-07-10,17,7.41,4.97,PayPal,In-store Pickup,18,4,0.28,87
+351,72,2024-07-10,17,7.41,4.97,PayPal,In-store Pickup,17,5,0.24,87
+352,64,2024-10-27,12,10.14,4.01,PayPal,Home Delivery,81,6,0.13,52
+352,64,2024-10-27,12,10.14,4.01,PayPal,Home Delivery,77,5,0.09,52
+352,64,2024-10-27,12,10.14,4.01,PayPal,Home Delivery,73,10,0.18,52
+353,96,2024-07-18,12,15.7,4.01,Cash,In-store Pickup,40,8,0.19,90
+353,96,2024-07-18,12,15.7,4.01,Cash,In-store Pickup,84,8,0.02,90
+353,96,2024-07-18,12,15.7,4.01,Cash,In-store Pickup,88,4,0.1,90
+353,96,2024-07-18,12,15.7,4.01,Cash,In-store Pickup,82,3,0.13,90
+353,96,2024-07-18,12,15.7,4.01,Cash,In-store Pickup,1,10,0.05,90
+354,18,2024-05-30,7,18.44,3.99,PayPal,Home Delivery,47,1,0.16,66
+355,29,2024-01-02,10,18.13,9.03,Cash,Home Delivery,11,9,0.16,9
+355,29,2024-01-02,10,18.13,9.03,Cash,Home Delivery,91,6,0.01,9
+355,29,2024-01-02,10,18.13,9.03,Cash,Home Delivery,79,1,0.05,9
+355,29,2024-01-02,10,18.13,9.03,Cash,Home Delivery,70,4,0.09,9
+355,29,2024-01-02,10,18.13,9.03,Cash,Home Delivery,14,8,0.02,9
+356,43,2024-08-19,14,15.99,2.07,Debit Card,In-store Pickup,46,6,0.09,86
+356,43,2024-08-19,14,15.99,2.07,Debit Card,In-store Pickup,12,5,0.23,86
+356,43,2024-08-19,14,15.99,2.07,Debit Card,In-store Pickup,83,1,0.02,86
+356,43,2024-08-19,14,15.99,2.07,Debit Card,In-store Pickup,78,5,0.04,86
+356,43,2024-08-19,14,15.99,2.07,Debit Card,In-store Pickup,4,2,0.08,86
+357,35,2024-02-04,13,11.88,10.37,Credit Card,In-store Pickup,71,8,0.1,13
+357,35,2024-02-04,13,11.88,10.37,Credit Card,In-store Pickup,66,1,0.14,13
+357,35,2024-02-04,13,11.88,10.37,Credit Card,In-store Pickup,93,4,0.12,13
+357,35,2024-02-04,13,11.88,10.37,Credit Card,In-store Pickup,72,8,0.0,13
+358,7,2024-07-12,14,6.24,2.92,Cash,In-store Pickup,87,8,0.05,89
+358,7,2024-07-12,14,6.24,2.92,Cash,In-store Pickup,34,4,0.09,89
+358,7,2024-07-12,14,6.24,2.92,Cash,In-store Pickup,77,10,0.0,89
+358,7,2024-07-12,14,6.24,2.92,Cash,In-store Pickup,61,1,0.21,89
+358,7,2024-07-12,14,6.24,2.92,Cash,In-store Pickup,83,2,0.27,89
+359,11,2024-02-15,11,6.9,2.58,Debit Card,In-store Pickup,37,9,0.08,22
+360,44,2024-10-01,5,19.09,13.74,Cash,In-store Pickup,37,9,0.15,32
+360,44,2024-10-01,5,19.09,13.74,Cash,In-store Pickup,47,6,0.15,32
+360,44,2024-10-01,5,19.09,13.74,Cash,In-store Pickup,25,1,0.27,32
+360,44,2024-10-01,5,19.09,13.74,Cash,In-store Pickup,27,5,0.08,32
+361,57,2024-07-20,13,15.02,10.09,Debit Card,In-store Pickup,92,7,0.1,90
+361,57,2024-07-20,13,15.02,10.09,Debit Card,In-store Pickup,75,6,0.18,90
+362,94,2024-03-16,12,6.73,6.65,Cash,Home Delivery,36,7,0.11,66
+362,94,2024-03-16,12,6.73,6.65,Cash,Home Delivery,36,3,0.11,66
+363,70,2024-02-28,8,12.85,7.08,Cash,In-store Pickup,20,1,0.14,24
+363,70,2024-02-28,8,12.85,7.08,Cash,In-store Pickup,86,3,0.16,24
+363,70,2024-02-28,8,12.85,7.08,Cash,In-store Pickup,4,2,0.29,24
+363,70,2024-02-28,8,12.85,7.08,Cash,In-store Pickup,88,1,0.05,24
+364,56,2024-06-11,19,7.45,13.09,Debit Card,In-store Pickup,23,8,0.27,65
+364,56,2024-06-11,19,7.45,13.09,Debit Card,In-store Pickup,82,7,0.22,65
+364,56,2024-06-11,19,7.45,13.09,Debit Card,In-store Pickup,38,3,0.02,65
+364,56,2024-06-11,19,7.45,13.09,Debit Card,In-store Pickup,79,9,0.1,65
+364,56,2024-06-11,19,7.45,13.09,Debit Card,In-store Pickup,50,3,0.03,65
+365,8,2024-06-15,19,14.67,3.5,Debit Card,Home Delivery,59,2,0.23,81
+365,8,2024-06-15,19,14.67,3.5,Debit Card,Home Delivery,14,8,0.15,81
+365,8,2024-06-15,19,14.67,3.5,Debit Card,Home Delivery,81,10,0.12,81
+365,8,2024-06-15,19,14.67,3.5,Debit Card,Home Delivery,75,6,0.1,81
+366,68,2024-09-25,6,5.81,8.91,Cash,In-store Pickup,90,5,0.15,99
+366,68,2024-09-25,6,5.81,8.91,Cash,In-store Pickup,94,5,0.02,99
+366,68,2024-09-25,6,5.81,8.91,Cash,In-store Pickup,43,1,0.11,99
+366,68,2024-09-25,6,5.81,8.91,Cash,In-store Pickup,9,1,0.26,99
+367,89,2024-01-19,20,10.55,1.3,PayPal,Home Delivery,86,1,0.21,84
+368,32,2024-10-27,6,19.38,5.56,PayPal,Home Delivery,60,3,0.12,89
+368,32,2024-10-27,6,19.38,5.56,PayPal,Home Delivery,67,7,0.17,89
+368,32,2024-10-27,6,19.38,5.56,PayPal,Home Delivery,62,2,0.18,89
+369,53,2024-08-19,4,11.11,6.81,Cash,In-store Pickup,67,6,0.07,51
+369,53,2024-08-19,4,11.11,6.81,Cash,In-store Pickup,87,7,0.03,51
+370,90,2024-07-19,10,9.66,2.81,PayPal,In-store Pickup,65,4,0.09,10
+371,7,2024-05-08,3,19.13,10.66,PayPal,Home Delivery,32,5,0.11,33
+372,30,2024-09-20,2,11.56,5.47,PayPal,Home Delivery,98,7,0.13,39
+372,30,2024-09-20,2,11.56,5.47,PayPal,Home Delivery,57,9,0.06,39
+372,30,2024-09-20,2,11.56,5.47,PayPal,Home Delivery,26,5,0.3,39
+372,30,2024-09-20,2,11.56,5.47,PayPal,Home Delivery,75,8,0.08,39
+373,76,2024-09-09,18,11.81,8.31,Debit Card,Home Delivery,18,3,0.29,43
+373,76,2024-09-09,18,11.81,8.31,Debit Card,Home Delivery,54,9,0.24,43
+374,37,2024-01-09,8,9.57,4.99,PayPal,Home Delivery,89,8,0.07,43
+375,41,2024-08-29,4,11.44,3.18,PayPal,Home Delivery,28,7,0.19,88
+375,41,2024-08-29,4,11.44,3.18,PayPal,Home Delivery,53,7,0.24,88
+376,71,2024-06-12,4,12.78,10.97,PayPal,In-store Pickup,87,9,0.16,17
+376,71,2024-06-12,4,12.78,10.97,PayPal,In-store Pickup,66,6,0.26,17
+376,71,2024-06-12,4,12.78,10.97,PayPal,In-store Pickup,18,3,0.09,17
+377,6,2024-07-20,2,13.87,14.95,PayPal,Home Delivery,75,5,0.21,10
+377,6,2024-07-20,2,13.87,14.95,PayPal,Home Delivery,100,3,0.04,10
+377,6,2024-07-20,2,13.87,14.95,PayPal,Home Delivery,74,4,0.27,10
+378,37,2024-05-29,18,7.21,1.54,Credit Card,Home Delivery,67,10,0.1,94
+378,37,2024-05-29,18,7.21,1.54,Credit Card,Home Delivery,83,6,0.24,94
+378,37,2024-05-29,18,7.21,1.54,Credit Card,Home Delivery,72,5,0.03,94
+378,37,2024-05-29,18,7.21,1.54,Credit Card,Home Delivery,94,5,0.25,94
+378,37,2024-05-29,18,7.21,1.54,Credit Card,Home Delivery,42,8,0.2,94
+379,9,2024-09-16,7,18.58,3.37,Debit Card,Home Delivery,45,7,0.07,66
+379,9,2024-09-16,7,18.58,3.37,Debit Card,Home Delivery,93,3,0.3,66
+379,9,2024-09-16,7,18.58,3.37,Debit Card,Home Delivery,5,9,0.16,66
+379,9,2024-09-16,7,18.58,3.37,Debit Card,Home Delivery,66,8,0.25,66
+380,97,2024-03-21,1,10.96,4.3,Debit Card,Home Delivery,57,5,0.23,82
+381,47,2024-02-22,7,11.94,14.91,Debit Card,Home Delivery,23,4,0.13,73
+381,47,2024-02-22,7,11.94,14.91,Debit Card,Home Delivery,7,2,0.02,73
+381,47,2024-02-22,7,11.94,14.91,Debit Card,Home Delivery,63,1,0.0,73
+382,40,2024-09-26,15,5.28,3.39,Debit Card,Home Delivery,61,5,0.0,9
+382,40,2024-09-26,15,5.28,3.39,Debit Card,Home Delivery,5,5,0.08,9
+382,40,2024-09-26,15,5.28,3.39,Debit Card,Home Delivery,56,7,0.08,9
+382,40,2024-09-26,15,5.28,3.39,Debit Card,Home Delivery,74,3,0.12,9
+383,89,2024-09-27,20,16.12,11.45,Debit Card,Home Delivery,40,8,0.01,20
+384,30,2024-11-03,7,5.87,7.67,PayPal,In-store Pickup,96,9,0.29,65
+384,30,2024-11-03,7,5.87,7.67,PayPal,In-store Pickup,90,6,0.04,65
+384,30,2024-11-03,7,5.87,7.67,PayPal,In-store Pickup,53,8,0.11,65
+384,30,2024-11-03,7,5.87,7.67,PayPal,In-store Pickup,71,8,0.27,65
+385,46,2024-10-01,6,8.53,4.13,Cash,In-store Pickup,13,4,0.28,12
+386,6,2024-04-15,3,16.61,14.41,PayPal,In-store Pickup,46,10,0.22,28
+386,6,2024-04-15,3,16.61,14.41,PayPal,In-store Pickup,20,2,0.15,28
+386,6,2024-04-15,3,16.61,14.41,PayPal,In-store Pickup,88,1,0.26,28
+386,6,2024-04-15,3,16.61,14.41,PayPal,In-store Pickup,19,7,0.16,28
+386,6,2024-04-15,3,16.61,14.41,PayPal,In-store Pickup,63,3,0.18,28
+387,79,2024-09-20,1,7.94,5.96,Cash,In-store Pickup,96,6,0.3,99
+387,79,2024-09-20,1,7.94,5.96,Cash,In-store Pickup,83,7,0.1,99
+387,79,2024-09-20,1,7.94,5.96,Cash,In-store Pickup,83,2,0.09,99
+387,79,2024-09-20,1,7.94,5.96,Cash,In-store Pickup,55,6,0.0,99
+387,79,2024-09-20,1,7.94,5.96,Cash,In-store Pickup,88,8,0.19,99
+388,88,2024-06-22,7,11.51,3.62,Cash,In-store Pickup,42,9,0.14,71
+388,88,2024-06-22,7,11.51,3.62,Cash,In-store Pickup,81,2,0.23,71
+388,88,2024-06-22,7,11.51,3.62,Cash,In-store Pickup,74,6,0.09,71
+389,46,2024-04-26,6,15.93,14.4,Debit Card,Home Delivery,12,1,0.24,29
+390,52,2024-03-28,17,10.04,3.42,Credit Card,Home Delivery,79,1,0.19,9
+391,54,2024-08-21,3,14.51,14.19,Cash,Home Delivery,48,3,0.01,7
+391,54,2024-08-21,3,14.51,14.19,Cash,Home Delivery,41,3,0.15,7
+391,54,2024-08-21,3,14.51,14.19,Cash,Home Delivery,88,7,0.06,7
+392,85,2024-04-22,3,5.84,8.42,Debit Card,In-store Pickup,70,4,0.17,43
+393,96,2024-04-01,17,18.32,2.68,Cash,Home Delivery,51,3,0.23,44
+393,96,2024-04-01,17,18.32,2.68,Cash,Home Delivery,48,7,0.29,44
+393,96,2024-04-01,17,18.32,2.68,Cash,Home Delivery,49,3,0.13,44
+394,27,2024-05-13,7,13.19,3.77,Debit Card,In-store Pickup,64,9,0.05,19
+394,27,2024-05-13,7,13.19,3.77,Debit Card,In-store Pickup,12,9,0.0,19
+394,27,2024-05-13,7,13.19,3.77,Debit Card,In-store Pickup,74,9,0.25,19
+394,27,2024-05-13,7,13.19,3.77,Debit Card,In-store Pickup,15,8,0.13,19
+394,27,2024-05-13,7,13.19,3.77,Debit Card,In-store Pickup,49,4,0.21,19
+395,68,2024-04-25,13,8.89,1.65,Credit Card,In-store Pickup,82,5,0.02,5
+395,68,2024-04-25,13,8.89,1.65,Credit Card,In-store Pickup,10,5,0.02,5
+396,86,2024-07-19,8,18.16,3.48,Cash,Home Delivery,48,5,0.25,70
+396,86,2024-07-19,8,18.16,3.48,Cash,Home Delivery,95,3,0.12,70
+396,86,2024-07-19,8,18.16,3.48,Cash,Home Delivery,69,6,0.08,70
+396,86,2024-07-19,8,18.16,3.48,Cash,Home Delivery,92,8,0.25,70
+397,13,2024-02-09,18,13.48,4.44,Cash,In-store Pickup,22,6,0.07,6
+397,13,2024-02-09,18,13.48,4.44,Cash,In-store Pickup,75,8,0.26,6
+398,93,2024-05-25,9,18.49,14.88,PayPal,Home Delivery,95,5,0.22,43
+398,93,2024-05-25,9,18.49,14.88,PayPal,Home Delivery,68,2,0.13,43
+398,93,2024-05-25,9,18.49,14.88,PayPal,Home Delivery,17,10,0.02,43
+398,93,2024-05-25,9,18.49,14.88,PayPal,Home Delivery,85,1,0.29,43
+399,83,2024-10-30,17,10.21,4.14,Credit Card,Home Delivery,47,9,0.1,32
+400,78,2024-04-13,3,18.1,9.81,Cash,In-store Pickup,65,5,0.04,20
+400,78,2024-04-13,3,18.1,9.81,Cash,In-store Pickup,77,1,0.12,20
+400,78,2024-04-13,3,18.1,9.81,Cash,In-store Pickup,68,9,0.3,20
+401,5,2024-06-09,1,17.1,7.38,Debit Card,In-store Pickup,55,2,0.18,60
+401,5,2024-06-09,1,17.1,7.38,Debit Card,In-store Pickup,78,9,0.05,60
+401,5,2024-06-09,1,17.1,7.38,Debit Card,In-store Pickup,89,6,0.03,60
+401,5,2024-06-09,1,17.1,7.38,Debit Card,In-store Pickup,45,3,0.1,60
+402,54,2024-02-16,8,17.19,1.91,Cash,Home Delivery,82,3,0.02,49
+402,54,2024-02-16,8,17.19,1.91,Cash,Home Delivery,77,3,0.19,49
+402,54,2024-02-16,8,17.19,1.91,Cash,Home Delivery,52,8,0.18,49
+403,81,2024-10-06,11,9.36,12.26,Debit Card,In-store Pickup,37,7,0.18,43
+403,81,2024-10-06,11,9.36,12.26,Debit Card,In-store Pickup,45,6,0.02,43
+403,81,2024-10-06,11,9.36,12.26,Debit Card,In-store Pickup,29,1,0.23,43
+404,28,2024-03-28,6,11.81,1.24,Cash,Home Delivery,38,7,0.13,77
+404,28,2024-03-28,6,11.81,1.24,Cash,Home Delivery,70,10,0.07,77
+404,28,2024-03-28,6,11.81,1.24,Cash,Home Delivery,51,9,0.28,77
+404,28,2024-03-28,6,11.81,1.24,Cash,Home Delivery,4,6,0.09,77
+405,39,2024-01-12,8,16.79,11.07,Credit Card,In-store Pickup,7,7,0.13,3
+405,39,2024-01-12,8,16.79,11.07,Credit Card,In-store Pickup,54,1,0.3,3
+405,39,2024-01-12,8,16.79,11.07,Credit Card,In-store Pickup,4,8,0.15,3
+406,79,2024-01-27,19,18.06,12.63,Credit Card,In-store Pickup,98,10,0.2,6
+406,79,2024-01-27,19,18.06,12.63,Credit Card,In-store Pickup,80,8,0.22,6
+407,74,2024-01-20,9,13.17,12.79,PayPal,In-store Pickup,32,7,0.08,5
+408,90,2024-08-22,2,7.74,4.49,Cash,In-store Pickup,15,1,0.21,85
+408,90,2024-08-22,2,7.74,4.49,Cash,In-store Pickup,93,7,0.05,85
+409,47,2024-04-18,19,10.62,9.81,PayPal,In-store Pickup,73,5,0.25,33
+409,47,2024-04-18,19,10.62,9.81,PayPal,In-store Pickup,98,10,0.15,33
+409,47,2024-04-18,19,10.62,9.81,PayPal,In-store Pickup,58,4,0.09,33
+409,47,2024-04-18,19,10.62,9.81,PayPal,In-store Pickup,39,2,0.09,33
+409,47,2024-04-18,19,10.62,9.81,PayPal,In-store Pickup,51,7,0.06,33
+410,27,2024-02-08,14,7.68,4.53,Debit Card,In-store Pickup,78,1,0.23,32
+410,27,2024-02-08,14,7.68,4.53,Debit Card,In-store Pickup,6,8,0.02,32
+411,55,2024-06-18,18,19.18,10.56,Debit Card,In-store Pickup,18,10,0.04,49
+411,55,2024-06-18,18,19.18,10.56,Debit Card,In-store Pickup,76,2,0.3,49
+411,55,2024-06-18,18,19.18,10.56,Debit Card,In-store Pickup,68,7,0.24,49
+411,55,2024-06-18,18,19.18,10.56,Debit Card,In-store Pickup,67,8,0.25,49
+412,8,2024-10-11,20,10.4,10.74,Debit Card,In-store Pickup,53,3,0.25,4
+413,93,2024-06-11,8,19.77,3.05,Credit Card,Home Delivery,53,6,0.1,18
+413,93,2024-06-11,8,19.77,3.05,Credit Card,Home Delivery,16,6,0.1,18
+413,93,2024-06-11,8,19.77,3.05,Credit Card,Home Delivery,13,3,0.03,18
+414,13,2024-07-18,8,8.79,9.25,Debit Card,Home Delivery,55,4,0.09,6
+414,13,2024-07-18,8,8.79,9.25,Debit Card,Home Delivery,91,6,0.27,6
+414,13,2024-07-18,8,8.79,9.25,Debit Card,Home Delivery,48,2,0.11,6
+414,13,2024-07-18,8,8.79,9.25,Debit Card,Home Delivery,18,10,0.26,6
+415,32,2024-05-06,19,17.41,11.6,Credit Card,In-store Pickup,2,5,0.28,16
+416,50,2024-04-04,3,13.93,8.83,Cash,Home Delivery,11,10,0.1,21
+416,50,2024-04-04,3,13.93,8.83,Cash,Home Delivery,58,6,0.26,21
+417,71,2024-04-21,2,14.15,3.09,Credit Card,In-store Pickup,72,9,0.22,84
+417,71,2024-04-21,2,14.15,3.09,Credit Card,In-store Pickup,84,9,0.15,84
+417,71,2024-04-21,2,14.15,3.09,Credit Card,In-store Pickup,78,2,0.06,84
+417,71,2024-04-21,2,14.15,3.09,Credit Card,In-store Pickup,87,9,0.22,84
+418,98,2024-10-30,7,15.31,2.64,PayPal,Home Delivery,9,4,0.21,28
+418,98,2024-10-30,7,15.31,2.64,PayPal,Home Delivery,55,1,0.26,28
+418,98,2024-10-30,7,15.31,2.64,PayPal,Home Delivery,31,8,0.25,28
+418,98,2024-10-30,7,15.31,2.64,PayPal,Home Delivery,58,5,0.17,28
+418,98,2024-10-30,7,15.31,2.64,PayPal,Home Delivery,8,4,0.17,28
+419,22,2024-04-16,10,15.73,10.79,Cash,In-store Pickup,19,8,0.17,57
+419,22,2024-04-16,10,15.73,10.79,Cash,In-store Pickup,16,2,0.29,57
+419,22,2024-04-16,10,15.73,10.79,Cash,In-store Pickup,2,8,0.13,57
+420,74,2024-04-27,4,8.9,12.56,Cash,Home Delivery,92,6,0.25,70
+420,74,2024-04-27,4,8.9,12.56,Cash,Home Delivery,72,2,0.01,70
+420,74,2024-04-27,4,8.9,12.56,Cash,Home Delivery,65,5,0.01,70
+421,51,2024-09-21,6,11.3,10.37,PayPal,Home Delivery,20,2,0.15,72
+421,51,2024-09-21,6,11.3,10.37,PayPal,Home Delivery,45,10,0.23,72
+421,51,2024-09-21,6,11.3,10.37,PayPal,Home Delivery,55,2,0.18,72
+421,51,2024-09-21,6,11.3,10.37,PayPal,Home Delivery,17,8,0.05,72
+422,16,2024-07-22,20,9.0,12.75,Credit Card,Home Delivery,97,7,0.24,13
+423,71,2024-06-30,5,12.59,2.8,PayPal,In-store Pickup,60,9,0.17,64
+424,21,2024-02-08,19,5.22,4.53,Credit Card,Home Delivery,94,8,0.07,78
+424,21,2024-02-08,19,5.22,4.53,Credit Card,Home Delivery,97,9,0.1,78
+424,21,2024-02-08,19,5.22,4.53,Credit Card,Home Delivery,63,4,0.04,78
+424,21,2024-02-08,19,5.22,4.53,Credit Card,Home Delivery,82,1,0.03,78
+425,13,2024-09-12,14,9.0,1.17,Cash,Home Delivery,83,8,0.29,74
+425,13,2024-09-12,14,9.0,1.17,Cash,Home Delivery,76,7,0.04,74
+425,13,2024-09-12,14,9.0,1.17,Cash,Home Delivery,11,5,0.09,74
+425,13,2024-09-12,14,9.0,1.17,Cash,Home Delivery,50,9,0.26,74
+426,49,2024-05-21,17,5.06,10.76,Debit Card,Home Delivery,84,2,0.29,69
+426,49,2024-05-21,17,5.06,10.76,Debit Card,Home Delivery,78,3,0.28,69
+426,49,2024-05-21,17,5.06,10.76,Debit Card,Home Delivery,80,8,0.14,69
+426,49,2024-05-21,17,5.06,10.76,Debit Card,Home Delivery,44,10,0.22,69
+426,49,2024-05-21,17,5.06,10.76,Debit Card,Home Delivery,41,2,0.28,69
+427,24,2024-02-26,12,16.4,7.34,PayPal,In-store Pickup,98,9,0.17,80
+428,84,2024-10-08,6,11.09,8.76,Cash,In-store Pickup,42,3,0.13,5
+428,84,2024-10-08,6,11.09,8.76,Cash,In-store Pickup,16,3,0.02,5
+428,84,2024-10-08,6,11.09,8.76,Cash,In-store Pickup,40,4,0.16,5
+429,51,2024-11-02,1,16.38,12.09,Debit Card,In-store Pickup,71,8,0.04,1
+429,51,2024-11-02,1,16.38,12.09,Debit Card,In-store Pickup,84,7,0.23,1
+430,79,2024-10-07,17,11.75,10.05,Debit Card,In-store Pickup,43,5,0.29,57
+430,79,2024-10-07,17,11.75,10.05,Debit Card,In-store Pickup,20,1,0.29,57
+430,79,2024-10-07,17,11.75,10.05,Debit Card,In-store Pickup,33,7,0.13,57
+430,79,2024-10-07,17,11.75,10.05,Debit Card,In-store Pickup,88,2,0.05,57
+431,32,2024-10-19,6,7.1,12.01,Debit Card,Home Delivery,80,8,0.07,10
+431,32,2024-10-19,6,7.1,12.01,Debit Card,Home Delivery,94,1,0.16,10
+431,32,2024-10-19,6,7.1,12.01,Debit Card,Home Delivery,75,1,0.1,10
+432,30,2024-04-29,11,6.39,5.79,Credit Card,In-store Pickup,80,5,0.17,39
+432,30,2024-04-29,11,6.39,5.79,Credit Card,In-store Pickup,82,9,0.27,39
+432,30,2024-04-29,11,6.39,5.79,Credit Card,In-store Pickup,47,2,0.03,39
+433,77,2024-05-19,14,5.16,8.97,Credit Card,Home Delivery,61,6,0.12,42
+433,77,2024-05-19,14,5.16,8.97,Credit Card,Home Delivery,75,2,0.13,42
+433,77,2024-05-19,14,5.16,8.97,Credit Card,Home Delivery,26,7,0.01,42
+433,77,2024-05-19,14,5.16,8.97,Credit Card,Home Delivery,20,9,0.18,42
+433,77,2024-05-19,14,5.16,8.97,Credit Card,Home Delivery,87,3,0.26,42
+434,37,2024-02-19,12,17.92,8.92,Debit Card,In-store Pickup,62,4,0.24,40
+434,37,2024-02-19,12,17.92,8.92,Debit Card,In-store Pickup,99,10,0.06,40
+434,37,2024-02-19,12,17.92,8.92,Debit Card,In-store Pickup,55,2,0.16,40
+434,37,2024-02-19,12,17.92,8.92,Debit Card,In-store Pickup,49,5,0.02,40
+435,2,2024-09-09,6,15.08,4.15,Credit Card,In-store Pickup,93,10,0.05,34
+435,2,2024-09-09,6,15.08,4.15,Credit Card,In-store Pickup,34,5,0.21,34
+436,29,2024-07-12,6,7.55,12.99,PayPal,In-store Pickup,52,4,0.09,47
+436,29,2024-07-12,6,7.55,12.99,PayPal,In-store Pickup,44,4,0.19,47
+437,40,2024-10-27,13,18.86,14.66,PayPal,In-store Pickup,82,5,0.03,68
+438,33,2024-02-26,15,19.51,14.33,PayPal,Home Delivery,61,2,0.02,3
+438,33,2024-02-26,15,19.51,14.33,PayPal,Home Delivery,57,8,0.09,3
+438,33,2024-02-26,15,19.51,14.33,PayPal,Home Delivery,62,5,0.17,3
+438,33,2024-02-26,15,19.51,14.33,PayPal,Home Delivery,76,7,0.1,3
+439,8,2024-09-26,19,14.62,12.94,Debit Card,Home Delivery,6,4,0.23,92
+439,8,2024-09-26,19,14.62,12.94,Debit Card,Home Delivery,45,1,0.18,92
+439,8,2024-09-26,19,14.62,12.94,Debit Card,Home Delivery,67,6,0.3,92
+440,90,2024-10-22,16,12.28,8.05,Debit Card,Home Delivery,97,10,0.03,5
+440,90,2024-10-22,16,12.28,8.05,Debit Card,Home Delivery,67,1,0.29,5
+440,90,2024-10-22,16,12.28,8.05,Debit Card,Home Delivery,5,8,0.13,5
+440,90,2024-10-22,16,12.28,8.05,Debit Card,Home Delivery,36,4,0.23,5
+440,90,2024-10-22,16,12.28,8.05,Debit Card,Home Delivery,60,10,0.2,5
+441,27,2024-07-22,7,8.93,4.94,PayPal,In-store Pickup,89,2,0.2,54
+441,27,2024-07-22,7,8.93,4.94,PayPal,In-store Pickup,59,10,0.25,54
+441,27,2024-07-22,7,8.93,4.94,PayPal,In-store Pickup,91,2,0.02,54
+442,5,2024-09-20,19,13.25,3.19,PayPal,In-store Pickup,25,5,0.08,29
+442,5,2024-09-20,19,13.25,3.19,PayPal,In-store Pickup,91,1,0.17,29
+443,9,2024-04-11,18,9.88,3.26,Cash,Home Delivery,69,5,0.26,24
+443,9,2024-04-11,18,9.88,3.26,Cash,Home Delivery,21,2,0.21,24
+443,9,2024-04-11,18,9.88,3.26,Cash,Home Delivery,49,9,0.14,24
+443,9,2024-04-11,18,9.88,3.26,Cash,Home Delivery,13,9,0.21,24
+444,34,2024-07-08,7,15.14,5.67,Credit Card,In-store Pickup,65,2,0.13,23
+444,34,2024-07-08,7,15.14,5.67,Credit Card,In-store Pickup,71,1,0.12,23
+444,34,2024-07-08,7,15.14,5.67,Credit Card,In-store Pickup,2,9,0.07,23
+445,2,2024-05-11,12,17.53,2.38,Cash,In-store Pickup,100,7,0.01,22
+445,2,2024-05-11,12,17.53,2.38,Cash,In-store Pickup,22,8,0.03,22
+445,2,2024-05-11,12,17.53,2.38,Cash,In-store Pickup,86,2,0.29,22
+445,2,2024-05-11,12,17.53,2.38,Cash,In-store Pickup,15,7,0.29,22
+445,2,2024-05-11,12,17.53,2.38,Cash,In-store Pickup,71,3,0.26,22
+446,51,2024-06-14,14,5.23,13.61,Debit Card,In-store Pickup,45,9,0.12,3
+447,79,2024-04-05,6,8.45,5.31,Debit Card,In-store Pickup,41,3,0.06,58
+447,79,2024-04-05,6,8.45,5.31,Debit Card,In-store Pickup,55,7,0.02,58
+448,4,2024-02-14,7,12.76,10.78,Credit Card,Home Delivery,94,1,0.14,98
+448,4,2024-02-14,7,12.76,10.78,Credit Card,Home Delivery,18,4,0.08,98
+448,4,2024-02-14,7,12.76,10.78,Credit Card,Home Delivery,18,6,0.13,98
+448,4,2024-02-14,7,12.76,10.78,Credit Card,Home Delivery,4,4,0.18,98
+448,4,2024-02-14,7,12.76,10.78,Credit Card,Home Delivery,38,2,0.23,98
+449,54,2024-08-16,9,8.7,5.47,Debit Card,In-store Pickup,96,3,0.1,5
+449,54,2024-08-16,9,8.7,5.47,Debit Card,In-store Pickup,43,3,0.04,5
+449,54,2024-08-16,9,8.7,5.47,Debit Card,In-store Pickup,16,2,0.29,5
+450,29,2024-03-19,10,8.44,7.38,Cash,In-store Pickup,46,3,0.21,98
+450,29,2024-03-19,10,8.44,7.38,Cash,In-store Pickup,97,4,0.12,98
+450,29,2024-03-19,10,8.44,7.38,Cash,In-store Pickup,21,10,0.04,98
+450,29,2024-03-19,10,8.44,7.38,Cash,In-store Pickup,39,1,0.17,98
+450,29,2024-03-19,10,8.44,7.38,Cash,In-store Pickup,74,2,0.24,98
+451,29,2024-03-14,8,9.39,12.17,Cash,In-store Pickup,36,4,0.2,28
+451,29,2024-03-14,8,9.39,12.17,Cash,In-store Pickup,27,7,0.04,28
+452,80,2024-08-17,15,14.33,4.63,PayPal,Home Delivery,26,9,0.08,36
+452,80,2024-08-17,15,14.33,4.63,PayPal,Home Delivery,66,2,0.22,36
+452,80,2024-08-17,15,14.33,4.63,PayPal,Home Delivery,65,7,0.09,36
+452,80,2024-08-17,15,14.33,4.63,PayPal,Home Delivery,46,1,0.08,36
+453,46,2024-08-05,10,12.59,11.56,PayPal,Home Delivery,63,1,0.28,97
+453,46,2024-08-05,10,12.59,11.56,PayPal,Home Delivery,26,5,0.16,97
+453,46,2024-08-05,10,12.59,11.56,PayPal,Home Delivery,56,9,0.22,97
+453,46,2024-08-05,10,12.59,11.56,PayPal,Home Delivery,99,7,0.08,97
+453,46,2024-08-05,10,12.59,11.56,PayPal,Home Delivery,32,10,0.3,97
+454,9,2024-03-25,5,16.38,13.22,Debit Card,Home Delivery,6,10,0.14,21
+454,9,2024-03-25,5,16.38,13.22,Debit Card,Home Delivery,97,8,0.27,21
+455,50,2024-04-14,11,7.13,3.3,PayPal,Home Delivery,68,10,0.21,11
+455,50,2024-04-14,11,7.13,3.3,PayPal,Home Delivery,86,7,0.2,11
+456,25,2024-10-01,5,14.24,3.17,PayPal,In-store Pickup,70,1,0.28,63
+456,25,2024-10-01,5,14.24,3.17,PayPal,In-store Pickup,19,7,0.24,63
+457,23,2024-10-22,15,10.66,1.43,Cash,Home Delivery,24,2,0.22,33
+458,9,2024-04-15,3,10.95,8.63,Cash,In-store Pickup,83,10,0.21,21
+458,9,2024-04-15,3,10.95,8.63,Cash,In-store Pickup,20,1,0.2,21
+459,6,2024-10-13,15,6.44,9.37,PayPal,Home Delivery,96,6,0.08,92
+459,6,2024-10-13,15,6.44,9.37,PayPal,Home Delivery,19,4,0.3,92
+459,6,2024-10-13,15,6.44,9.37,PayPal,Home Delivery,25,4,0.21,92
+460,52,2024-02-22,8,9.03,11.35,Debit Card,In-store Pickup,10,4,0.12,22
+460,52,2024-02-22,8,9.03,11.35,Debit Card,In-store Pickup,42,8,0.27,22
+461,17,2024-05-01,16,6.15,12.71,Debit Card,Home Delivery,78,6,0.02,30
+462,21,2024-01-28,19,10.1,14.82,PayPal,Home Delivery,96,5,0.02,16
+462,21,2024-01-28,19,10.1,14.82,PayPal,Home Delivery,37,6,0.29,16
+462,21,2024-01-28,19,10.1,14.82,PayPal,Home Delivery,47,9,0.17,16
+462,21,2024-01-28,19,10.1,14.82,PayPal,Home Delivery,52,3,0.29,16
+463,12,2024-09-25,7,17.96,7.66,PayPal,Home Delivery,91,5,0.2,93
+463,12,2024-09-25,7,17.96,7.66,PayPal,Home Delivery,23,7,0.05,93
+463,12,2024-09-25,7,17.96,7.66,PayPal,Home Delivery,5,9,0.07,93
+464,3,2024-07-17,18,10.84,8.5,Cash,Home Delivery,41,2,0.23,18
+465,90,2024-01-07,19,8.97,13.9,PayPal,Home Delivery,72,5,0.2,41
+465,90,2024-01-07,19,8.97,13.9,PayPal,Home Delivery,7,4,0.23,41
+465,90,2024-01-07,19,8.97,13.9,PayPal,Home Delivery,2,2,0.27,41
+465,90,2024-01-07,19,8.97,13.9,PayPal,Home Delivery,43,2,0.0,41
+465,90,2024-01-07,19,8.97,13.9,PayPal,Home Delivery,55,1,0.24,41
+466,75,2024-09-06,18,12.35,13.69,Credit Card,In-store Pickup,18,5,0.21,3
+467,63,2024-02-20,1,8.81,6.34,Credit Card,In-store Pickup,23,4,0.05,72
+467,63,2024-02-20,1,8.81,6.34,Credit Card,In-store Pickup,59,4,0.26,72
+467,63,2024-02-20,1,8.81,6.34,Credit Card,In-store Pickup,86,7,0.24,72
+468,6,2024-08-30,12,7.44,9.04,Credit Card,In-store Pickup,52,1,0.1,0
+468,6,2024-08-30,12,7.44,9.04,Credit Card,In-store Pickup,36,10,0.01,0
+468,6,2024-08-30,12,7.44,9.04,Credit Card,In-store Pickup,99,5,0.19,0
+469,46,2024-05-16,20,16.62,14.24,Cash,Home Delivery,25,10,0.05,10
+470,64,2024-09-23,3,10.67,9.89,Credit Card,In-store Pickup,67,9,0.22,25
+470,64,2024-09-23,3,10.67,9.89,Credit Card,In-store Pickup,57,8,0.02,25
+470,64,2024-09-23,3,10.67,9.89,Credit Card,In-store Pickup,23,4,0.15,25
+470,64,2024-09-23,3,10.67,9.89,Credit Card,In-store Pickup,17,6,0.25,25
+470,64,2024-09-23,3,10.67,9.89,Credit Card,In-store Pickup,78,8,0.22,25
+471,66,2024-03-06,11,15.0,3.82,Cash,Home Delivery,38,10,0.19,98
+471,66,2024-03-06,11,15.0,3.82,Cash,Home Delivery,48,2,0.21,98
+471,66,2024-03-06,11,15.0,3.82,Cash,Home Delivery,94,2,0.15,98
+471,66,2024-03-06,11,15.0,3.82,Cash,Home Delivery,51,10,0.07,98
+472,63,2024-05-30,15,17.77,7.5,PayPal,In-store Pickup,54,8,0.24,48
+472,63,2024-05-30,15,17.77,7.5,PayPal,In-store Pickup,18,4,0.27,48
+473,3,2024-05-04,15,17.59,4.42,Credit Card,Home Delivery,18,2,0.13,43
+474,3,2024-06-28,20,12.52,7.62,PayPal,In-store Pickup,57,10,0.02,79
+474,3,2024-06-28,20,12.52,7.62,PayPal,In-store Pickup,26,3,0.09,79
+474,3,2024-06-28,20,12.52,7.62,PayPal,In-store Pickup,44,8,0.11,79
+475,5,2024-04-15,1,5.56,3.27,Cash,Home Delivery,51,6,0.15,81
+476,70,2024-09-25,13,15.12,8.89,PayPal,In-store Pickup,90,4,0.25,27
+477,100,2024-03-03,5,18.61,10.93,Cash,In-store Pickup,42,2,0.2,18
+477,100,2024-03-03,5,18.61,10.93,Cash,In-store Pickup,9,5,0.28,18
+477,100,2024-03-03,5,18.61,10.93,Cash,In-store Pickup,6,3,0.27,18
+477,100,2024-03-03,5,18.61,10.93,Cash,In-store Pickup,6,4,0.02,18
+478,4,2024-02-27,2,7.37,4.99,PayPal,Home Delivery,40,8,0.2,48
+478,4,2024-02-27,2,7.37,4.99,PayPal,Home Delivery,69,8,0.25,48
+479,62,2024-01-25,8,17.41,7.92,Debit Card,Home Delivery,71,9,0.24,54
+479,62,2024-01-25,8,17.41,7.92,Debit Card,Home Delivery,87,2,0.05,54
+479,62,2024-01-25,8,17.41,7.92,Debit Card,Home Delivery,10,2,0.23,54
+479,62,2024-01-25,8,17.41,7.92,Debit Card,Home Delivery,48,1,0.22,54
+480,53,2024-06-25,6,5.51,3.29,Credit Card,Home Delivery,49,4,0.15,87
+480,53,2024-06-25,6,5.51,3.29,Credit Card,Home Delivery,54,6,0.16,87
+480,53,2024-06-25,6,5.51,3.29,Credit Card,Home Delivery,2,1,0.28,87
+481,72,2024-01-10,17,17.54,12.82,Credit Card,Home Delivery,44,8,0.25,17
+481,72,2024-01-10,17,17.54,12.82,Credit Card,Home Delivery,11,8,0.13,17
+481,72,2024-01-10,17,17.54,12.82,Credit Card,Home Delivery,44,10,0.01,17
+481,72,2024-01-10,17,17.54,12.82,Credit Card,Home Delivery,1,4,0.04,17
+482,78,2024-02-02,13,12.95,10.27,Debit Card,Home Delivery,25,2,0.27,40
+483,2,2024-06-20,12,15.9,8.26,Credit Card,Home Delivery,68,8,0.26,98
+483,2,2024-06-20,12,15.9,8.26,Credit Card,Home Delivery,93,3,0.05,98
+483,2,2024-06-20,12,15.9,8.26,Credit Card,Home Delivery,18,5,0.29,98
+483,2,2024-06-20,12,15.9,8.26,Credit Card,Home Delivery,17,5,0.13,98
+483,2,2024-06-20,12,15.9,8.26,Credit Card,Home Delivery,3,6,0.2,98
+484,42,2024-05-21,1,7.02,14.29,PayPal,Home Delivery,100,8,0.15,64
+484,42,2024-05-21,1,7.02,14.29,PayPal,Home Delivery,34,3,0.01,64
+484,42,2024-05-21,1,7.02,14.29,PayPal,Home Delivery,90,2,0.09,64
+484,42,2024-05-21,1,7.02,14.29,PayPal,Home Delivery,63,3,0.05,64
+484,42,2024-05-21,1,7.02,14.29,PayPal,Home Delivery,25,5,0.2,64
+485,60,2024-05-01,2,5.6,6.75,Debit Card,In-store Pickup,69,5,0.23,61
+485,60,2024-05-01,2,5.6,6.75,Debit Card,In-store Pickup,17,8,0.21,61
+485,60,2024-05-01,2,5.6,6.75,Debit Card,In-store Pickup,49,1,0.27,61
+485,60,2024-05-01,2,5.6,6.75,Debit Card,In-store Pickup,85,1,0.17,61
+485,60,2024-05-01,2,5.6,6.75,Debit Card,In-store Pickup,57,3,0.08,61
+486,8,2024-02-07,19,15.39,3.55,PayPal,Home Delivery,88,8,0.18,16
+487,97,2024-03-13,2,17.58,10.58,Credit Card,In-store Pickup,43,9,0.15,51
+488,17,2024-04-02,18,19.21,2.1,Debit Card,In-store Pickup,11,10,0.16,49
+488,17,2024-04-02,18,19.21,2.1,Debit Card,In-store Pickup,99,1,0.05,49
+488,17,2024-04-02,18,19.21,2.1,Debit Card,In-store Pickup,83,4,0.12,49
+488,17,2024-04-02,18,19.21,2.1,Debit Card,In-store Pickup,29,6,0.1,49
+489,22,2024-06-13,13,11.96,5.05,PayPal,Home Delivery,11,1,0.15,22
+490,91,2024-04-13,7,13.88,12.32,Cash,Home Delivery,97,10,0.28,71
+490,91,2024-04-13,7,13.88,12.32,Cash,Home Delivery,60,10,0.11,71
+490,91,2024-04-13,7,13.88,12.32,Cash,Home Delivery,3,8,0.18,71
+490,91,2024-04-13,7,13.88,12.32,Cash,Home Delivery,84,9,0.06,71
+490,91,2024-04-13,7,13.88,12.32,Cash,Home Delivery,73,8,0.18,71
+491,71,2024-01-15,9,5.29,7.31,Cash,In-store Pickup,14,7,0.11,66
+491,71,2024-01-15,9,5.29,7.31,Cash,In-store Pickup,58,3,0.02,66
+492,5,2024-05-16,15,15.89,3.86,Cash,Home Delivery,13,2,0.01,0
+492,5,2024-05-16,15,15.89,3.86,Cash,Home Delivery,42,5,0.0,0
+492,5,2024-05-16,15,15.89,3.86,Cash,Home Delivery,27,5,0.07,0
+492,5,2024-05-16,15,15.89,3.86,Cash,Home Delivery,21,3,0.16,0
+493,71,2024-01-02,17,7.51,14.21,PayPal,In-store Pickup,1,7,0.27,88
+493,71,2024-01-02,17,7.51,14.21,PayPal,In-store Pickup,11,8,0.07,88
+494,45,2024-08-19,2,5.5,1.06,Debit Card,Home Delivery,91,5,0.04,82
+495,57,2024-02-17,6,12.93,5.34,Credit Card,Home Delivery,77,3,0.3,74
+495,57,2024-02-17,6,12.93,5.34,Credit Card,Home Delivery,47,9,0.1,74
+495,57,2024-02-17,6,12.93,5.34,Credit Card,Home Delivery,13,9,0.26,74
+495,57,2024-02-17,6,12.93,5.34,Credit Card,Home Delivery,35,3,0.13,74
+495,57,2024-02-17,6,12.93,5.34,Credit Card,Home Delivery,60,8,0.28,74
+496,63,2024-01-13,4,18.02,9.16,PayPal,In-store Pickup,100,8,0.22,92
+496,63,2024-01-13,4,18.02,9.16,PayPal,In-store Pickup,21,1,0.0,92
+496,63,2024-01-13,4,18.02,9.16,PayPal,In-store Pickup,17,5,0.3,92
+497,11,2024-08-11,15,8.62,12.65,Debit Card,Home Delivery,12,2,0.24,32
+497,11,2024-08-11,15,8.62,12.65,Debit Card,Home Delivery,32,7,0.09,32
+497,11,2024-08-11,15,8.62,12.65,Debit Card,Home Delivery,41,1,0.29,32
+497,11,2024-08-11,15,8.62,12.65,Debit Card,Home Delivery,37,4,0.12,32
+498,14,2024-11-03,3,8.97,3.99,Cash,In-store Pickup,42,7,0.21,75
+499,82,2024-10-04,8,12.32,8.52,Cash,In-store Pickup,39,1,0.01,28
+499,82,2024-10-04,8,12.32,8.52,Cash,In-store Pickup,35,5,0.28,28
+499,82,2024-10-04,8,12.32,8.52,Cash,In-store Pickup,17,3,0.25,28
+499,82,2024-10-04,8,12.32,8.52,Cash,In-store Pickup,34,5,0.27,28
+500,68,2024-10-06,19,15.64,10.76,PayPal,In-store Pickup,98,10,0.17,59
+500,68,2024-10-06,19,15.64,10.76,PayPal,In-store Pickup,93,8,0.12,59

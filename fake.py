@@ -128,7 +128,7 @@ def generate_order_data(filename, save=False, path="./data"):
     customer_ids = list(range(1, 101))  # Assuming 100 customers
     store_ids = list(range(1, 21))  # 20 stores
     product_ids = list(range(1, 101))  # Assuming 100 products
-
+    emp_id = list(range(0, 100))
 
     payment_methods = ["Credit Card", "Debit Card", "PayPal", "Cash"]
     delivery_options = ["In-store Pickup", "Home Delivery"]
@@ -148,7 +148,8 @@ def generate_order_data(filename, save=False, path="./data"):
         "ProductID": [],
         "Quantity": [],
         #"UnitPrice": [],
-        "Discount": []
+        "Discount": [],
+        "EmployeeID":[]
     }
 
 # Counter for OrderDetailID
@@ -164,7 +165,7 @@ def generate_order_data(filename, save=False, path="./data"):
         delivery_option = random.choice(delivery_options)
         shipping_fee = round(random.uniform(5, 20), 2)
         tax = round(random.uniform(1, 15), 2)
-        
+        emp = random.choice(emp_id)
         
         total_amount = 0
 
@@ -195,6 +196,7 @@ def generate_order_data(filename, save=False, path="./data"):
             data["Quantity"].append(quantity)
             #data["UnitPrice"].append(unit_price)
             data["Discount"].append(discount)
+            data["EmployeeID"].append(emp)
 
             
             #order_detail_id += 1
@@ -217,7 +219,7 @@ def generate_order_data(filename, save=False, path="./data"):
         data.to_csv(f"{path}/{filename}", index=False)
 
 
-#generate_order_data("orders_data.csv", save=True)
+generate_order_data("orders_data.csv", save=True)
 
 
 def generate_supplier_data(filename, save = False,  path="./data"):
